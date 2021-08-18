@@ -1,0 +1,29 @@
+@charset "utf-8";
+.toggle{width:48px; height: 48px; border: 1px solid #000;}
+.toggle div{
+    width: 24px; height:3px; background: #aaa;
+    position: relative; cursor: pointer; display: none;
+}
+
+.toggle div {
+    width: 24px; height: 3px; background: #aaa;
+    border-radius: 1.5px; position: absolute; left:50%;
+    margin-left:-12px;
+}
+
+.toggle div.bar1{top:13px}
+.toggle div.bar2{top:21px}
+.toggle div.bar3{top:30px;}
+
+@media screen and (max-width:699px) {
+    /*header*/
+
+    #header{padding: 0 16px;}
+    #haader .topWrap{display: none;}
+    #header .navWrap{display:none;}
+    .toggle{display: block;}
+    #header .logWrap{}
+    #hrader .logWrap h1{float:left;}
+    #hrader .logWrap .toggle{float:right;}
+}
+@media screen and (min-width: 700px)
