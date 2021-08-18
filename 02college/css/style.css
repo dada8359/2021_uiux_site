@@ -1,0 +1,67 @@
+@charset "utf-8";
+body{
+    font-family: 'Noto Sans KR', sans-serif;
+}
+header#header>div.topWrap{
+     background-color:#0044AF;}
+     
+header#header>div.topWrap>div.top{
+    width: 1500px; height: 41px; margin: 0 auto; 
+    _background-color: burlywood;
+}
+nav.util{
+    float: right;
+}
+nav.util>ul>li{
+    float: right; _background-color: aqua;
+} 
+nav.util>ul>li>a{
+    _background-color: blue;
+    display: block; text-align: center; padding: 0 29px;
+    line-height: 30px;  color:white; margin-top: -10px;
+}
+
+
+div.menubar{
+    width: 400px; height: 30px; 
+    position: relative; background-color: tomato; left:80px;
+    padding: 20px;}
+
+
+div.box{width: 500px; height: 40px; _background-color: violet;
+ position: absolute; right:1000px;}
+ nav.menu>ul>li{
+    float: left; _background-color: thistle;
+     margin-right:5px; margin-top: -16px;}
+
+
+
+nav.menu>ul>li>a {
+    text-align: center; display: block; padding: 0 40px;
+line-height: 41px; color:white;
+background-color: navy;
+}
+
+nav.menu>ul>li>a:hover{ 
+    color:gray; background-color: white;}
+
+
+
+/*logoWrap*/
+ div.logWrap>div.logo{ 
+    _background-color: red;
+    margin: 0 auto; width: 1250px;
+    margin-top: 30px;}
+
+ div.logWrap>div.logo>nav.logoimg{ margin-top: 10px;
+     float: left;}
+
+nav.logoMenu{
+    float:right;
+}
+
+nav.logoMenu>ul>li{float:left;}
+nav.logoMenu>ul>li>a{
+    text-align: center; 
+    display: block; padding: 0 30px; 
+    line-height: 30px;}
