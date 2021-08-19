@@ -23,7 +23,7 @@ nav.menu>ul>li>a{
 
 nav.menu>ul>li>a:hover{background-color: white; color:#6B6B6B;}
 
-div.logWrap{width: 1200px;margin: 0 auto;}
+div.logWrap{width: 1200px;margin: 0 auto;background-color: aquamarine;}
 nav.logoimg{float: left; margin-top:25px; _background-color: turquoise;}
 nav.logoMenu{float: right;}
 nav.logoMenu>ul>li{float:left;}
