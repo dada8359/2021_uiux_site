@@ -1,31 +1,77 @@
 @charset "utf-8";
 body{
-    font-family: 'Noto Sans KR', sans-serif;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 14px;
 }
 
-header#header>div.topWrap{
-    background-color:#0044af;}
-header#header>div.topWrap>div.top{
-    margin: 0 auto; _background-color: aliceblue; width: 1200px;
+/*header*/
+#header{min-width: 1200px;}
+.util_menu_wrap{ background-color: #0044af;}
+.util_menu{width: 1200px; margin: 0 auto;}
+.util_menu .left{float: left;}
+.util_menu .right{float: right;}
+
+.util_menu .left li{float: left; margin-right: 2px;}
+.util_menu .left a{
+       text-align: center; display: block; line-height: 40px;
+        background: #00163b; color: white; width: 120px;
+    } 
+.util_menu .left a.active,
+.util_menu .left a:hover{background: #fff; color: #333;}
+
+
+.util_menu .right li{float:left;}
+.util_menu .right a{display: block; line-height: 40px; color: #fff;
+padding: 0 10px;}
+
+
+
+.util_menu .right li:nth-child(2)>a{
+    float: left; background: #FFF; color: #000;
+    line-height: 20px; width: 20px; padding: 0; text-align: center;
+    margin-right: 2px; margin-top: 10px;
+} /*margin top값은 밑으로 내릴수 있다*/
+
+.main_menu_wrap{width: 1200px; margin: 0 auto; 
+     height:115px;_background-color: thistle;}
+
+div.left{float: left; _background-color: red;}
+div.left li{float: left;_background-color: royalblue;}
+div.left li img{display: block; margin-top: 35px;}
+
+div.right{float: right;}
+div.right li{float: right;}
+div.right li a{display: block; text-align: center; padding: 30px;
+_background-color: salmon; margin-top: 20px; color:464646; font-weight:700;}
+
+
+/*contents*/
+.contents{height:1300px;/*나중에삭제*/
+     background:gray;
+    min-width:1200px;
+    background-image: url(../images/main_bg.jpg); 
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    padding-top: -77px;
 }
-nav.util{float: right;}
-nav.util>ul>li{
-    float: left;}
-nav.util>ul>li>a{
-    display: block; padding: 0 30px; color: white; line-height:40px;
-   font-size: 13px;}
 
-div.box{width: 400px; height: 41px; _background-color: wheat;}
-nav.menu>ul>li{float: left;}
-nav.menu>ul>li>a{
-    background-color:#00163B; display: block; text-align: center; 
-    padding: 0 30px; color: white; line-height: 40px; margin-right: 3px;}
+.contents .title{width: 1200px; margin: 0 auto; height: 130px; background-color:blue;
+margin-bottom: 55px;}
 
-nav.menu>ul>li>a:hover{background-color: white; color:#6B6B6B;}
 
-div.logWrap{width: 1200px;margin: 0 auto;background-color: aquamarine;}
-nav.logoimg{float: left; margin-top:25px; _background-color: turquoise;}
-nav.logoMenu{float: right;}
-nav.logoMenu>ul>li{float:left;}
-nav.logoMenu>ul>li>a{display: block; text-align: center; padding: 0 30px; line-height: 43px;
- _background-color: violet; margin-top: 25px;}
+
+
+.container{width: 1200px; margin: 0 auto; background: wheat;}
+.container>ul>li{float: left; width: 25%; height: 225px;}
+
+.container>ul>li:nth-child(2n){background: pink;}
+
+.container>ul>li:nth-child(1){width: 75%; height: 450px;} 
+.container>ul>li:nth-child(2){height: 450px;} 
+.container>ul>li:nth-child(3){} 
+.container>ul>li:nth-child(4){} 
+.container>ul>li:nth-child(5){} 
+.container>ul>li:nth-child(6){} 
+.container>ul>li:nth-child(7){} 
+.container>ul>li:nth-child(8){width: 75%;} 

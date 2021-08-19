@@ -5,56 +5,104 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap" rel="stylesheet">
+     <!--폰트값-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/jquery.bxslider.css">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
+
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/jquery.bxslider.js"></script>
+
+    <script>
+        $(document).ready(function(){
+            $(".slider1").bxSlider();
+            $(".slider2").bxSlider();
+        })
+    </script>
+
 </head>
 <body>
     <header id="header">
-        <div class="topWrap">
-            <div class="top">
-                <nav class="util">
-                    <ul class="clearfix">
-                        <li><a href="#">사이트맵</a></li>
-                        <li><a href="#">ENGLISH</a></li>
-                        <li><a href="#">찾아오시는길</a></li>
-                        <li><a href="#">글자크기</a></li>
-                    </ul>
-                </nav>
-                <div class="box">
-                 <nav class="menu">
-                    <ul class="clearfix">
-                        <li><a href="#">대학교</a></li>
-                        <li><a href="#">입학안내</a></li>
-                        <li><a href="#">대학원</a></li>
-                </div>
-                 </nav>
-                </div>
+        <div class="util_menu_wrap"> 
+            <div class="util_menu clearfix">
+                <ul class="left clearfix">
+                    <li><a href="#" class="active">대학교</a></li>
+                    <li><a href="#">입학안내</a></li>
+                    <li><a href="#">대학원</a></li>
+                </ul>
+                <ul class="right clearfix">
+                    <li><a href="#">글자크기</a></li>
+                    <li><a href="#">+</a><a href="#">-</a></li>
+                    <li><a href="#">찾아오시는길</a></li>
+                    <li><a href="#">ENGLISH</a></li>
+                    <li><a href="#">사이트맵</a></li>
+                </ul>
             </div>
+
         </div>
-
-      <div class="logWrap"> 
-            <div class="logoBanner">
-              <nav class="logoimg">
-                <a href="#">
-                    <img src="./images/Group 10.png" art="Group 10">
-                </a> 
-              </nav> 
-
-              <nav class="logoMenu">
-                  <ul>
+        <div class="main_menu_wrap">
+            
+            <div class="logo_menu">
+               <div class="left clearfix">
+                    <ul class="clearfix">
+                    <li>
+                        <img src="./images/logo.png" alt="">
+                    </li>
+                </ul>
+              </div>
+           
+              <div class="right clearfix">
+                <ul class="clearfix">
                     <li><a href="#">대학소개</a></li>
                     <li><a href="#">학과소개</a></li>
                     <li><a href="#">학사안내</a></li>
                     <li><a href="#">대학생활</a></li>
                     <li><a href="#">학생지원센터</a></li>
-                    
-                  </ul>
-              </nav>
+                </ul>
+              </div>
             </div>
-          </div>
-    </header>
+        </div>
+    </header>  <!--header end-->>
+
+
+
+
+    <div class="contents">
+              <section class="title"> 
+                  <div class="text box">
+                     <P>함께나누며 세상을 이끌어</P>
+                     <br>세계로 향하는 한국대학교
+                  </div>
+              </section>
+                
+               <div class="container">
+               <ul class="clearfix">
+                    <li>
+                        <ul class="slider1">
+                          <li><img src="images/slider01.png" alt=""></li>
+                          <li><img src="images/slider02.png" alt=""></li>
+                          <li><img src="images/slider03.png" alt=""></li>
+                        </ul>
+                    </li>
+                    <li>2</li>
+                    <li>3</li>
+                    <li>4</li>
+                    <li>5</li>
+                    <li>6</li>
+                    <li>7</li>
+                    <li>
+                     <ul class="slider2">
+                        <li><img src="images/banner01.png" alt=""></li>
+                        <li><img src="images/banner02.png" alt=""></li>
+                     </ul>
+
+                    </li>
+                </ul>
+            </div>
+    </div>
 </body>
 </html>
