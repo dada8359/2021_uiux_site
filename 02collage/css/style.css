@@ -89,8 +89,10 @@ div.title_wrap .title_box li p{font-size: 14px;display: block;
 .container>ul>li:nth-child(6) .conWrap h2{ margin-bottom: 20px; margin-top: 25px;margin-left:20px;}
 .container>ul>li:nth-child(6) .conWrap .news {margin-bottom:20px; margin-left:20px;}
 .container>ul>li:nth-child(6) .conWrap .news img{float: left; margin-right:10px; font-size:14px;}
+.container>ul>li:nth-child(6) .conWrap .sns{float: right; margin-top: -10px; margin-right: 20px; _background-color: violet;}
+.container>ul>li:nth-child(6) .conWrap .sns li{float: left; padding:0 5px; }
 .container>ul>li:nth-child(7){} 
-.container>ul>li:nth-child(8){width: 75%; float: right;} 
+.container>ul>li:nth-child(8){width: 72%; float: right; } 
 
 .slider1 .slider1_txt{width: 600px; height: 400px;
 position: absolute; _background-color: tomato;
