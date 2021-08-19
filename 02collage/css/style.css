@@ -1,6 +1,6 @@
 @charset "utf-8";
 body{
-    font-family: 'Nanum Gothic', sans-serif;
+    font-family: 'Nanum Gothic', sans-serif+'Noto Sans KR', sans-serif;
     font-size: 14px;
 }
 
@@ -62,8 +62,8 @@ margin-bottom: 55px;}
 div.txt_box{width: 1000px; height: 130px;_background-color: violet;
   padding:20px; margin-left:-20px; margin-bottom: 20px;}
 div.txt p{color: white; font-size:55px; font-weight:lighter;
-margin-top: 20px;}
-div.txt p2{color: white; font-size:55px; font-weight:bold;}
+margin-top: 10px;}
+div.txt p2{color: white; font-size:55px; font-weight:bold; margin-top:20px;}
 
 
 div.title_wrap .title_box{float: right; margin-top: -120px;}
@@ -90,7 +90,7 @@ div.title_wrap .title_box li p{font-size: 14px;display: block;
 
 .slider1 .slider1_txt{width: 600px; height: 400px;
 position: absolute; _background-color: tomato;
- top:60px; }
+ top:30px; }
 
  .slider1 .slider1_txt p{
     width: 300px; height: 200px; _background-color: turquoise;
@@ -98,10 +98,26 @@ position: absolute; _background-color: tomato;
      margin-left: 60px; font-size:60px; line-height: 80px;
      color:#0044af ;  }
 
-.slider1 .slider1_txt a{ 
+.slider1 .slider1_txt a{ font-family: 'Noto Sans KR', sans-serif;
     width: 180px; height: 50px;  margin-left: 40px;
     line-height: 50px;  margin-top: 50px;
     background-color:#00163b; margin-left: 100px;
     display: block; text-align: center;
     font-size: 20px; color: white;
 }
+
+.container li .txt_box2 {width: 300px; height: 300px; _background-color: #00163b;
+position: absolute;  margin-top: -400px; margin-left: 5px;} 
+
+
+.container li .txt_box2 p{text-align:left; color: white; font-size: 45px;
+line-height: 60px; letter-spacing: -1px;}
+
+.container li .txt_box2 h4{text-align: left; color: white; font-weight: lighter;
+margin-top:1px; font-size: 16px;}
+
+.container li .txt_box2 a{ width: 180px; height:50px; background-color:black; 
+ display:block; text-align:center; line-height:50px; font-size: 16px; color: white;
+ margin-top: 20px;}
+
+
