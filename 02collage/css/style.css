@@ -42,7 +42,7 @@ div.left li img{display: block; margin-top: 35px;}
 div.right{float: right;}
 div.right li{float: right;}
 div.right li a{display: block; text-align: center; padding: 30px;
-_background-color: salmon; margin-top: 20px; color:464646; font-weight:700;}
+_background-color: salmon; margin-top: 20px; color:464646; font-weight:400; font-size:20px;} 
 
 
 /*contents*/
@@ -75,7 +75,7 @@ div.title_wrap .title_box li p{font-size: 14px;display: block;
 .container{width: 1200px; margin: 0 auto; background: wheat;}
 .container>ul>li{float: left; width: 25%; height: 225px;}
 
-.container>ul>li:nth-child(2n){background: pink;}
+.container>ul>li:nth-child(2n){background:white;}
 
 .container>ul>li:nth-child(1){width: 75%; height: 450px;} 
 .container>ul>li:nth-child(1)
@@ -85,6 +85,10 @@ div.title_wrap .title_box li p{font-size: 14px;display: block;
 .container>ul>li:nth-child(4){} 
 .container>ul>li:nth-child(5){} 
 .container>ul>li:nth-child(6){} 
+.container>ul>li:nth-child(6) .conWrap{_background: skyblue;}
+.container>ul>li:nth-child(6) .conWrap h2{ margin-bottom: 20px; margin-top: 25px;margin-left:20px;}
+.container>ul>li:nth-child(6) .conWrap .news {margin-bottom:20px; margin-left:20px;}
+.container>ul>li:nth-child(6) .conWrap .news img{float: left; margin-right:10px; font-size:14px;}
 .container>ul>li:nth-child(7){} 
 .container>ul>li:nth-child(8){width: 75%; float: right;} 
 
