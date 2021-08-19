@@ -62,7 +62,7 @@ margin-bottom: 55px;}
 div.txt_box{width: 1000px; height: 130px;_background-color: violet;
   padding:20px; margin-left:-20px; margin-bottom: 20px;}
 div.txt p{color: white; font-size:55px; font-weight:lighter;
-margin-top: 10px;}
+margin-top: 10px; }
 div.txt p2{color: white; font-size:55px; font-weight:bold; margin-top:20px;}
 
 
@@ -121,3 +121,25 @@ margin-top:1px; font-size: 16px;}
  margin-top: 20px;}
 
 
+.container .txt_box4{_background-color: #0044af;
+ position: absolute;  margin-top:-190px; margin-left:20px;} 
+
+ .txt_box4 li{float: left; margin-top:5px; padding:0 10px;}
+ .txt_box4 h2{color: white;}
+ .txt_box4 li img{margin-top: 10px; margin-bottom: 10px;}
+ .txt_box4 li p{
+     color: white; display: block;
+      text-align:center; padding: 0 3px;
+     line-height: 20px; font-size: 15px;}
+
+
+
+
+
+.container .txt_box5{_background-color: rgb(59, 43, 43);
+        position: absolute;  margin-top:-190px; margin-left:10px;} 
+
+.txt_box5 h2{color: white; border-bottom: 1px solid white;}
+.txt_box5 ul{margin-top: 20px;}
+.txt_box5 li{margin-top: 10px;}
+.txt_box5 a{color:white ; font-size: 15px;}
