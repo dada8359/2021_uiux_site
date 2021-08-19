@@ -139,7 +139,7 @@ margin-top:1px; font-size: 16px;}
 .container .txt_box5{_background-color: rgb(59, 43, 43);
         position: absolute;  margin-top:-190px; margin-left:10px;} 
 
-.txt_box5 h2{color: white; border-bottom: 1px solid white;}
+.txt_box5 h2{color: white; border-bottom: 1px solid white; }
 .txt_box5 ul{margin-top: 20px;}
 .txt_box5 li{margin-top: 10px;}
 .txt_box5 a{color:white ; font-size: 15px;}
