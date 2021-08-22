@@ -138,6 +138,66 @@ padding: 0 20px;}
 .container>ul>li:nth-child(4)  h2{margin-top: 10px; color:white;font-weight: bold; margin-top: 20px; }
 
 .container>ul>li:nth-child(5){background-color: white;}
-.container>ul>li:nth-child(6){}
-.container>ul>li:nth-child(7){}
+.container>ul>li:nth-child(5) .snsBox{width: 300px; height: 200px; _background-color: red;  margin-left: 20px; }
+.container>ul>li:nth-child(5) h2{margin-top: 15px; }
+.container>ul>li:nth-child(5) .snsTxt{width:300px; height: 100px; _background-color: yellow; margin-top: 20px;}
+.container>ul>li:nth-child(5) img{float: left;}
+.container>ul>li:nth-child(5) p{color:#4C4C4C; padding: 20px;  float:left;}
+.container>ul>li:nth-child(5) .snsImg{width: 135px; _background-color: azure; float: left; margin-left: 100px; margin-top: 10px;}
+.container>ul>li:nth-child(5) li{float:right; padding: 0 2px;} 
+
+
+
+.container>ul>li:nth-child(6) .TTxt{position:absolute;_background-color: #FF4B3C; margin-top: 180px; width:300px; height: 50px;}  
+.container>ul>li:nth-child(6) h3{ color: #fff; text-align: center; display: block; line-height: 50px;
+  width:300px; height: 50px; background-color: rgba(17, 15, 15, .8);}
+.container>ul>li:nth-child(6) h3:hover {  text-align: center;  line-height: 225px; transition: 0.5s;
+   width:300px; height:300px; background-color: rgba(17, 15, 15, .8);margin-top:-180px; }
+.container>ul>li:nth-child(6) {background-image: url(../images/bg05.png);}
+
+.container>ul>li:nth-child(7) .play img{width: 60px; height:60px; background-color: #0044AF;} 
+.container>ul>li:nth-child(7) .play { margin-top: -130px; margin-left:120px;}
+/*slider01*/
 .container>ul>li:nth-child(8){width: 75%; position: relative; float: right; }
+.container>ul>li:nth-child(8) .sliderTxt01{	padding: 5px 10px; _background-color:aqua;text-align: center; position:absolute; 
+                                               width:700px; height: 40px; margin-top:40px; margin-left: 50px; }
+
+.container>ul>li:nth-child(8) p{ text-align: left; font-size: 45px; color:#FF4B3C; } 
+.container>ul>li:nth-child(8) .sliderB2{font-weight: bold;}
+.container>ul>li:nth-child(8) .sldierBox{width: 180px; height: 40px; background-color: #FF4B3C ; margin-top: 10px;}
+.container>ul>li:nth-child(8) h6{display: block; text-align: center; padding: 10px; font-size: 15px; color:#fff; font-weight: lighter;}
+
+.container>ul>li:nth-child(8)  .sliderTxt02{	padding: 5px 10px; _background-color:aqua;text-align: center; position:absolute; 
+  width:700px; height: 40px; margin-top:40px; margin-left: 50px; }
+.container>ul>li:nth-child(8) .sliderTxt02 p{ text-align:left; font-size: 45px; color:#1d2781;}
+.container>ul>li:nth-child(8) .sldierBox2{width: 180px; height: 40px; background-color: #1d2781; margin-top: 10px;}
+.container>ul>li:nth-child(8) .sliderB4{font-weight: bold;}
+
+
+/*planBox*/
+.planBox {width: 1200px; background-color: white; margin: 0 auto; margin-top: 30px; height: 55px; }
+.ptbox01 {float: left; _background-color: #1A2E4F; width: 270px; height: 50px; margin-left: 30px; margin-top: 5px; } /*선만들기 물어보기*/ 
+.line img{ position: absolute;   margin-left:260px;  _background-color: antiquewhite; top: 1270px; height: 50px;} 
+.ptbox01 p{float: left; font-size: 18px; padding: 0 10px; margin-top:10px; _background-color: aqua; text-align: center; display: block;}
+.ptbox01 img{float: left; margin-top:10px;padding: 0 10px;}
+
+.ptbox02 {width: 1200px; _background-color: #FF4B3C; }
+.ptbox02 p{float: left; padding: 0 20px; margin-top: 15px;}
+.ptbox02 .but{ height: 10px; float: right; margin-right: 30px;}
+.ptbox02 .but .im1{margin-top:1px;}
+
+
+
+/*footer*/
+
+.footerWrap {width: 1200px; height: 200px; _background-color: blue;  margin: 0 auto; margin-top: 130px}
+.fbox01{_background-color: cadetblue; float:left; margin-top: 20px; height: 30px;}
+.footer01{_background-color: #FF4B3C;margin-left:300px;}
+.footer01 li{ padding: 0 10px; text-align: center; display: block; float: left; }
+
+.fbox01 a{display: block; margin-top: 10px;}
+
+.fbox02{_background-color: darkgreen; margin-top: 10px; width: 1200px; float: right; }
+.fbox02 p{float: right; line-height: 30px; margin-right: 90px;}
+
+.copyright{_background-color: darkkhaki; line-height: 30px; font-weight: bold; color: #4C4C4C;}
