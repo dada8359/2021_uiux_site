@@ -67,6 +67,18 @@ margin-top: 20px;}
   padding-top: 75px;
 }
 
+.btBox{width: 780px; height: 300px; background-color: #090c25;}
+.nextBtn, .preBtn {
+  position: absolute;
+  top: 570px;
+  margin-top: -35px;
+  cursor: pointer;
+}
+.nextBtn {margin-left: 848px;} 
+
+
+
+
 .title{width: 1200px; margin: 0 auto; _background-color: green;
 height: 260px; margin-top:-30px; font-weight: lighter;
 line-height:50px;}
