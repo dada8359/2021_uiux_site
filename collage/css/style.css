@@ -194,6 +194,8 @@ padding: 0 20px;}
 .fbox01{_background-color: cadetblue; float:left; margin-top: 20px; height: 30px;}
 .footer01{_background-color: #FF4B3C;margin-left:300px;}
 .footer01 li{ padding: 0 10px; text-align: center; display: block; float: left; }
+.footer01 li:after{content: ""; display: block; width:2px;height: 15px; 
+background-color: #777777; position:relative; top:-15px; right: 10px;} 
 
 .fbox01 a{display: block; margin-top: 10px;}
 
@@ -201,4 +203,3 @@ padding: 0 20px;}
 .fbox02 p{float: right; line-height: 30px; margin-right: 90px;}
 
 .copyright{_background-color: darkkhaki; line-height: 30px; font-weight: bold; color: #4C4C4C;}
-test
