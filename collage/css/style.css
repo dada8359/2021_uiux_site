@@ -169,7 +169,7 @@ padding: 0 20px;}
    width:300px; height:300px; background-color: rgba(17, 15, 15, .8);margin-top:-180px; }
 .container>ul>li:nth-child(6) {background-image: url(../images/bg05.png);}
 
-.container>ul>li:nth-child(7) .play img{width: 60px; height:60px; background-color: #0044AF;} 
+.container>ul>li:nth-child(7) .play img{width: 60px; height:60px; background-color: #0044AF; } 
 .container>ul>li:nth-child(7) .play { margin-top: -130px; margin-left:120px;}
 /*slider01*/
 .container>ul>li:nth-child(8){width: 75%; position: relative; float: right; }
@@ -191,17 +191,17 @@ padding: 0 20px;}
 /*planBox*/
 .planBox {width: 1200px; background-color: white; margin: 0 auto; margin-top: 30px; height: 57px; }
 .ptbox01 {float: left; _background-color: #1A2E4F; width: 270px; height: 50px; margin-left: 30px; margin-top: 5px; } /*선만들기 물어보기*/ 
-.line img{ position: absolute;   margin-left:260px;  _background-color: antiquewhite; top: 1270px; height: 50px;}
-
+/* .line { position: absolute; width: 3px; height: 10px; margin-top: 20px; margin-left:260px;  _background-color: rgb(36, 36, 36); top: 1270px; height: 50px;} */
+.line:after{content: ""; display: block; width: 2px; height: 57px; background-color: #999999; margin-top: -21px; margin-left:250px;} 
 .ptbox01 p{float: left; font-size: 18px; padding: 0 10px; margin-top:10px; _background-color: aqua; text-align: center; display: block;color: #4C4C4C; font-weight: 10px;} 
-.ptbox01 p .h{ color: #090c25;font-weight:900;}
-.ptbox01 img{float: left; margin-top:10px;padding: 0 10px;}
+.ptbox01 p .h { color: #090c25;font-weight:900;_background-color: #1A2E4F; }
+.ptbox01 img{float: left; margin-top:5px;padding: 0 10px;}
 .calendar img{ margin-top: 15px;}
 
 
 .ptbox02 {width: 1200px; _background-color: #FF4B3C; }
 .ptbox02 p{float: left; padding: 0 20px; margin-top: 20px;}
-.ptbox02 .but{ height:4px; float: right; margin-right: 30px;}
+.ptbox02 .but{ height:4px; float: right; margin-right: 0px;}
 .ptbox02 .but .im1{margin-top:1px;}
 
 
