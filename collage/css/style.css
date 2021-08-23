@@ -71,8 +71,7 @@ margin-top: 20px;}
 height: 260px; margin-top:-30px; font-weight: lighter;
 line-height:50px;}
 
-.title1 p {
-  font-size: 40px; color: white; font-family:'Noto Sans KR', sans-serif;;}
+.title1 p {font-size: 40px; color: white; font-family:'Noto Sans KR', sans-serif;line-height: 60px;}
 .headertitle{
   font-weight: bold; font-size: 50px; }
 .titleMenu{
@@ -87,7 +86,6 @@ float: right; margin-right: -50px;}
 /*container*/
 .container{width: 1200px;margin: 0 auto; margin-top:-100px; background: #ddd;}
 .container>ul>li{float: left;width: 25%;height: 225px;}
-
 .container>ul>li:nth-child(2n){background:pink;}
 
 .container>ul>li:nth-child(1){width: 75%;height: 450px;font-family: 'Noto Sans KR', sans-serif;}
