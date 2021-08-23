@@ -47,7 +47,7 @@ header#header .logoWrap{
 
 .logoMenu{float:right;}
 .logoMenu li{float:left; margin-top: 40px;}
-.logoMenu li a {
+.logoMenu li a { font-size: 18px; font-weight: 100;
   display:block; text-align: center; color: #4C4C4C; padding:0 30px;
 } 
 .logoWrap img {float: left;
@@ -96,12 +96,15 @@ float: right; margin-right: -50px;}
 .container>ul>li:nth-child(1) .txt .bold{font-weight:500;}
 .container>ul>li:nth-child(1) .txt a{display: block;width: 170px;line-height: 40px;text-align: center;background: #1A2E4F;color:#fff;
   font-weight: 300; margin-top: 40px; font-size: 14px;}
+.container>ul>li:nth-child(1) .txt a:hover{background-color: #1651B6;}
+
 
 .container>ul>li:nth-child(1) .txt2{position: absolute; top: 30px; _background-color: aquamarine; left:100px; margin-top: 30px; width: 500px; }
 .container>ul>li:nth-child(1) .txt2 p{font-size: 60px; color: #4C4C4C ; line-height: 70px; font-weight:bold;}
 .container>ul>li:nth-child(1) .txt2 .bold{font-weight:100}
 .container>ul>li:nth-child(1) .txt2 a{display: block;width: 170px;line-height: 40px;text-align: center;background:#4C4C4C;color:#fff;
   font-weight: 300; margin-top: 40px; font-size: 14px;}
+.container>ul>li:nth-child(1) .txt2 a:hover{background-color: #1651B6;}
 
 
   .container>ul>li:nth-child(1) .txt3{position: absolute; top: 30px; _background-color: aquamarine; left:100px; margin-top: 100px; width: 500px; }
@@ -110,6 +113,7 @@ float: right; margin-right: -50px;}
   .container>ul>li:nth-child(1) .txt3 a{display: block;width: 170px;line-height: 40px;text-align: center; background-color: darkblue;
     color:#fff;
     font-weight: 300; margin-top: 40px; font-size: 14px;}
+  .container>ul>li:nth-child(1) .txt3 a:hover{background-color: #1651B6;}
 
 
 
@@ -118,8 +122,8 @@ float: right; margin-right: -50px;}
 .container>ul>li:nth-child(2) .appTxt p{display:block; color: white; font-size: 40px; line-height: 50px; font-weight:lighter;}
 .container>ul>li:nth-child(2) .appTxt .bold2 {font-weight: bold;}
 .container>ul>li:nth-child(2) .appTxt  h4{font-size: 14px; margin-top: 20px; color: white; line-height: 20px; font-weight: lighter;}
-.container>ul>li:nth-child(2) .appTxt  a{font-size: 14px;display: block;width: 170px;line-height: 40px;text-align: center; background-color:black; color: white; margin-top: 30px;}
-
+.container>ul>li:nth-child(2) .appTxt  a{font-size: 14px;display: block;width: 170px;line-height: 40px;text-align: center; background-color:rgba(5, 5, 5, 0.8);; color: white; margin-top: 30px;}
+.container>ul>li:nth-child(2) .appTxt  a:hover{background-color: rgba(43, 124, 216, 0.8);}
 .container>ul>li:nth-child(3){background-color: #00163B; } 
 
 .container>ul>li:nth-child(3)  h2{margin-top: 10px; color:white;font-weight: bold; margin-top: 20px;}
@@ -175,15 +179,19 @@ padding: 0 20px;}
 
 
 /*planBox*/
-.planBox {width: 1200px; background-color: white; margin: 0 auto; margin-top: 30px; height: 55px; }
+.planBox {width: 1200px; background-color: white; margin: 0 auto; margin-top: 30px; height: 57px; }
 .ptbox01 {float: left; _background-color: #1A2E4F; width: 270px; height: 50px; margin-left: 30px; margin-top: 5px; } /*선만들기 물어보기*/ 
-.line img{ position: absolute;   margin-left:260px;  _background-color: antiquewhite; top: 1270px; height: 50px;} 
-.ptbox01 p{float: left; font-size: 18px; padding: 0 10px; margin-top:10px; _background-color: aqua; text-align: center; display: block;}
+.line img{ position: absolute;   margin-left:260px;  _background-color: antiquewhite; top: 1270px; height: 50px;}
+
+.ptbox01 p{float: left; font-size: 18px; padding: 0 10px; margin-top:10px; _background-color: aqua; text-align: center; display: block;color: #4C4C4C; font-weight: 10px;} 
+.ptbox01 p .h{ color: #090c25;font-weight:900;}
 .ptbox01 img{float: left; margin-top:10px;padding: 0 10px;}
+.calendar img{ margin-top: 15px;}
+
 
 .ptbox02 {width: 1200px; _background-color: #FF4B3C; }
-.ptbox02 p{float: left; padding: 0 20px; margin-top: 15px;}
-.ptbox02 .but{ height: 10px; float: right; margin-right: 30px;}
+.ptbox02 p{float: left; padding: 0 20px; margin-top: 20px;}
+.ptbox02 .but{ height:4px; float: right; margin-right: 30px;}
 .ptbox02 .but .im1{margin-top:1px;}
 
 
