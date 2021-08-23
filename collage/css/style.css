@@ -192,7 +192,7 @@ padding: 0 20px;}
 .planBox {width: 1200px; background-color: white; margin: 0 auto; margin-top: 30px; height: 57px; }
 .ptbox01 {float: left; _background-color: #1A2E4F; width: 270px; height: 50px; margin-left: 30px; margin-top: 5px; } /*선만들기 물어보기*/ 
 /* .line { position: absolute; width: 3px; height: 10px; margin-top: 20px; margin-left:260px;  _background-color: rgb(36, 36, 36); top: 1270px; height: 50px;} */
-.line:after{content: ""; display: block; width: 2px; height: 57px; background-color: #999999; margin-top: -21px; margin-left:250px;} 
+.line:after{content: ""; display: block; width: 2px; height: 57px; background-color: #999999; margin-top: -5px; margin-left:250px; position: absolute; margin-bottom: -100px;} 
 .ptbox01 p{float: left; font-size: 18px; padding: 0 10px; margin-top:10px; _background-color: aqua; text-align: center; display: block;color: #4C4C4C; font-weight: 10px;} 
 .ptbox01 p .h { color: #090c25;font-weight:900;_background-color: #1A2E4F; }
 .ptbox01 img{float: left; margin-top:5px;padding: 0 10px;}
