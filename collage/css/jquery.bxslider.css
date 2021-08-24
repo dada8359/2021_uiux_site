@@ -90,6 +90,11 @@ ul.bxslider {
   -webkit-border-radius: 5px;
   border-radius: 5px;
 }
+
+
+.bx-wrapper .bx-pager.bx-default-pager a:hover{
+  background: rgba(22, 54, 195, 0.835);
+}
 /* PAGER */
 /* .bx-wrapper .bx-pager {
   text-align: center;
