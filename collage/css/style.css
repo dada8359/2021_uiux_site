@@ -170,6 +170,9 @@ padding: 0 20px;}
 .container>ul>li:nth-child(6) {background-image: url(../images/bg05.png);}
 
 .container>ul>li:nth-child(7) .play img{width: 60px; height:60px; background-color: #0044AF; } 
+.container>ul>li:nth-child(7) .play:hover{background: url(../images/play02.png);}
+
+
 .container>ul>li:nth-child(7) .play { margin-top: -130px; margin-left:120px;}
 /*slider01*/
 .container>ul>li:nth-child(8){width: 75%; position: relative; float: right; }
