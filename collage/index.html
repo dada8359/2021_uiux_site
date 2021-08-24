@@ -22,11 +22,15 @@
     <!--bxslider-->
     <script>
         $(document).ready(function(){
-            $(".slider1").bxSlider();
+            $(".slider1").bxSlider({
+                pager:false,
+            });
             $(".slider2").bxSlider();
 
         })
         
+        
+
         $(document).ready(function(){
            $(".modal").colorbox({
                rel:".modal"
@@ -41,14 +45,8 @@
   
     </script>
 
-    <style>
-        
-        
-        /*마우스 눌렀을 때 상태*/
-        .play:hover {
-            background-image: url('./images/play02.png');
-        }
-    </style>
+
+
 </head>
 <body>
     
