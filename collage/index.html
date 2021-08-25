@@ -23,11 +23,16 @@
     <script>
         $(document).ready(function(){
             $(".slider1").bxSlider({
-               
+              
             });
-            $(".slider2").bxSlider({
 
-               
+
+        
+
+
+            $("#slider2").bxSlider({
+                
+                
             } );
 
         });
@@ -47,34 +52,27 @@
 
   
     </script>
- <style>
-        .sliderWrap{position:absolute;} 
+  <style>
+        .sliderWrap{} 
         .sliderWrap .slider img{width: 100%}
-        .bx-wrapper {
-            -moz-box-shadow: 0 none;
-            -webkit-box-shadow: 0 none;
-            box-shadow: 0 none;
-            border:  0 none;
-            margin-bottom: 0;
-        }
-        .bx-wrapper .bx-pager{
-            bottom: 30px;
-        }
-        .slider.bx-wrapper .bx-pager {
-                text-align: right;  
-                padding-left:850px;
-                font-size: .85em;
-                font-family: Arial;
-                font-weight: bold;
-                color: #666;
-                padding-top: 20px;
-                }
-                /* ??.bx-wrapper .bx-pager.bx-default-pager a:hover{
-  background: rgba(22, 54, 195, 0.835); }*/
- 
+        li:first-child .bx-wrapper .bx-pager {
+  bottom: 40px;
+}
 
+li:first-child .bx-wrapper .bx-pager a:hover {background: #0045AE;}
+li:first-child .bx-wrapper .bx-pager a.active {background: #0045AE;}
 
+.bx-controls-direction{bottom: 500px;}
 
+li:last-child .bx-wrapper .bx-pager a:hover {background: #f53776;}
+li:last-child .bx-wrapper .bx-pager a.active{background: salmon;}
+li:last-child .bx-wrapper .bx-pager {
+  text-align: right;
+  font-size: .85em;
+  padding-top: 20px;
+  padding-right:30px;
+}
+li:last-child .bx-wrapper .bx-pager {bottom: 200px;}
 </style>
 
 
@@ -167,7 +165,7 @@
        <div class="container"><!--container-->
        <ul class="clearfix">
            <li>
-               <ul class="slider1">
+               <ul class="slider1" div class="slider01">
                    <li>
                      
                        <img src="./images/banner01-1.png">
@@ -308,7 +306,7 @@
            </li>
            
            <li><!--nth8-->
-            <ul class="slider2">
+            <ul id="slider2">
                  <li>
                      <div class="sliderTxt01">
                         <p>
@@ -396,21 +394,21 @@
   <div class="footerWrap clearfix">
     
     <ul class="footerTxt01 clearfix">
-      <li><a href="#">회사소개</a></li>
-      <li><a href="#">한국 대학교</a></li>
-      <li><a href="#">개인정보취급방침</a></li>
-      <li><a href="#">이용정책</a></li>
-      <li><a href="#">입점/제휴문의 및 광고</a></li>
-      <li><a href="#">이메일 무단수집거부</a></li>
+            <li><a href="#">회사소개</a></li>
+            <li><a href="#">한국대학교</a></li>
+            <li><a href="#">개인정보취급방침</a></li>
+            <li><a href="#">이용정책</a></li>
+            <li><a href="#">입점/제휴문의 및 광고</a></li>
+            <li><a href="#">이메일 무단수집거부</a></li>
     </ul>
     
     <div class="footerTxt02">
-      <p>
-        대표자:홍길동 서울특별시 구로구 구로로 311 (구로동 3가) 사업자등록번호: 123-566-7890
-        <br>통신판매업 신고번호 : 제 123456-서울 구로구-789호  개인정보관리 책임자:홍길동 소비자피해보상보험
-        <br>고객센터 : 1234-5678 FAX : 02-1234-5678 HANGUKUNIVERSITY @HANGUK.COM
-        <br><span class="copyright">COPYRIGHT ⓒ HANGUK.ALL RIGHTS RESERVED.</span>
-      </p>
+            <p>
+                대표자:홍길동 서울특별시 구로구 구로로 311 (구로동 3가) 사업자등록번호: 123-566-7890
+                <br>통신판매업 신고번호 : 제 123456-서울 구로구-789호  개인정보관리 책임자:홍길동 소비자피해보상보험
+                <br>고객센터 : 1234-5678 FAX : 02-1234-5678 HANGUKUNIVERSITY @HANGUK.COM
+                <br><span class="copyright">COPYRIGHT ⓒ HANGUK.ALL RIGHTS RESERVED.</span>
+            </p>
    </div>
   </div>
 </footer>
