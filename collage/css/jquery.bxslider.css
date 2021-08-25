@@ -63,7 +63,7 @@ ul.bxslider {
 /* PAGER */
 .bx-wrapper .bx-pager {
  /* text-align: right;  */
- margin-left:850px;
+  padding-left:850px;
   font-size: .85em;
   font-family: Arial;
   font-weight: bold;
