@@ -19,7 +19,7 @@ header#header .topWrap{
   float: right;
 }
 .top .left li {
-  float: left; margin: 2px;
+  float: left;  margin-right: 3px;
 }
 .top .right li{
   float:left; margin-top: 15px; 
@@ -31,7 +31,7 @@ header#header .topWrap{
  
 .top .left li a{
   display: block;  width: 120px; line-height: 40px;
-  text-align: center;  padding: 10px;
+  text-align: center; 
   color: white; padding: 0 10px; background-color: #00163B;
 }
 
