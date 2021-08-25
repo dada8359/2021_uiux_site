@@ -56,7 +56,7 @@ margin-top: 20px;}
 
 /*contents*/
 .contents{
-  height: 1300px;
+  height: 1250px;
   _background-color: gray;
   margin-top: 70px;
   background-image: url(../images/backgroundimage.jpg);
@@ -80,7 +80,7 @@ margin-top: 20px;}
 
 
 .title{width: 1200px; margin: 0 auto; _background-color: green;
-height: 260px; margin-top:-30px; font-weight: lighter;
+height: 260px; margin-top:-30px; font-weight: lighter; position: relative;
 line-height:50px;}
 
 .title1 p {font-size: 40px; color: white; font-family:'Noto Sans KR', sans-serif;line-height: 60px;}
@@ -208,8 +208,15 @@ padding: 0 20px;}
 
 /*footer*/
 
-.footerWrap {width: 1200px; height: 200px; _background-color: blue;  margin: 0 auto; margin-top: 130px}
-.fbox01{_background-color: cadetblue; float:left; margin-top: 20px; height: 30px;}
+ /* .footerWrap {width: 1200px;  background-color: blue;  margin: 0 auto;} 
+ .footer {width: 1200px;}
+ .footer img{float: left;}
+
+
+
+
+ 
+.fbox01{_background-color: cadetblue; float:left; height: 30px;}
 .footer01{_background-color: #FF4B3C;margin-left:300px;}
 .footer01 li{ padding: 0 10px; text-align: center; display: block; float: left; }
 .footer01 li:after{content: ""; display: block; width:2px;height: 15px; 
@@ -220,4 +227,23 @@ background-color: #777777; position:relative; top:-15px; right: 10px;}
 .fbox02{_background-color: darkgreen; margin-top: 10px; width: 1200px; float: right; }
 .fbox02 p{float: right; line-height: 30px; margin-right: 100px;}
 
-.copyright{_background-color: darkkhaki; line-height: 30px; font-weight: bold; color: #4C4C4C;}
+.copyright{_background-color: darkkhaki; line-height: 30px; font-weight: bold; color: #4C4C4C;} */
+ 
+
+.footer{ width: 1200px; margin: 0 auto;}
+.footer img {
+  float: left;
+  margin-top: 90px;
+  margin-left: 47px;
+} */
+
+.fbox01{background-color: aqua; float: left; margin-bottom: -10px;}
+.footer01{_background-color: #FF4B3C;margin-left:300px; margin-bottom: -100px; } 
+.footer01 li{ margin-right: 10px; text-align: center; display: block; float: left; }
+.footer01 li:after{content: ""; display: block; width:2px;height: 15px; }
+
+.footer02{_background-color: darkgreen;margin-bottom:-600px; width: 1200px; float: right; }
+.footer02 p{float: right; line-height: 30px; margin-right: 100px;}
+
+
+
