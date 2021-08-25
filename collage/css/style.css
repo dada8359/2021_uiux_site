@@ -38,6 +38,7 @@ header#header .topWrap{
 .top .left li a.active ,
 .top .left li a:hover{background-color: white; color:#4C4C4C}
 
+.top .right li img{margin-right:  5px;}
 /*header logoWrap*/
 header#header .logoWrap{
   width: 1200px; height: 30px;
@@ -208,19 +209,18 @@ padding: 0 20px;}
 
 
 footer {width: 1200px; margin: 0 auto;}
-footer img {float: left; margin-top: 100px; margin-left: 30px;
+footer img {float: left; margin-top: 140px; margin-left: 30px;
 }
-.footerWrap {_background-color:green;float: right; width: 850px;height:200px;
-  padding-top: 80px;padding-left: 8px;}
+.footerWrap {_background-color:green;float: right; width: 900px;height:200px;
+  padding-top: 80px;padding-left:5px;}
 .footerTxt01 li {float: left;margin-bottom: 10px;}
 .footerTxt01 li:first-child a {padding-left: 0;}
-.footerTxt01 a {display: block;font-size: 16px;color: #454545;position: relative;  text-align: center; padding: 0 20px;}
-.footerTxt01 a:after {content:"";display: block;width: 2px;height: 14px;background-color: #868686;position: absolute;
+.footerTxt01 a {display: block;font-size: 18px;color: #7a7a7a;position: relative;  text-align: center; padding: 0 10px; font-weight: bold;}
+.footerTxt01 a:after {content:"";display: block;width: 2px;height: 18px;background-color: #868686;position: absolute;
   top: 2px;right: 0;}
 .footerTxt01 li:last-child a:after {display: none;}
 
-.footerTxt02{margin-top: 10px;}
-.footerTxt02 p {font-size: 14px;color: #838383;line-height: 20px;}
+.footerTxt02{margin-top: 10px; bottom: 20px;}
+.footerTxt02 p {font-size: 16px;color: #838383;line-height: 30px;}
 .copyright {display: block;font-weight: 700;;  margin-top: 8px;} 
 
-test
