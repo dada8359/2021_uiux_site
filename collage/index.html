@@ -24,7 +24,6 @@
         $(document).ready(function(){
             $(".slider1").bxSlider({
                
-              
             });
             $(".slider2").bxSlider({
 
@@ -49,7 +48,7 @@
   
     </script>
  <style>
-        .sliderWrap{position: relative;}
+        .sliderWrap{position:absolute;} 
         .sliderWrap .slider img{width: 100%}
         .bx-wrapper {
             -moz-box-shadow: 0 none;
@@ -61,7 +60,7 @@
         .bx-wrapper .bx-pager{
             bottom: 30px;
         }
-        .slider2.bx-wrapper .bx-pager {
+        .slider.bx-wrapper .bx-pager {
                 text-align: right;  
                 padding-left:850px;
                 font-size: .85em;
@@ -70,9 +69,11 @@
                 color: #666;
                 padding-top: 20px;
                 }
-                .bx-wrapper .bx-pager.bx-default-pager a:hover{
-  background: rgba(22, 54, 195, 0.835);
-} 
+                /* ??.bx-wrapper .bx-pager.bx-default-pager a:hover{
+  background: rgba(22, 54, 195, 0.835); }*/
+ 
+
+
 
 </style>
 
