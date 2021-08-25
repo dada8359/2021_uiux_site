@@ -246,14 +246,14 @@ footer img {
   padding-top: 80px;
   padding-left: 8px;
 }
-.footerinner1 li {
+.footerTxt01 li {
   float: left;
   margin-bottom: 10px;
 }
-.footerinner1 li:first-child a {
+.footerTxt01 li:first-child a {
   padding-left: 0;
 }
-.footerinner1 a {
+.footerTxt01 a {
   display: block;
   font-size: 16px;
   color: #454545;
@@ -261,22 +261,22 @@ footer img {
   text-align: center;
   padding: 0 20px;
 }
-.footerinner1 a:after {
+.footerTxt01 a:after {
   content:"";
   display: block;
   width: 2px;
   height: 14px;
-  background-color: #444444;
+  background-color: #868686;
   position: absolute;
   top: 2px;
   right: 0;
 }
-.footerinner1 li:last-child a:after {
+.footerTxt01 li:last-child a:after {
   display: none;
 }
 
-.footerinner2{margin-top: 10px;}
-.footerinner2 p {
+.footerTxt02{margin-top: 10px;}
+.footerTxt02 p {
   font-size: 14px;
   color: #838383;
   line-height: 20px;
