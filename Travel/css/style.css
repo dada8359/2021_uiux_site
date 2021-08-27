@@ -1,0 +1,44 @@
+@charset "utf-8"
+
+#header{min-width: 980;}
+.headerWrap{
+    background-color: #267AD9;
+    margin: 0 auto; 
+    
+}
+
+.headerWrap .headerTop{ 
+    width: 980px; 
+    height: 90px;
+    margin: 0 auto;
+    position: relative;
+   
+    }
+
+.headerTop h1{
+    margin-left: 10px;
+    float: left;
+    width: 200px; 
+    height: 90px;
+   _background-color: chartreuse;
+    background-image: url(../images/travel\ Logo2\ 2.png);
+}
+
+.headerTop .search{
+
+    margin-left: 20px;
+    float: left;
+    width: 500px;
+    height: 90px;
+    background-color: burlywood;
+}
+
+.headerTop .snsMenu{
+    float:right;
+    width: 100px;
+    background-color: cadetblue;
+    height: 90px;
+    margin-right: 30px;
+
+}
+
