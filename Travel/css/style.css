@@ -95,3 +95,15 @@ font-family: 'Roboto', sans-serif;
 }
 
 
+.topMenu{
+    background-color: white; 
+    margin: 0 auto;
+}
+.tMenu{
+    width: 980px;
+    margin: 0 auto;
+    background-color: teal;
+}
+.tMenu li{
+    float: left;
+    width: ((100% / 6));}
