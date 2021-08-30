@@ -131,7 +131,7 @@ font-family: 'Roboto', sans-serif;
 
 .content{ 
     min-width: 980;
-    height: 1085px;
+    height: 1250px;
     margin: 0 auto;
     _background-color: aquamarine;
     background-image: url(../images/back2.png);
@@ -266,17 +266,17 @@ font-family: 'Roboto', sans-serif;
 }
 
 
-
 .go .goTxt {
     margin-right: 100px;
-    background-color: violet;
-    
+   background-color: violet;
+     
 }
 .go .goTxt b{
     position: absolute;
-    font-size: 50px;
+    font-size: 55px;
     font-weight: bold;
-    top: -50px;
+    top: -40px;
+    line-height: 50px;
     color:#1C6DC9
 }
 
@@ -286,10 +286,33 @@ font-family: 'Roboto', sans-serif;
 .go .goTxt p{
     font-size: 30px;
     line-height: 50px;
-    font-weight: 500;
-    color:#1C6DC9
+    font-weight:600;
+    color:#1C6DC9;
+    margin-top: 20px;
 }
 
 /*Animation*/
+.balloon{
+    position: absolute;
+    right: 10px;
+    top:300px;
+}
 
+.balloon img{
+    width: 450px;
+}
+.bal{
+    position: absolute; 
 
+    right:30px;
+    background-color: cornsilk;
+    animation-name: bal;
+    animation-duration:2s;
+    /* animation-fill-mode: forwards; */
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+ @keyframes bal {
+     from{top:-100px}
+    to{top:-170px}
+}
