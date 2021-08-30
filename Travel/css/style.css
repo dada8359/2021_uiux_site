@@ -143,6 +143,8 @@ font-family: 'Roboto', sans-serif;
     margin: 0 auto;
     position: relative;
 }
+
+/*------------------contentBox1 START*/
 .content .contentBox{
     position: absolute;
     background-color: gray;
@@ -248,4 +250,31 @@ font-family: 'Roboto', sans-serif;
 }
 .tour01 .right .franceTxt b{
     color: #FFDB5E;
+}
+/*------------------contentBox1 END*/
+
+
+/*------------------contentBox2 START*/
+.contentBox02{
+    position:absolute;
+    background-color: rgb(97, 63, 63);
+    top:100px;
+    right:0 
+}
+
+
+
+.go .goTxt {
+    margin-right: 100px;
+    background-color: violet;
+    
+}
+.go .goTxt b{
+    position: absolute;
+    font-size: 50px;
+    top: -50px;
+}
+.go .goTxt p{
+    font-size: 30px;
+    line-height: 60px;
 }
