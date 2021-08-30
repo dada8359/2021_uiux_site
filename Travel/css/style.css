@@ -1,7 +1,7 @@
 @charset "utf-8"
 font-family: 'Roboto', sans-serif;
 
-#header{min-width: 980;}
+#header{min-width: 980px;}
 .headerWrap{
     background-color: #267AD9;
     margin: 0 auto; 
@@ -98,11 +98,11 @@ font-family: 'Roboto', sans-serif;
 
 
 .topMenu{
-    background-color: white; 
+    _background-color: rgb(65, 65, 65); 
     margin: 0 auto;
+  
 }
 .tMenu{
-    position: absolute;
     width: 980px;
     margin: 0 auto;
     _background-color: teal;
@@ -125,3 +125,8 @@ font-family: 'Roboto', sans-serif;
     color:#267AD9;
     font-weight: bold;
 }
+
+
+.content{
+   
+      }
