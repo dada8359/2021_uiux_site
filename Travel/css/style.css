@@ -60,7 +60,6 @@ font-family: 'Roboto', sans-serif;
 .searchBtn{
   position: absolute; 
   right:10px; top:1px;
-  
   width: 40px; height: 40px;
   border:none;
   border-radius: 50%; text-indent: -9999px;
@@ -147,31 +146,106 @@ font-family: 'Roboto', sans-serif;
 .content .contentBox{
     position: absolute;
     background-color: gray;
-    height: 600px;
-    top:40px;
+    top:100px;
 }
 /* .sliderWrap{
    right: 210px;
    top:40px;
 } */
 
+/*공항예약, 호텔예약, 렌트카, 휴양지 아이콘*/
 .bxPager img{
     width: 30px; height: 30px;
     margin-right: 10px;
 }
-
-.tour01{
-    top:30px;
+.bxPager img:hover{
+    width: 30px; height: 30px;
+    margin-right: 10px; 
 }
+
+
+.sliderWrap{
+    bottom: 30px;}    
+
 
 .tour01 .left,
 .right{
     float: left;
     margin-right: 10px;
     margin-left: 10px;
-    
+    position: relative;
     
 }
 
-.tour01 .left img{width: 220px; height: 240px;} 
-.tour01 .right img{width: 220px; height: 240px;} 
+/* .tour01 .left{position: relative;} */
+.tour01 .left img{
+    width: 220px; 
+    height: 240px;
+} 
+
+.tour01 .right img{
+    width: 220px;
+    height: 240px;
+}
+
+
+.tour01 .left .japanTxt{ 
+    position: absolute;
+    width: 220px;
+    height:50px;
+    background-color:#924972;
+    top:190px;
+    line-height:50px;
+}
+
+.tour01 .left .japanTxt:hover{
+    position: absolute;
+    background-color: rgba(17, 15, 15, .8);
+    transition: .3s; 
+    height:240px;
+    line-height:250px;
+    top: 0px;
+}
+
+.tour01 .left .japanTxt p{
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    display: block;
+    text-align: center;
+}
+.tour01 .left .japanTxt b{
+    color: #FFDB5E;
+}
+
+
+.tour01 .right .franceTxt{
+    
+    position: absolute;
+    width: 220px;
+    height:50px;
+    background-color:#3C6398;
+    top:190px;
+    line-height:50px;
+    
+}
+
+.tour01 .right .franceTxt:hover{
+    position: absolute;
+    background-color: rgba(17, 15, 15, .8);
+    transition: .3s; 
+    height:240px;
+    line-height:250px;
+    top: 0px;
+}
+
+.tour01 .right .franceTxt p{
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    display: block;
+    text-align: center;
+}
+.tour01 .right .franceTxt b{
+    color: #FFDB5E;
+}

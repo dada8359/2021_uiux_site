@@ -17,31 +17,59 @@
 
 <style>  /*form*/
 fieldset{border: 0;}
-    .blind{display: block;position: absolute;left: 0;top: -999px;}
-    .form{width: 400px; _background-color:violet; margin-left:150px;}
-    .form label{display: block;padding: 5px 0;}
+    .blind{
+        display: block;
+        position: absolute;
+        left: 0;
+        top: -999px;
+    }
+    .form{
+        width: 300px; 
+       _background-color:violet;
+        margin:0 auto;
+        margin-left:160px; 
+        bottom: 0px;
+    } 
+    .form label{
+        display: block;
+        padding: 5px 0;
+    }
     .form select{
-            width: 70%;height: 40px;font-size: 1em;
-            border-radius:5px;text-indent:10px
+            width: 100%;
+            height: 40px;
+            font-size: 1em;
+            border-radius:5px;
+            text-indent:10px;
         }
     .form .left,
-    .form .right{width:130px;float: left;}
+    .form .right{
+        width:135px;
+        float: left;
+    }
 
-    .form .left{margin-right: 10px;}
+    .form .left{
+        margin-right:5px;
+    }
         
     .form .left input,
     .form .right input{
             width: 100%;
-            height: 40px;font-size: 1em;border-radius: 5px;text-indent: 10px;
+            height: 40px;
+            font-size: 1em;
+            border-radius: 5px;
+            text-indent: 10px;
         }
 
     .reserved{
-     width: 100%;height: 59px;border: 1px solid #ffffff;
-    background-color: #ffffff;
-    background-image: url(../Travel/images/search.png);
-    background-repeat: no-repeat;
-    background-position: 0% 20px;
-    text-indent:-9999px;cursor:pointer
+        bottom: 20px;
+        width: 100%;
+        height: 59px;
+        border: 1px solid #ffffff;
+        background-color: #ffffff;
+        background-image: url(../Travel/images/search.png);
+        background-repeat: no-repeat;
+        background-position: 0% 20px;
+        text-indent:-9999px;cursor:pointer
 }
    
     /*slider*/
@@ -51,12 +79,13 @@ fieldset{border: 0;}
             box-shadow: 0 none;
             border:  0 none;
             margin-bottom:0;
+            
         }
 
         .slider{float: right;}
        
         .sliderWrap{
-            width: 450px;
+            width: 480px;
             margin: 0 auto;
             position: relative;
             background-color: white;
@@ -296,17 +325,22 @@ fieldset{border: 0;}
                 <div class="sliderPager">
                     <div class="bxPager clearfix">
                         <a href="#" data-slide-index="0">
-                            <img src="images/airplane01.png">
+                           <div class="air">
+                            <img src="images/airplane01.png"></div> 
                             공항예약
                         </a>
                         <a href="#" data-slide-index="1">
-                            <img src="images/hotelA.png">
+                           <img src="images/hotelA.png"
+                           onmouseover="this.src='images/hotel02.png';">
                             호텔예약</a>
+
                         <a href="#" data-slide-index="2">
-                            <img src="images/car.png">
+                            <img src="images/car.png"
+                             onmouseover="this.src='images/car02.png';">
                             렌트카</a>
                         <a href="#" data-slide-index="3">
-                            <img src="images/mountain.png">
+                            <img src="images/mountain.png"
+                            onmouseover="this.src='images/mountain02.png';">
                             휴양지</a> 
                     </div>
                 </div>
@@ -317,12 +351,17 @@ fieldset{border: 0;}
                 <div class="tour01">
                      <div class="left">
                          <img src="../Travel/images/japan.png">
+                         <div class="japanTxt">
+                             <p>일본 &emsp;<b>₩ 350,000~</b><br></p>
+                         </div>
                      </div>
 
                      <div class="right">
-                         <img src="../Travel/images/france.png">
+                        <img src="../Travel/images/france.png">
+                        <div class="franceTxt">
+                            <p>프랑스 &emsp;<b>₩ 350,000~</b><br></p>
+                        </div>  
                      </div>
-                </div>
            </div> 
            
          </div>
