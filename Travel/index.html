@@ -18,14 +18,14 @@
 <style>  /*form*/
 fieldset{border: 0;}
     .blind{display: block;position: absolute;left: 0;top: -999px;}
-    .form{width: 400px;margin: 0 auto;}
+    .form{width: 300px;  margin: 0 auto; background-color:violet; margin-left:150px;}
     .form label{display: block;padding: 5px 0;}
     .form select{
-            width: 100%;height: 40px;font-size: 1em;
+            width: 70%;height: 40px;font-size: 1em;
             border-radius:5px;text-indent:10px
         }
     .form .left,
-    .form .right{width: 195px;float: left;}
+    .form .right{width:100px;float: left;}
 
     .form .left{margin-right: 10px;}
         
@@ -43,29 +43,33 @@ fieldset{border: 0;}
             margin-bottom:0;
         }
 
-    .sliderWrap{
-       margin: 0 auto;
-       width: 480px;
-       height: 290px;
-       position: relative;
-       background-color: white;
-    }
+        .slider{float: right;}
+       
+        .sliderWrap{
+            width: 450px;
+            margin: 0 auto;
+            position: relative;
+            background-color: white;
+             height:300px;
+            } 
+       
+        /* .sliderWrap .slider .txt{
+            position: absolute;right:130px;top:100px;
+            width: 100px;
+        }
+        */
 
-    .sliderPager{
-        position: absolute;
-        width: 100px;
-        height: 200px;
-        top:0;
-    }
-    .sliderPager .bxPager{
-        height: 100%;
-        background: rgb(65, 31, 31);
-        float: left;
-        width: 150px;
-        position: absolute;
-        top:0;
-    }
-   .sliderPager .bxPager a{
+        .sliderPager{
+            position: absolute;
+            top: 0;
+            width:130px;
+            height:300px;
+        }
+        .sliderPager .bxPager{
+            height: 100%;
+            background: #000;
+        }
+        .sliderPager .bxPager a{
             /* float: left; */display: block;
             /* width: calc( 100% / 4); */
             height:25%;
@@ -78,7 +82,7 @@ fieldset{border: 0;}
         }
         .sliderPager .bxPager a.active{background: pink;}
         .sliderPager .bxPager a:hover{background: red;}
-            
+       
 </style>
 
 
@@ -142,7 +146,7 @@ fieldset{border: 0;}
          <div class="contentBack">
            
           <div class="sliderWrap">
-            <ul class="slider"> <!--slider01-->
+            <ul class="slider"> <!--slider-->
                 <li>
                     <form action="#" class="form">
                         <fieldset>
