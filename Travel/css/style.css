@@ -127,6 +127,14 @@ font-family: 'Roboto', sans-serif;
 }
 
 
-.content{
-   
-      }
+.content{ 
+    min-width: 980;
+    height: 1085px;
+    margin: 0 auto;
+    _background-color: aquamarine;
+    background-image: url(../images/back.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
