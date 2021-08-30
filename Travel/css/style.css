@@ -150,8 +150,7 @@ font-family: 'Roboto', sans-serif;
    top:40px;
 }
 
-.packWrap{
-    background-color: coral;
-    float: left;
-    width: 100%;
+.bxPager img{
+    width: 30px; height: 30px;
+    margin-right: 10px;
 }
