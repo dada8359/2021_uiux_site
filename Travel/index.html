@@ -18,14 +18,14 @@
 <style>  /*form*/
 fieldset{border: 0;}
     .blind{display: block;position: absolute;left: 0;top: -999px;}
-    .form{width: 300px; background-color:violet; margin-left:150px;}
+    .form{width: 400px; _background-color:violet; margin-left:150px;}
     .form label{display: block;padding: 5px 0;}
     .form select{
-            width: 80%;height: 40px;font-size: 1em;
+            width: 70%;height: 40px;font-size: 1em;
             border-radius:5px;text-indent:10px
         }
     .form .left,
-    .form .right{width:100px;float: left;}
+    .form .right{width:130px;float: left;}
 
     .form .left{margin-right: 10px;}
         
@@ -36,11 +36,11 @@ fieldset{border: 0;}
         }
 
     .reserved{
-     width: 100%;height: 59px;border: 1px solid #1fbc02;
-    background-color: #1fbc02;
+     width: 100%;height: 59px;border: 1px solid #ffffff;
+    background-color: #ffffff;
     background-image: url(../Travel/images/search.png);
     background-repeat: no-repeat;
-    background-position: 50% 10px;
+    background-position: 0% 20px;
     text-indent:-9999px;cursor:pointer
 }
    
@@ -88,11 +88,13 @@ fieldset{border: 0;}
             align-items: center;
             text-align: center;
             line-height: 40px;
-            background:skyblue;
+            background:#569DEC;
+            font-weight:bold;
+            color:white
         }
-        .sliderPager .bxPager a.active{background: pink;}
-        .sliderPager .bxPager a:hover{background: red;}
-       
+        .sliderPager .bxPager a.active{background: rgb(255, 255, 255);}
+        .sliderPager .bxPager a:hover{background: #257BDB;}
+        
 </style>
 
 
@@ -293,10 +295,10 @@ fieldset{border: 0;}
 
               <div class="sliderPager">
                 <div class="bxPager clearfix">
-                    <a href="#" data-slide-index="0">menu1</a>
-                    <a href="#" data-slide-index="1">menu2</a>
-                    <a href="#" data-slide-index="2">menu3</a>
-                    <a href="#" data-slide-index="3">menu4</a> 
+                    <a href="#" data-slide-index="0">공항예약</a>
+                    <a href="#" data-slide-index="1">호텔예약</a>
+                    <a href="#" data-slide-index="2">렌트카</a>
+                    <a href="#" data-slide-index="3">휴양지</a> 
                 </div>
             </div>
 
