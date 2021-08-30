@@ -18,7 +18,7 @@
 <style>  /*form*/
 fieldset{border: 0;}
     .blind{display: block;position: absolute;left: 0;top: -999px;}
-    .form{width: 300px;  margin: 0 auto; background-color:violet; margin-left:150px;}
+    .form{width: 300px; background-color:violet; margin-left:150px;}
     .form label{display: block;padding: 5px 0;}
     .form select{
             width: 80%;height: 40px;font-size: 1em;
@@ -35,6 +35,14 @@ fieldset{border: 0;}
             height: 40px;font-size: 1em;border-radius: 5px;text-indent: 10px;
         }
 
+    .reserved{
+     width: 100%;height: 59px;border: 1px solid #1fbc02;
+    background-color: #1fbc02;
+    background-image: url(../Travel/images/search.png);
+    background-repeat: no-repeat;
+    background-position: 50% 10px;
+    text-indent:-9999px;cursor:pointer
+}
    
     /*slider*/
     .bx-wrapper {
@@ -190,7 +198,7 @@ fieldset{border: 0;}
                                 </li>
                             </ul>
                         </fieldset>
-                        <input type="submit" value="예약하기">
+                        <input type="submit" value="예약하기"class="reserved">
                     </form>
                 </li>
                 <li>
@@ -234,7 +242,7 @@ fieldset{border: 0;}
                                 </li>
                             </ul>
                         </fieldset>
-                        <input type="submit" value="예약하기">
+                        <input type="submit" value="예약하기"class="reserved">
                     </form>
                 </li>
                 <li>
@@ -278,7 +286,7 @@ fieldset{border: 0;}
                                 </li>
                             </ul>
                         </fieldset>
-                        <input type="submit" value="예약하기">
+                        <input type="submit" value="예약하기" class="reserved" >
                     </form>
                 </li>
               </ul>
