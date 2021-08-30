@@ -15,7 +15,7 @@
     <script src="js/jquery.bxslider.js"></script>
 
 
-<style>  /*form, slide*/
+<style>  /*form*/
 fieldset{border: 0;}
     .blind{display: block;position: absolute;left: 0;top: -999px;}
     .form{width: 400px;margin: 0 auto;}
@@ -34,15 +34,31 @@ fieldset{border: 0;}
             width: 100%;
             height: 40px;font-size: 1em;border-radius: 5px;text-indent: 10px;
         }
-
+    /*slider*/
    .sliderWrap{
+         right:-600px;
+         float: left;
          width: 480px;
          margin: 0 auto;
          position: relative;
          background-color: rgb(41, 32, 32); }
              
-       
+   .sliderPager{position: absolute;top: 0;width:100px;height:100px;}
+   .sliderPager .bxPager{float: left;}
+   .sliderPager .bxPager a{
+            /* float: left; */display: block;
+            /* width: calc( 100% / 4); */
+            height:25%;
+            display: flex;justify-content: center;align-items: center;
+            text-align: center;line-height: 40px;
+            background:skyblue;
+        }
+        .sliderPager .bxPager a.active{background: pink;}
+        .sliderPager .bxPager a:hover{background: red;}
 </style>
+
+
+
 
 <script> //script css
     $(document).ready(function(){
