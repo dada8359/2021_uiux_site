@@ -256,15 +256,14 @@ font-family: 'Roboto', sans-serif;
 
 /*------------------contentBox2 START*/
 .contentBox02{
-    position:absolute;
     background-color: rgb(97, 63, 63);
-    top:100px;
-    right:0 
+   float: right;
+   
 }
 
 
 .go .goTxt {
-    margin-right: 100px;
+
    background-color: violet;
      
 }
