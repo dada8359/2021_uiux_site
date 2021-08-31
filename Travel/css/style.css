@@ -290,8 +290,8 @@ font-family: 'Roboto', sans-serif;
 
 /*Animation*/
 .balloon{
-    position: absolute;
-    right: 10px;
+    /* position: absolute; */
+    float: right;
     top:300px;
 }
 
@@ -299,7 +299,7 @@ font-family: 'Roboto', sans-serif;
     width: 450px;
 }
 .bal{
-    position: absolute; 
+    /* position: absolute;  */
 
     right:30px;
     background-color: cornsilk;
@@ -315,7 +315,7 @@ font-family: 'Roboto', sans-serif;
 }
 
 /*------------------contentBox3 START*/
-/* .contentBox03{
+ .contentBox03{
    position: relative;
    background-color: brown;
 
