@@ -145,14 +145,21 @@ font-family: 'Roboto', sans-serif;
     background-color: chartreuse;
     margin: 0 auto;
     position: relative;
+    
 }
 
 /*------------------contentBox1 START*/
-.content .contentBox{
-    position: absolute;
-    background-color: gray;
-    top:100px;
+
+.Bigcontent{
+    background-color: crimson;
+    width: 980px;
+    height: 600px;
 }
+ .content .contentBox{
+    float: left;
+    background-color: gray;
+   
+} 
 /* .sliderWrap{
    right: 210px;
    top:40px;
@@ -165,9 +172,9 @@ font-family: 'Roboto', sans-serif;
 }
 
 
-
 .sliderWrap{
     bottom: 30px;}    
+
 
 
 .tour01 .left,
@@ -175,6 +182,7 @@ font-family: 'Roboto', sans-serif;
     float: left;
     margin-right: 10px;
     margin-left: 10px;
+    
     position: relative;
     
 }
@@ -256,23 +264,23 @@ font-family: 'Roboto', sans-serif;
 
 /*------------------contentBox2 START*/
 .contentBox02{
-    background-color: rgb(97, 63, 63);
+  
+   background-color: rgb(97, 63, 63);
    float: right;
    
 }
 
 
 .go .goTxt {
-
-   background-color: violet;
+   _background-color: violet;
      
 }
 .go .goTxt b{
-    position: absolute;
+   
     font-size: 55px;
     font-weight: bold;
     top: -40px;
-    line-height: 50px;
+    line-height: 60px;
     color:#1C6DC9
 }
 
@@ -285,7 +293,7 @@ font-family: 'Roboto', sans-serif;
     font-weight:600;
     color:#1C6DC9;
     margin-top: 20px;
-}
+} */
 
 /*Animation*/
 .balloon{
@@ -317,7 +325,7 @@ font-family: 'Roboto', sans-serif;
  .contentBox03{
    position: relative;
    background-color: brown;
-
+   
    margin: 0 auto;
 }
 
