@@ -56,7 +56,7 @@ font-family: 'Roboto', sans-serif;
  left:20px; 
  list-style: 30px;
  line-height: 40px;
- _background-color: tomato;
+ background-color: tomato;
  }
 
 .searchBtn{
@@ -163,10 +163,7 @@ font-family: 'Roboto', sans-serif;
     width: 30px; height: 30px;
     margin-right: 10px;
 }
-.bxPager img:hover{
-    width: 30px; height: 30px;
-    margin-right: 10px; 
-}
+
 
 
 .sliderWrap{
@@ -316,3 +313,43 @@ font-family: 'Roboto', sans-serif;
      from{top:-100px}
     to{top:-170px}
 }
+
+/*------------------contentBox3 START*/
+.contentBox03{
+   position: absolute;
+   background-color: brown;
+   top:650px;
+   margin: 0 auto;
+}
+
+
+
+
+
+.contentBox03 .tour02 li{
+    float: left;
+   margin-right: 10px;
+}
+
+
+.contentBox03 .tour02 li:first-child{
+   margin-left: 8px;
+}
+
+
+/*------------------contentBox4 START*/
+.contentBox04{
+    position: absolute;
+    background-color:cadetblue;
+    top:900px;
+    margin: 0 auto;
+ }
+ 
+ .contentBox04 .tour03 li{
+     float: left;
+    margin-right: 10px;
+ }
+ 
+.contentBox04 .tour03 li:first-child{
+    margin-left: 8px;
+ }
