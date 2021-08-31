@@ -327,7 +327,7 @@ font-family: 'Roboto', sans-serif;
 /*------------------contentBox3 START*/
  .contentBox03{
    position: relative;
-   background-color: brown;
+   background-color:gold;
    
    margin: 0 auto;
 }
@@ -357,7 +357,10 @@ font-family: 'Roboto', sans-serif;
 
 
 /*------------------contentBox4 START*/
-.contentBox04{
+
+
+
+/* .contentBox04{
     position: absolute;
     background-color:cadetblue;
     top:900px;
@@ -371,4 +374,54 @@ font-family: 'Roboto', sans-serif;
  
 .contentBox04 .tour03 li:first-child{
     margin-left: 8px;
+ } */
+
+
+ .contentBox04{
+    position: relative;
+    background-color:blue;
+    
+    margin: 0 auto;
  }
+ 
+ .contentBox04 >ul>li{
+     float: left;
+     width: calc((100% - 30px) / 4 );
+     
+ } 
+
+
+
+
+
+
+
+
+
+ /*footer*/
+
+ #footer{
+     
+    width: 980px; 
+    margin:  0 auto;
+    background-color:darkseagreen;}
+
+.footer01 li{
+    
+    float: left;
+    margin-right: 20px;
+}
+
+
+.footer01 li a{
+    line-height: 50px;
+    font-size: 15px;
+    font-weight: bold;
+    color:grey
+}
+
+#footer p{
+    font-size: 13px;
+    font-weight: 200;
+    color: grey;
+}
