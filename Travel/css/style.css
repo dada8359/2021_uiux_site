@@ -315,15 +315,23 @@ font-family: 'Roboto', sans-serif;
 }
 
 /*------------------contentBox3 START*/
-.contentBox03{
-   position: absolute;
+/* .contentBox03{
+   position: relative;
    background-color: brown;
-   top:650px;
+
    margin: 0 auto;
 }
 
+.contentBox03 >ul>li{
+    float: left;
+    width: calc((100% - 30px) / 4 );
+} */
 
 
+/* .contentBox03 .tour02 li p{
+    position: absolute;
+    top: 50px;
+}
 
 
 .contentBox03 .tour02 li{
@@ -334,7 +342,7 @@ font-family: 'Roboto', sans-serif;
 
 .contentBox03 .tour02 li:first-child{
    margin-left: 8px;
-}
+} */
 
 
 /*------------------contentBox4 START*/

@@ -10,7 +10,8 @@
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
-    
+    <link rel="stylesheet" href="./css/jquery.bxslider.css">
+
     <script src="js/jquery-3.1.1.min.js"></script>
     <script src="js/jquery.bxslider.js"></script>
 
@@ -141,6 +142,27 @@ fieldset{border: 0;}
             mode:'vertical'
         });
     });
+
+
+
+//bxslider
+        $(document).ready(function(){
+            $(".slider01").bxSlider({
+                
+              
+            });
+
+
+        
+
+
+      $("#slider2").bxSlider({
+                
+                
+            } );
+
+        });
+    
 </script>
 
 </head>
@@ -325,6 +347,51 @@ fieldset{border: 0;}
                             <input type="submit" value="예약하기" class="reserved" >
                         </form>
                     </li>
+
+                    <li>
+                        <form action="#" class="form">
+                            <fieldset>
+                                <legend class="blind">여행일정</legend>
+                                <ul>
+                                    <li>
+                                        <label for="golo">가고싶은 나라를 선택하세요.</label>
+                                        <select name="golo" id="golo">
+                                            <option value="">선택하세요</option>
+                                            <option value="미국">미국</option>
+                                            <option value="일본">일본</option>
+                                            <option value="중국">중국</option>
+                                        </select>
+                                    </li>
+                                    <li class="clearfix">
+                                        <div class="left">
+                                            <label for="sdate">출발일</label>
+                                            <input type="date" id="sdate">
+                                        </div>
+                                        <div class="right">
+                                            <label for="edate">도착일</label>
+                                            <input type="date" id="edate">
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="left">
+                                            <label for="grade">좌석등급</label>
+                                            <select name="grade" id="grade">
+                                                <option value="">선택</option>
+                                                <option value="비지니스">비지니스</option>
+                                                <option value="이코노믹">이코노믹</option>
+                                            </select>
+                                        </div>
+                                        <div class="right">
+                                            <label for="num">인원</label>
+                                            <input type="number" id="num" placeholder="1">
+                        
+                                        </div>
+                                    </li>
+                                </ul>
+                            </fieldset>
+                            <input type="submit" value="예약하기" class="reserved" >
+                        </form>
+                    </li>
                 </ul>
 
                 <div class="sliderPager">
@@ -342,8 +409,7 @@ fieldset{border: 0;}
                             <img src="images/car.png">
                             렌트카</a>
                         <a href="#" data-slide-index="3">
-                            <img src="images/mountain.png"
-                            onmouseover="this.src='images/mountain02.png';">
+                            <img src="images/mountain.png">
                             휴양지</a> 
                     </div>
                 </div>
@@ -370,7 +436,7 @@ fieldset{border: 0;}
          </div>
 
 
-         <div class="contentBox02"> <!--contentBox02-->
+         <div class="contentBox02 clearfix"> <!--contentBox02-->
         
          <div class="go">
              <div class="goTxt clearfix">
@@ -386,16 +452,29 @@ fieldset{border: 0;}
 
 
 
-        <div class="contentBox03"> <!--contentBox03-->
+        <div class="contentBox03"> <!--contentBox03--> 
         
-            <div class="tour02">
-                <ul class="clearfix">
-                    <li><img src="./images/hotel1.png" alt="">
-                    <p>PULL HOTEL (PARIS)<br>
-                        비성수기 할인행사중! </p>
-                    </li>
+            
+                <ul class="clearfix"> <!--slider01-->
 
-                    
+<!--                     
+                    <li>
+                        
+                        <ul class="slider01">
+                            <li>
+                                <img src="./images/hotel1.png" alt="">
+                                <p>PULL HOTEL (PARIS)<br>
+                                    비성수기 할인행사중! </p>
+                            </li>
+
+                            <li>
+                                <img src="./images/hotel1.png" alt="">
+                                <p>PULL HOTEL (PARIS)<br>
+                                    비성수기 할인행사중! </p>
+                            </li>
+                        </ul>
+                    </li> -->
+                     
                     <li><img src="./images/hotel2.png" alt="">
                       <p>LOVER DAY (PARIS)<br>
                         비성수기 할인행사중!  
@@ -407,8 +486,9 @@ fieldset{border: 0;}
                         비성수기 할인행사중!  </p>
                     </li>
                     <li><img src="./images/travel de.png" alt=""></li>
+                    <li></li>
                 </ul>
-            </div>
+            
         
         </div>
 
