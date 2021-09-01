@@ -334,22 +334,31 @@ font-family: 'Roboto', sans-serif;
 
 
 /*비행기 Animation*/
-.airpalnAni{
-    position: absolute; bottom: 0; left: 200;
+/* .airpalnAni {
+    position: absolute; 
     animation-name: air;
     animation-duration: 8s;
     animation-fill-mode: forwards;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
     overflow-x: hidden; 
-    z-index: 0;
+    background-color: lawngreen;
+    */
+    .airpalnAni{
+        position: absolute;
+        bottom: 500px;
+        animation-name: air;
+        animation-duration: 8s;
+        animation-fill-mode: forwards;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+        overflow-x: hidden; 
     }
 
-
-@keyframes air{
-    from{bottom: 0; left: -100px; transform: scale(0.1);}
-    to{ bottom: 1000px; left: 1800px;transform: scale(1.5); opacity: 10;}
-}
+ @keyframes air{
+    from{bottom: 1000; left: -200px; transform: scale(0.1);}
+    to{ bottom: 1000px; left: 1000px;transform: scale(1.5);}
+} */
 
 
 /*------------------contentBox3 START*/
