@@ -277,6 +277,7 @@ font-family: 'Roboto', sans-serif;
 
 
 .go .goTxt {
+  
    _background-color: violet;
      
 }
@@ -308,11 +309,11 @@ font-family: 'Roboto', sans-serif;
     
 }
 
-.balloon img{
-    
-    width: 600px;
-    height: 400px;
-}
+/* .balloon img{
+   
+    width: 490px;
+    height: 430px;
+} */
 .bal{
     position: absolute; 
     bottom: 0px;
