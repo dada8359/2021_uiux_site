@@ -1,7 +1,7 @@
-@charset "utf-8"
-font-family: 'Roboto', sans-serif;
+@charset "utf-8";
 
-#header{min-width: 980px;}
+body{font-family: 'Roboto', sans-serif;}
+#header{min-width: 980px; position: relative; z-index: 1;}
 .headerWrap{
     background-color: #267AD9;
     margin: 0 auto; 
@@ -99,7 +99,7 @@ font-family: 'Roboto', sans-serif;
 
 
 .topMenu{
-    _background-color: rgb(65, 65, 65); 
+    background-color: white; 
     margin: 0 auto;
   
 }
@@ -107,7 +107,7 @@ font-family: 'Roboto', sans-serif;
     width: 980px;
     margin: 0 auto;
     _background-color: teal;
-    right:700px;
+   
 }
 .tMenu li{
     float: left;
@@ -308,21 +308,13 @@ font-family: 'Roboto', sans-serif;
 
 
 /*풍선Animation*/
-.contentBox02 img{
-    
-    float: right;
-    top:300px;
-    position: absolute;
-    width: 300px;
-    height: 400px;
-    
-}
 
 
 .bal{
+    
+    float: right;
     position: absolute; 
     bottom: 0px;
-    
     background-color: cornsilk;
     animation-name: bal;
     animation-duration:2s;
@@ -350,9 +342,12 @@ font-family: 'Roboto', sans-serif;
         animation-iteration-count: infinite;
         animation-timing-function: linear;
         overflow: hidden; 
-        z-index:0;
+       
+      
        
     }
+
+
 
   @keyframes air{
     from{bottom: 0; left: -500px; transform: scale(0.5);}
