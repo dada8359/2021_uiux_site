@@ -279,15 +279,11 @@ font-family: 'Roboto', sans-serif;
    background-color: rgb(97, 63, 63);
    float: right;
    
+   
 }
 
 
-.go .goTxt {
-  
-   _background-color: violet;
-     
-}
-.go .goTxt b{
+.contentBox02 b{
    
     font-size: 55px;
     font-weight: bold;
@@ -296,10 +292,10 @@ font-family: 'Roboto', sans-serif;
     color:#1C6DC9
 }
 
-.go .goTxt b line{
+.contentBox02 b line{
     border-bottom: 6px solid #1C6DC9;
 }
-.go .goTxt p{
+.contentBox02 p{
     font-size: 30px;
     line-height: 50px;
     font-weight:600;
@@ -310,10 +306,12 @@ font-family: 'Roboto', sans-serif;
 
 
 /*풍선Animation*/
-.balloon{
+.contentBox02 img{
     
     float: right;
     top:300px;
+    position: absolute;
+   
    
 }
 
@@ -332,7 +330,7 @@ font-family: 'Roboto', sans-serif;
     /* animation-fill-mode: forwards; */
     animation-iteration-count: infinite;
     animation-direction: alternate;
-    z-index:2;
+   
     
     
 }
