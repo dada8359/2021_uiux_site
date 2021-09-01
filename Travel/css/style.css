@@ -139,6 +139,7 @@ font-family: 'Roboto', sans-serif;
     background-size: cover;
     background-position: center;
     
+    
 }
 
 .content .contentBack{
@@ -333,21 +334,21 @@ font-family: 'Roboto', sans-serif;
 
 
 /*비행기 Animation*/
-.content.airplane {
-    position: absolute;
-    left: 0;
-    bottom: 300px;
-    animation-name: airplane;
-    animation-duration: 4s;
+.airpalnAni{
+    position: absolute; bottom: 0; left: 200;
+    animation-name: air;
+    animation-duration: 8s;
     animation-fill-mode: forwards;
-    animation-timing-function: linear;
     animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    overflow-x: hidden; 
     z-index: 0;
-}
+    }
 
-@keyframes air {
-    from{top:100px}
-   to{top:170px}
+
+@keyframes air{
+    from{bottom: 0; left: -100px; transform: scale(0.1);}
+    to{ bottom: 1000px; left: 1800px;transform: scale(1.5); opacity: 10;}
 }
 
 
