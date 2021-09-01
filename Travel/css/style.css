@@ -334,16 +334,7 @@ font-family: 'Roboto', sans-serif;
 
 
 /*비행기 Animation*/
-/* .airpalnAni {
-    position: absolute; 
-    animation-name: air;
-    animation-duration: 8s;
-    animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
-    overflow-x: hidden; 
-    background-color: lawngreen;
-    */
+
     .airpalnAni{
         position: absolute;
         bottom: 500px;
