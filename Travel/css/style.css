@@ -280,11 +280,13 @@ font-family: 'Roboto', sans-serif;
    float: right;
    
    
+   
+}
+.Box2Txt {
+    margin-right: 120px;
 }
 
-
 .contentBox02 b{
-   
     font-size: 55px;
     font-weight: bold;
     top: -40px;
@@ -311,15 +313,10 @@ font-family: 'Roboto', sans-serif;
     float: right;
     top:300px;
     position: absolute;
-   
-   
+    opacity:1:
 }
 
-/* .balloon img{
-   
-    width: 490px;
-    height: 430px;
-} */
+
 .bal{
     position: absolute; 
     bottom: 0px;
