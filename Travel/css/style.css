@@ -138,17 +138,21 @@ font-family: 'Roboto', sans-serif;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+  
     
     
 }
 
+
 .content .contentBack{
     width: 980px; 
-    /* height: 100%; */
-    _background-color: chartreuse;
+    height: 100%; 
+    background-color: chartreuse;
     margin: 0 auto;
     position: relative;
     bottom: -30px;
+    
+    
     
 }
 
@@ -303,12 +307,14 @@ font-family: 'Roboto', sans-serif;
     margin-top: 20px;
 } */
 
+
+
 /*풍선Animation*/
 .balloon{
     
     float: right;
     top:300px;
-    
+   
 }
 
 /* .balloon img{
@@ -320,12 +326,15 @@ font-family: 'Roboto', sans-serif;
     position: absolute; 
     bottom: 0px;
     right:-100px;
-    background-color: cornsilk;
+    _background-color: cornsilk;
     animation-name: bal;
     animation-duration:2s;
     /* animation-fill-mode: forwards; */
     animation-iteration-count: infinite;
     animation-direction: alternate;
+    z-index:2;
+    
+    
 }
  @keyframes bal {
      from{top:100px}
@@ -334,22 +343,23 @@ font-family: 'Roboto', sans-serif;
 
 
 /*비행기 Animation*/
-
     .airpalnAni{
         position: absolute;
-        bottom: 500px;
+        bottom: 300px;
         animation-name: air;
         animation-duration: 8s;
         animation-fill-mode: forwards;
         animation-iteration-count: infinite;
         animation-timing-function: linear;
-        overflow-x: hidden; 
+        overflow: hidden; 
+        z-index:3;
+       
     }
 
- @keyframes air{
-    from{bottom: 1000; left: -200px; transform: scale(0.1);}
-    to{ bottom: 1000px; left: 1000px;transform: scale(1.5);}
-} */
+  @keyframes air{
+    from{bottom: 0; left: -500px; transform: scale(0.5);}
+            to{ bottom: 1000px; left:1000px;transform: scale(1.0);}
+}  
 
 
 /*------------------contentBox3 START*/
