@@ -331,6 +331,26 @@ font-family: 'Roboto', sans-serif;
     to{top:170px}
 }
 
+
+/*비행기 Animation*/
+.content.airplane {
+    position: absolute;
+    left: 0;
+    bottom: 300px;
+    animation-name: airplane;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    z-index: 0;
+}
+
+@keyframes air {
+    from{top:100px}
+   to{top:170px}
+}
+
+
 /*------------------contentBox3 START*/
  .contentBox03{
    position: relative;
@@ -344,6 +364,9 @@ font-family: 'Roboto', sans-serif;
     width: calc((100% - 30px) / 4 );
     
 } 
+
+
+
 
 
 /* .contentBox03 .tour02 li p{
