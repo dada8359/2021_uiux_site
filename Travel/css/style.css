@@ -138,12 +138,13 @@ font-family: 'Roboto', sans-serif;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    
 }
 
 .content .contentBack{
     width: 980px; 
     /* height: 100%; */
-    background-color: chartreuse;
+    _background-color: chartreuse;
     margin: 0 auto;
     position: relative;
     bottom: -30px;
@@ -301,7 +302,7 @@ font-family: 'Roboto', sans-serif;
     margin-top: 20px;
 } */
 
-/*Animation*/
+/*풍선Animation*/
 .balloon{
     
     float: right;
@@ -317,7 +318,7 @@ font-family: 'Roboto', sans-serif;
 .bal{
     position: absolute; 
     bottom: 0px;
-    right:10px;
+    right:-100px;
     background-color: cornsilk;
     animation-name: bal;
     animation-duration:2s;
