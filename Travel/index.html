@@ -188,11 +188,15 @@ $(document).ready(function(){
                 myslide.goToPrevSlide(); // bxslider public method option 
             });
 
-       var myslide02 = $('.slider02').bxSlider({
+      var myslide02 = $('.slider02').bxSlider({
                 controls:false,
                 pager:false
             });
-
+          
+            $('.leftBtn').click(function(){
+                myslide02.goToNextSlide();
+            });
+       
             
 
            
