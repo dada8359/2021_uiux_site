@@ -142,12 +142,6 @@ body{font-family: 'Roboto', sans-serif;}
     
 }
 
-.balimg{
-    position: absolute;
-    top:10px;
-    right:10px;
-   
-}
 
 .content .contentBack{
     width: 980px; 
@@ -173,9 +167,11 @@ body{font-family: 'Roboto', sans-serif;}
     
 }
  .content .contentBox{
+    position: absolute;
     float: left;
     background-color: gray;
-   
+    z-index: 1;
+    
 } 
 /* .sliderWrap{
    right: 210px;
@@ -283,24 +279,29 @@ body{font-family: 'Roboto', sans-serif;}
 .contentBox02{
   
    background-color: rgb(97, 63, 63);
-   float: right;
    
-   
-   
-}
-.Box2Txt {
-    margin-right: 120px;
+   position: absolute;
+   right: 5px;
+   z-index: 0;
 }
 
+.contentBox02 img{
+    float: right;
+ 
+}
+.content02Txt{
+    float: right;
+}
 .contentBox02 b{
     font-size: 55px;
     font-weight: bold;
     top: -40px;
     line-height: 60px;
-    color:#1C6DC9
-}
+    color:#1C6DC9;}
+   
 
 .contentBox02 b line{
+  
     border-bottom: 6px solid #1C6DC9;
 }
 .contentBox02 p{
@@ -309,58 +310,28 @@ body{font-family: 'Roboto', sans-serif;}
     font-weight:600;
     color:#1C6DC9;
     margin-top: 20px;
+    float: right;
 } */
 
 
+.contentBox02 img{
+    position:absolute;
+    right:-110px;
+    bottom:-70px;
+    opacity: 0.8;
+    z-index:0;
+    animation-name:balloon;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function:linear;
+    animation-fill-mode: forwards;
+    animation-direction: alternate;
+}
 
 
 
 
 
-
-/*풍선Animation*/
-
-
- .balloon{
-    
-    float: right;
-    position: absolute; 
-    bottom: 300px;
-    background-color: cornsilk;
-    animation-name: bal;
-    animation-duration:2s; */
-    /* animation-fill-mode: forwards; */
-    /* animation-iteration-count: infinite;
-    animation-direction: alternate; */
-      
-} 
- /* @keyframes bal {
-     from{top:100px}
-    to{top:170px}
-}   */
-
-
-/*비행기 Animation*/
-.airplanAnmi{
-        position: absolute;
-        bottom: 300px;
-        animation-name: air;
-        animation-duration: 8s;
-        animation-fill-mode: forwards;
-        animation-iteration-count: infinite;
-        animation-timing-function: linear;
-        overflow: hidden; 
-       
-      
-       
-    }
-
-
-
-  @keyframes air{
-    from{bottom: 0; left: -500px; transform: scale(0.5);}
-            to{ bottom: 1000px; left:1000px;transform: scale(1.0);}
-}   */
 
 
 /*------------------contentBox3 START*/
