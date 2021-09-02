@@ -146,8 +146,17 @@ body{font-family: 'Roboto', sans-serif;}
 .airplan{
     position: absolute;
     bottom: 20px;
+    animation-name:air;
+    animation-duration:5s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    z-index:0;
 }
-
+@keyframes air{
+    from{bottom: 500; left: 400px;}
+    to{bottom: 1500px; left: 2800px;}
+}
 .content .contentBack{
     width: 980px; 
     height: 100%; 
