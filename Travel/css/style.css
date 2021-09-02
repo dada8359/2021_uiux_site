@@ -279,7 +279,6 @@ body{font-family: 'Roboto', sans-serif;}
 .contentBox02{
   
    background-color: rgb(97, 63, 63);
-   
    position: absolute;
    right: 5px;
    z-index: 0;
@@ -287,10 +286,36 @@ body{font-family: 'Roboto', sans-serif;}
 
 .contentBox02 img{
     float: right;
+
  
 }
+
+.contentBox02 img{
+    position:absolute;
+    right:-110px;
+    bottom: -600px;
+    opacity: 0.8;
+    z-index:0;
+    animation-name:balloon;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function:linear;
+    animation-fill-mode: forwards;
+    animation-direction: alternate;
+   
+}
+
+@keyframes balloon{
+    to{bottom: -500px;}
+}
+
+
+
 .content02Txt{
-    float: right;
+    right: 70px;
+    position: absolute;
+    width: 400px; background-color: blue;
+    z-index: 3;
 }
 .contentBox02 b{
     font-size: 55px;
@@ -310,23 +335,10 @@ body{font-family: 'Roboto', sans-serif;}
     font-weight:600;
     color:#1C6DC9;
     margin-top: 20px;
-    float: right;
+    
 } */
 
 
-.contentBox02 img{
-    position:absolute;
-    right:-110px;
-    bottom:-70px;
-    opacity: 0.8;
-    z-index:0;
-    animation-name:balloon;
-    animation-duration: 1.5s;
-    animation-iteration-count: infinite;
-    animation-timing-function:linear;
-    animation-fill-mode: forwards;
-    animation-direction: alternate;
-}
 
 
 
