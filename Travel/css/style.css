@@ -353,7 +353,6 @@ body{font-family: 'Roboto', sans-serif;}
 
 
 
-
 /*------------------contentBox3 START*/
  .contentBox03{
    position: relative;
@@ -383,6 +382,15 @@ body{font-family: 'Roboto', sans-serif;}
     padding:10px 16px;
     bottom:0px;
 }
+
+.contentBox03 .txtHotel p{
+    position: absolute;
+    background-color: #393939;
+    width:233px;
+    bottom:40px;
+    padding:10px 16px;
+}
+
 /*------------------contentBox4 START*/
 
 
