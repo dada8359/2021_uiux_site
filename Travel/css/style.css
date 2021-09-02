@@ -138,10 +138,15 @@ body{font-family: 'Roboto', sans-serif;}
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; 
+    position: relative;
    
     
 }
 
+.airplan{
+    position: absolute;
+    bottom: 20px;
+}
 
 .content .contentBack{
     width: 980px; 
