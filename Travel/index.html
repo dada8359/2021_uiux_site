@@ -144,6 +144,7 @@ fieldset{border: 0;}
         
 
         .slider01  img{width:100%}
+        .slider02  img{width:100%}
         .bx-wrapper {
             /* -moz-box-shadow: 0 0 5px #ccc; */
             -webkit-box-shadow: 0 0 5px #ccc;
@@ -182,43 +183,17 @@ $(document).ready(function(){
                 myslide.goToPrevSlide(); // bxslider public method option 
             });
 
+       var myslide02 = $('.slider02').bxSlider({
+                controls:false,
+                pager:false
+            });
 
+           
+       
 
 })
 
-//  $(document).ready(function(){
-//             $(".slider02").bxSlider({
-//                 pager:false,
-//                 auto:true,
-//                 controls:false
-//      });
 
-
-
-
-//     $(document).ready(function(){
-//         $('.slider').bxSlider({
-//             pagerCustom:'.bxPager',
-//             mode:'vertical'
-//         });
-//     });
-
-
-//     $(document).ready(function(){
-//             $(".slider01").bxSlider({
-//                 pager:false,
-//                 auto:true,
-//                 controls:false
-//      });
-
-
-
-//       $("#slider").bxSlider({
-                
-                
-//             } );
-
-//         });
     
 </script>
 </head>
@@ -546,13 +521,20 @@ $(document).ready(function(){
                                 비성수기 할인행사중!  
                             </p>
 
-
                             <img src="./images/hotel2.png" alt="">
                             <p>LOVER DAY (PARIS)<br>
                                 비성수기 할인행사중!  
                             </p>
-                            
+
                             </ul>
+
+                            <!-- <div class="leftBtn">
+                                <img src="./images/left.png" alt="">
+                            </div>
+
+                            <div class="rightBtn">
+                                <img src="images/right.png" alt="">
+                            </div> -->
                     </li>
 
                     
