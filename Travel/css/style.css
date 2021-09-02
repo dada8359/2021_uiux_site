@@ -101,6 +101,7 @@ body{font-family: 'Roboto', sans-serif;}
 .topMenu{
     background-color: white; 
     margin: 0 auto;
+   
   
 }
 .tMenu{
@@ -151,21 +152,21 @@ body{font-family: 'Roboto', sans-serif;}
     animation-fill-mode: forwards;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
-    z-index:0;
+    
+    
 }
 @keyframes air{
-    from{bottom: 500; left: 400px;}
-    to{bottom: 1500px; left: 2800px;}
+    from{bottom: 500; left: 200px;}
+    to{bottom: 1500px; left: 1800px;}
 }
 .content .contentBack{
     width: 980px; 
     height: 100%; 
-    background-color: chartreuse;
+    _background-color: chartreuse;
     margin: 0 auto;
     position: relative;
     bottom: -30px;
-    z-index: 2;
-    
+        
     
     
 }
@@ -173,7 +174,7 @@ body{font-family: 'Roboto', sans-serif;}
 /*------------------contentBox1 START*/
 
 .Bigcontent{
-    background-color: crimson;
+    _background-color: crimson;
     width: 980px;
     height: 600px;
     position: relative;
@@ -184,7 +185,7 @@ body{font-family: 'Roboto', sans-serif;}
     position: absolute;
     float: left;
     background-color: gray;
-    z-index: 1;
+    z-index: 2;
     
 } 
 /* .sliderWrap{
@@ -309,13 +310,13 @@ body{font-family: 'Roboto', sans-serif;}
     right:-110px;
     bottom: -600px;
     opacity: 0.8;
-    z-index:0;
     animation-name:balloon;
     animation-duration: 1.5s;
     animation-iteration-count: infinite;
     animation-timing-function:linear;
     animation-fill-mode: forwards;
     animation-direction: alternate;
+    z-index: 3;
    
 }
 
@@ -329,7 +330,7 @@ body{font-family: 'Roboto', sans-serif;}
     right: 70px;
     position: absolute;
     width: 400px; background-color: blue;
-    z-index: 3;
+    z-index:4;
 }
 .contentBox02 b{
     font-size: 55px;
@@ -363,37 +364,28 @@ body{font-family: 'Roboto', sans-serif;}
 /*------------------contentBox3 START*/
  .contentBox03{
    position: relative;
-   background-color:gold;
-   
    margin: 0 auto;
+  
 }
-
+.contentBox03 >ul>li>img{
+    width: 220px;
+    height: 240px;
+}
 .contentBox03 >ul>li{
     float: left;
     width: calc((100% - 30px) / 4 );
-    
+    margin-right: 10px;
 } 
 
-
-
-
-
-/* .contentBox03 .tour02 li p{
+.contentBox03 >ul>li:nth-child(4){
+    margin-right:0;
+}
+.contentBox03 .slider01 p{
     position: absolute;
-    top: 50px;
+    width: 100%;background: skyblue;
+    padding:10px 16px;
+   bottom:0px;
 }
-
-
-.contentBox03 .tour02 li{
-    float: left;
-   margin-right: 10px;
-}
-
-
-.contentBox03 .tour02 li:first-child{
-   margin-left: 8px;
-} */
-
 
 /*------------------contentBox4 START*/
 
@@ -413,7 +405,7 @@ body{font-family: 'Roboto', sans-serif;}
  
 .contentBox04 .tour03 li:first-child{
     margin-left: 8px;
- } */
+ } 
 
 
  .contentBox04{

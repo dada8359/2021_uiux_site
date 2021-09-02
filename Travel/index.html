@@ -132,6 +132,18 @@ fieldset{border: 0;}
         }
         .sliderPager .bxPager a.active{background: rgb(255, 255, 255);color:#464646;}
         .sliderPager .bxPager a:hover{background: #257BDB;}
+
+
+
+        
+        .nextBtn,.prevBtn{
+            position: absolute; top:700px;
+        }
+        .nextBtn{right: 740px;}
+        .prevBtn{left: 0;}
+        
+
+        .slider01  img{width: 100%}
         
 </style>
 
@@ -151,7 +163,11 @@ fieldset{border: 0;}
 //bxslider
         $(document).ready(function(){
             $(".slider01").bxSlider({
+                pager:false,
+                auto:true,
+                controls:false
                 
+
               
             });
 
@@ -167,6 +183,8 @@ fieldset{border: 0;}
         });
     
 </script>
+
+
 
 </head>
 <body>
@@ -454,7 +472,7 @@ fieldset{border: 0;}
       
    
 
-       <!-- <div class="contentBox03"> contentBox03- 
+       <div class="contentBox03"> <!--contentBox03--> 
         
             
               <ul class="clearfix"> 
@@ -471,10 +489,17 @@ fieldset{border: 0;}
 
                             <li>
                                 <img src="./images/hotel1.png" alt="">
-                                <p>PULL HOTEL (PARIS)<br>
+                                <p>PULL HOTEL (PARIS)<br>   
                                     비성수기 할인행사중! </p>
                             </li> 
                         </ul>
+                            <div class="prevBtn">
+                                <img src="./images/right.png" alt="">
+                            </div>
+
+                            <div class="nextBtn">
+                                <img src="images/left.png" alt="">
+                            </div>
                     </li> 
                      
                     <li><img src="./images/hotel2.png" alt="">
@@ -487,15 +512,18 @@ fieldset{border: 0;}
                      <p>TAKE A LAST (JAPAN)<br>
                         비성수기 할인행사중!  </p>
                     </li>
-                    <li><img src="./images/travel de.png" alt=""></li>
+                    
+                    <li><img src="./images/travel de.png" alt="">
+                    
+                    </li>
                     <li></li>
                 </ul>
             
         
-        </div>   -->
+        </div>   
 
-<!-- 
-        <div class="contentBox04">
+
+        <!-- <div class="contentBox04">
         
            
                 <ul class="clearfix">
@@ -510,7 +538,7 @@ fieldset{border: 0;}
             
         
         </div> 
-         -->
+          -->
         
         
      
