@@ -330,7 +330,7 @@ body{font-family: 'Roboto', sans-serif;}
     font-weight: bold;
     top: -40px;
     line-height: 60px;
-    color:#0e1e2f;}
+    color:#1C6DC9;}
    
 
 .contentBox02 b line{
@@ -341,10 +341,10 @@ body{font-family: 'Roboto', sans-serif;}
     font-size: 30px;
     line-height: 50px;
     font-weight:600;
-    color:#0e1e2f;
+    color:#0b1725;
     margin-top: 20px;
     
-} */
+} 
 
 
 
@@ -372,7 +372,7 @@ body{font-family: 'Roboto', sans-serif;}
 }
 .contentBox03 .slider01 p{
     position: absolute;
-    width: 100%;background: skyblue;
+    width: 100%;background:#48627D;
     padding:10px 16px;
    bottom:0px;
 }
