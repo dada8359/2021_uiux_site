@@ -373,8 +373,14 @@ body{font-family: 'Roboto', sans-serif;}
     width: 100%;background:#48627D;
     padding:10px 16px;
    bottom:0px;
+   font-size:15px;
+   color: white;
 }
-
+.contentBox03 b{
+    font-size: 20px;
+    font-weight: bolder;
+    color: gold;
+}
 .contentBox03 .slider02 p{
     position: absolute;
     width: 100%;background:#0399AB;
