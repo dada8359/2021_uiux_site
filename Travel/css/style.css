@@ -430,44 +430,137 @@ body{font-family: 'Roboto', sans-serif;}
  .contentBox04 >ul>li{
      float: left;
      width: calc((100% - 30px) / 4 );
-     
+     height: 240px;
+     position: relative;
+     overflow: hidden;
  } 
 
 
- .contentBox04 .Box1 .flter1{
-     width:235px; height:240px;
-     _background-color: powderblue;
-     position: absolute;
- }
-
- .contentBox04 .Box1 .flter1:hover{
+ .contentBox04 li .txt{
     position: absolute;
-    background-color: rgba(17, 15, 15, .8);
-    transition: .3s; 
-    height:240px;
-    line-height:250px;
-    top: 100px;
+    top:10%; z-index: 4;
+    transition: 0.3s;
 }
+
+.contentBox04 li .txt p{
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    color:white;
+}
+.contentBox04 li .txt p .bold01{
+    font-size: 20px;
+    border-bottom: 2px solid#fff;
+}
+
+
+
+.contentBox04 .circle{
+    position: absolute;
+    width: 50px;
+    height: 50px; 
+    background: pink;
+    left:50%;
+    top:200%;
+    transform:translate(-50%,-50%);
+    transition:0.3s;
+    border: 1px solid #fff;
+    border-radius:50%;
+    /* animation-name:ani;*/
+    animation-duration: 0.3s; 
+    animation-name: ani;
+}
+
+@keyframes ani{
+    from{transform:translate(-50%,-50%)}
+    to{transform:translate(-50%,-50%) rotate(180deg)}
+}
+
+.contentBox04 li:hover .circle{
+    top:-100%;
+    animation-iteration-count:infinite;
+}    
+.contentBox04 .circle .bar1{
+    width: 30px;
+    height: 4px;
+    background: #fff;
+    position: absolute;
+    border-radius:2px;
+    left: 50%;
+    top:50%;
+    transform:translate(-50%,-50%) rotate(90deg);
+}
+.contentBox04 .circle .bar2{
+
+    width: 30px;
+    height: 4px;
+    background: #fff;
+    position: absolute;
+    border-radius:2px;
+    left: 50%;
+    top:50%;
+    transform:translate(-50%,-50%)
+
+}
+
+.contentBox04 li:hover .txt{
+    top:60%;
+}
+
+ .contentBox04 .bg{
+    background-color: #0280B2;
+    opacity: 0.9;
+    width: 90%; height: 100%;
+    position: absolute;
+    left: 0; top:100%;
+    transition: 0.3s;
     
+ }
+ .contentBox04 li:hover .bg{
+      top:0;
+ }
+ 
 
-.contentBox04 .Box1 .txt01{
+
+ .contentBox04 .bg2{
+    background-color:#ECC9A7;
+    opacity: 0.9;
+    width: 100%; height : 100%;
     position: absolute;
-    top: 100px;
-    font-size: 14px;
-   margin-left: 20px;
-   font-weight: bold;
-   
+    left:100%; top:0;
+    transition: 0.3s;
+ }
+ .contentBox04 li:hover .bg2{
+   left: 0;
 }
-.contentBox04 .Box1 .txt01:hover{
+/*오른쪽에서 왼쪽으로*/
+
+.contentBox04 .bg3{
+    background-color: hotpink;
+    width: 100%;
+    height: 100%;
     position: absolute;
-    top: 100px;
-    font-size: 14px;
-   margin-left: 20px;
-   font-weight: bold;
-   display: block;
-   color: white;
+    right:100%; top:0;
+    transition:0.3s;
 }
 
+.contentBox04 li:hover .bg3{
+    right:0;
+
+}
+
+.contentBox04 .bg4{
+    background-color: lightblue;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left:0; bottom:100%;
+    transition: 0.3s;
+}
+
+.contentBox04 li:hover .bg4{
+    bottom:0;
+}
  /*footer*/
 
  #footer{
