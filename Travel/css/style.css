@@ -381,11 +381,15 @@ body{font-family: 'Roboto', sans-serif;}
     font-weight: bolder;
     color: gold;
 }
+
+
 .contentBox03 .slider02 p{
     position: absolute;
     width: 100%;background:#0399AB;
     padding:10px 16px;
     bottom:0px;
+    font-size:15px;
+    color: white;
 }
 
 .contentBox03 .txtHotel p{
@@ -395,6 +399,17 @@ body{font-family: 'Roboto', sans-serif;}
     bottom:1px;
     padding:10px 16px;
 }
+
+
+.contentBox03 .txtHotel p:hover{
+    position: absolute;
+    background-color: rgba(17, 15, 15, .8);
+    transition: .3s; 
+    height:240px;
+    top: 0px;
+}
+
+
 .contentBox03 .txtJoy{
     position: absolute;
     background-color:palevioletred;
