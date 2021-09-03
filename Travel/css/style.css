@@ -441,6 +441,12 @@ body{font-family: 'Roboto', sans-serif;}
     transition: 0.3s;
 }
 
+.contentBox04 li .txt02{
+    position: absolute;
+    top:60%; z-index: 4;
+    transition: 0.3s;
+}
+
 .contentBox04 li .txt p{
     display: block;
     text-align: center;
@@ -449,15 +455,14 @@ body{font-family: 'Roboto', sans-serif;}
 }
 
 
-.contentBox04 li .txt .txt02{
+.contentBox04 li .txt02{
     display: block;
     text-align: center;
     font-weight: bold;
     color:rgb(46, 46, 46);
-    top:50%;
 }
 
-.contentBox04 li .txt .txt02 .bold01{
+.contentBox04 li .txt02 .bold01{
     font-size: 20px;
     border-bottom: 2px solid rgb(36, 36, 36);
 }
@@ -468,6 +473,8 @@ body{font-family: 'Roboto', sans-serif;}
     font-size: 20px;
     border-bottom: 2px solid#fff;
 }
+
+
 
 
 
@@ -491,6 +498,7 @@ body{font-family: 'Roboto', sans-serif;}
     from{transform:translate(-50%,-50%)}
     to{transform:translate(-50%,-50%) rotate(180deg)}
 }
+
 
 .contentBox04 li:hover .circle{
     top:-100%;
@@ -518,6 +526,57 @@ body{font-family: 'Roboto', sans-serif;}
     transform:translate(-50%,-50%)
 
 }
+
+
+.contentBox04 .circle02{
+    position: absolute;
+    width: 50px;
+    height: 50px; 
+    _background: pink;
+    left:50%;
+    top:-40%;
+    transform:translate(-50%,-50%);
+    transition:0.3s;
+    border: 1px solid #fff;
+    border-radius:50%;
+    /* animation-name:ani;*/
+    animation-duration: 0.3s; 
+    animation-name: ani02;
+}
+
+@keyframes ani02{
+    from{transform:translate(-50%,-50%)}
+    to{transform:translate(-50%,-50%) rotate(180deg)}
+}
+
+.contentBox04 .circle02 .bar1{
+    width: 30px;
+    height: 4px;
+    background: #fff;
+    position: absolute;
+    border-radius:2px;
+    left: 50%;
+    top:-40%;
+    transform:translate(-50%,-50%) rotate(90deg);
+}
+.contentBox04 .circle02 .bar2{
+
+    width: 30px;
+    height: 4px;
+    background: #fff;
+    position: absolute;
+    border-radius:2px;
+    left: 50%;
+    top:-40%;
+    transform:translate(-50%,-50%)
+
+}
+
+
+
+
+
+
 
 .contentBox04 li:hover .txt{
     top:60%;
