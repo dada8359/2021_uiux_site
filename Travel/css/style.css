@@ -201,6 +201,18 @@ body{font-family: 'Roboto', sans-serif;}
     border-radius: 50%;cursor: pointer;transition:0.3s
 } */
 
+.air.plane{font-size: 3em;color:white;transition:0.3s}
+}
+.bxPager a{
+   display: block;
+   text-align: left;
+}
+
+.bxPager .air{
+    display: block;
+    text-align: left;
+    margin-right: 10px;
+}
 
 .sliderWrap{
     margin-bottom: 0;
