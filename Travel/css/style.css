@@ -194,10 +194,12 @@ body{font-family: 'Roboto', sans-serif;}
 } */
 
 /*공항예약, 호텔예약, 렌트카, 휴양지 아이콘*/
-.bxPager img{
+/* .bxPager.air{
     width: 25px; height: 30px;
     margin-right: 10px;
-}
+    display: flex;justify-content: center;align-items: center;
+    border-radius: 50%;cursor: pointer;transition:0.3s
+} */
 
 
 .sliderWrap{
