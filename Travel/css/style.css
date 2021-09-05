@@ -799,6 +799,18 @@ body{font-family: 'Roboto', sans-serif;}
     background-repeat: no-repeat;
     background-position: center;
 }
+
+
+
+.subContent .subImg06{
+    background-color: cadetblue;
+    height: 300px;
+    display: flex; justify-content: center;
+    background-image: url(../images/subimage07.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
 .subContent .subImgTitle{
     text-align: center;
     transform:translateY(50px);
