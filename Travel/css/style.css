@@ -758,3 +758,32 @@ body{font-family: 'Roboto', sans-serif;}
     background-repeat: no-repeat;
     background-position: center;
 }
+
+
+.subContent .subImgTitle{
+    text-align: center;
+    transform:translateY(50px);
+    line-height: 60px; 
+}
+
+.subContent h3{
+    font-size: 4em;
+    color: white;
+   
+   
+}
+.subContent p{
+    font-size: 2em;
+    color: white;
+     
+}
+
+.subContent h3:after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 5px;
+    background-color: white;
+    margin: 10px auto;
+
+}
