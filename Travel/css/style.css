@@ -790,7 +790,15 @@ body{font-family: 'Roboto', sans-serif;}
     background-position: center;
 }
 
-
+.subContent .subImg05{
+    background-color: cadetblue;
+    height: 300px;
+    display: flex; justify-content: center;
+    background-image: url(../images/subimage06.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
 .subContent .subImgTitle{
     text-align: center;
     transform:translateY(50px);
