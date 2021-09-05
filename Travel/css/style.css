@@ -750,14 +750,26 @@ body{font-family: 'Roboto', sans-serif;}
 
 /*cityTour-sub page*/
 .subContent .subImg{
-    background-color: cadetblue;
+    _background-color: cadetblue;
     height: 300px;
     display: flex; justify-content: center;
-    background-image: url(../images/subimg01.jpg);
+    background-image: url(../images/subimag03.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
+
+
+.subContent .subImg02{
+    background-color: cadetblue;
+    height: 300px;
+    display: flex; justify-content: center;
+    background-image: url(../images/subimg02.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 
 .subContent .subImgTitle{
     text-align: center;
@@ -789,7 +801,7 @@ body{font-family: 'Roboto', sans-serif;}
 
 .containerA{
     position: relative;
-    background: rgb(180, 180, 180);
+    background:#EDEDED;
 }
 
 .container{
@@ -817,7 +829,7 @@ body{font-family: 'Roboto', sans-serif;}
 #footer02{
     width: 980px; 
     margin:  0 auto;
-    background-color:darkseagreen;
+    _background-color:darkseagreen;
     position: relative;
     top:-90px;
 }
