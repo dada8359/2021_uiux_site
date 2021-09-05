@@ -779,6 +779,18 @@ body{font-family: 'Roboto', sans-serif;}
     background-repeat: no-repeat;
     background-position: center;
 }
+
+.subContent .subImg04{
+    background-color: cadetblue;
+    height: 300px;
+    display: flex; justify-content: center;
+    background-image: url(../images/subimag05.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
 .subContent .subImgTitle{
     text-align: center;
     transform:translateY(50px);
