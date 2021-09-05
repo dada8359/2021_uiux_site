@@ -787,3 +787,15 @@ body{font-family: 'Roboto', sans-serif;}
     margin: 10px auto;
 
 }
+
+.container{
+    width: 980px; margin: 0 auto;
+    background-color: violet;
+    padding: 40px 0;
+    
+}
+.container img{
+    display: block;
+    margin: 0 auto;
+  
+}
