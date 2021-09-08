@@ -282,6 +282,6 @@ body{
 .slider02area{
   background-color: lavenderblush;
 }
-.slider02area>.slider02>ul>li{
+.slider02area li{
   float: left;
 }
