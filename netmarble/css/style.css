@@ -169,12 +169,13 @@ body{
   background-color: grey;
   margin: 0 auto;
   position: relative;
+  top:30px;
 }
 
 .maintitle01{
   width: 900px;
   height:200px;
-  background-color: indigo;
+  _background-color: indigo;
   left: 250px;
   top:50px;
   position: absolute;
@@ -194,7 +195,7 @@ body{
 .maintitle02{
   width: 500px;
   height: 100px;
-  background-color: green;
+  _background-color: green;
   position: absolute;
   right:250px;
   top:250px;
@@ -208,7 +209,7 @@ body{
 /*contentBox*/
 .contentBox{
   width: 1500px;
-  background-color:lightcyan;
+  _background-color:lightcyan;
   margin: 0 auto;
   position: relative;
   top:400px;
@@ -218,14 +219,14 @@ body{
   margin: 0 auto;
   margin-left: 45px;
   margin-right: 77px;
-  background-color: chocolate;
+  _background-color: chocolate;
 }
 .contentBox li:last-child{
    margin-right: 0;
 }
 
 .contentTxt{
-  background-color: cadetblue;
+  _background-color: cadetblue;
   position: absolute;
   padding-left: 10px;
   top:470px;
@@ -235,7 +236,7 @@ body{
   font-size:20px;
   font-weight:700;
   margin-bottom:10px;
-  background-color: chartreuse;
+  _background-color: chartreuse;
   color:#1E1E1E;
 }
 
@@ -262,4 +263,12 @@ body{
   position: absolute;
   right: -210px;
   top: 100px ;
+}
+
+.mainBox02{
+  width: 1920px;
+  height: 1000px;
+  background-color:darkseagreen;
+  margin: 0 auto;
+  position: relative;
 }
