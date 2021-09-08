@@ -272,3 +272,16 @@ body{
   margin: 0 auto;
   position: relative;
 }
+
+.contentBox2 .noticeWrap{
+  width: 1500px;
+  background-color: khaki;
+  margin: 0 auto;
+}
+
+.slider02area{
+  background-color: lavenderblush;
+}
+.slider02area>.slider02>ul>li{
+  float: left;
+}
