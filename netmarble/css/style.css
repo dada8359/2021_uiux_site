@@ -208,6 +208,7 @@ body{
 /*contentBox*/
 .contentBox{
   width: 1500px;
+  height: 600px;
   background-color:lightcyan;
   margin: 0 auto;
   position: relative;
@@ -221,4 +222,23 @@ body{
 }
 .contentBox li:last-child{
    margin-right: 0;
+}
+
+.contentTxt{
+  background-color: cadetblue;
+  position: absolute;
+  bottom:50px;
+}
+
+.cTxt{
+  font-size:20px;
+  font-weight:700;
+  margin-bottom:10px;
+  background-color: chartreuse;
+  color:#1E1E1E;
+}
+
+.cTxt2{
+  font-size: 14px;
+  color:#1E1E1E;
 }
