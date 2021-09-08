@@ -1,0 +1,224 @@
+@charset "utf-8";
+
+body{
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+#header{
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    border-bottom: 1px solid#dfdfdf;
+    z-index: 1;
+} 
+.topWrap{
+    _background-color: teal;
+    width: 1920px;
+    height: 83px;
+    margin: 0 auto;
+    position: relative;
+}
+.logoWrap{
+    _background-color: tomato;
+    position: absolute;
+    width: 200px;
+    margin-top: 20px;
+    left: 15%;
+}
+
+.logoWrap img{
+    float: left;
+}
+
+.gnb{
+    _background-color: wheat;
+    width: 500px;
+    float: right;
+    right: 15%;
+}
+
+.gnb ul{
+    float: right;
+}
+
+.gnb ul li{
+    float:left;
+}
+
+.gnb a{
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    color: #7a7a7a;
+    line-height: 80px;
+    padding: 0 30px;
+}
+
+/*visual*/
+.bx-wrapper {
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: none;
+    margin-bottom: 0;
+  }
+  .slideWrap {
+    width: 100%;
+    height: 100%;
+    min-height: 700px;
+  }
+
+.slideWrap>.slide>li{
+    width: 100%;
+    height: 100%;
+   
+  }
+.banner01{background: url(../images/banner01.jpg) no-repeat;background-size: cover;}
+.banner02{background: url(../images/banner02.jpg) no-repeat;background-size: cover;}
+.banner03{background: url(../images/banner03.jpg) no-repeat;background-size: cover;}
+.banner04{background: url(../images/banner04.jpg) no-repeat;background-size: cover;}
+.banner05{background: url(../images/banner05.jpg) no-repeat;background-size: cover;}
+
+
+  .bannerWrap {
+    width: 1300px;
+    margin: 0 auto;
+    position: relative;
+    _background-color: aquamarine;
+  }
+  .titleBox {
+    width: 500px;
+    height: 950px;
+    position: absolute;
+    left: 0;
+    color: white;
+    position: relative;
+    _background-color:green;
+    
+  }
+  .titleTxt01 {
+    width: 500px;
+    height: 200px;
+    _background: red;
+    position: absolute;
+    top: 40%;
+    left: 0;
+    font-size: 20px;
+    font-weight: 400;
+  }
+  .slide p{
+    font-size: 75px;
+    font-weight:bold;
+    display: block;
+    text-align: left;
+    letter-spacing: -1px;
+  }
+  .line {
+    width: 450px;
+    height: 2px;
+    background-color: rgba(167, 167, 167, 0.3);
+    animation-name:line;
+    animation-duration: 2s;
+    animation-timing-function: forwards;
+    position: absolute;
+    top: 65%;
+  }
+  @keyframes line {
+    from {
+      width: 0px;
+      height: 2px;
+    }
+    to{
+      width: 450px;
+      height: 2px;
+      background: white;
+    }
+  }
+  .titleTxt02 {
+    font-size: 20px;
+    font-weight: 300px;
+    width: 500px;
+    height: 300px;
+    _background-color: greenyellow;
+    position: absolute;
+    top: 66%;
+    left: 0;
+  }
+  .subtitle {
+    position: absolute;
+    top: 53%;
+    position: relative;
+  }
+  .right {
+    position: absolute;
+    right: 10px;
+    top: 0px;
+  }
+  .left {
+    position: absolute;
+    right: 50px;
+    top: 0px;
+  } 
+
+
+/*mainBox>contentBox*/
+
+.mainBox{
+  width: 1920px;
+  height: 2000px;
+  background-color: grey;
+  margin: 0 auto;
+  position: relative;
+}
+
+.maintitle01{
+  width: 900px;
+  height:200px;
+  background-color: indigo;
+  left: 250px;
+  top:50px;
+  position: absolute;
+  font-size:60px;
+  font-weight: bold;
+  color:#1E1E1E;
+}
+
+.maintitle01:after{
+  content: "";
+  display: block;
+  width: 100px;
+  height: 7px;
+  background-color: gold;
+}
+
+.maintitle02{
+  width: 500px;
+  height: 100px;
+  background-color: green;
+  position: absolute;
+  right:250px;
+  top:250px;
+  font-size:20px;
+  font-weight:500;
+  color:#1E1E1E;
+  text-align: right;
+  display: block;
+}
+
+/*contentBox*/
+.contentBox{
+  width: 1500px;
+  background-color:lightcyan;
+  margin: 0 auto;
+  position: relative;
+  top:400px;
+}
+.contentBox li{
+  float: left;
+  margin: 0 auto;
+  margin-left: 45px;
+  margin-right: 77px;
+}
+.contentBox li:last-child{
+   margin-right: 0;
+}
