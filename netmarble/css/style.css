@@ -165,7 +165,7 @@ body{
 
 .mainBox{
   width: 1920px;
-  height: 2000px;
+  height: 1500px;
   background-color: grey;
   margin: 0 auto;
   position: relative;
@@ -208,7 +208,6 @@ body{
 /*contentBox*/
 .contentBox{
   width: 1500px;
-  height: 600px;
   background-color:lightcyan;
   margin: 0 auto;
   position: relative;
@@ -219,6 +218,7 @@ body{
   margin: 0 auto;
   margin-left: 45px;
   margin-right: 77px;
+  background-color: chocolate;
 }
 .contentBox li:last-child{
    margin-right: 0;
@@ -227,7 +227,8 @@ body{
 .contentTxt{
   background-color: cadetblue;
   position: absolute;
-  bottom:50px;
+  padding-left: 10px;
+  top:470px;
 }
 
 .cTxt{
@@ -241,4 +242,24 @@ body{
 .cTxt2{
   font-size: 14px;
   color:#1E1E1E;
+}
+
+.banner {
+  width: 1200px;
+  height: 340px;
+  background: #FFD44A;
+  padding:100px 130px 0 50px;
+  position: relative;
+  top:570px;
+  margin-left:250px;
+  color:#1E1E1E;
+}
+.banner p{
+  font-size:40px;
+  
+}
+.banner img{
+  position: absolute;
+  right: -210px;
+  top: 100px ;
 }
