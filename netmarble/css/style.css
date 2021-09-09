@@ -12,29 +12,31 @@ body{
     z-index: 1;
 } 
 .topWrap{
-    _background-color: teal;
+    background-color: teal;
     width: 1920px;
     height: 83px;
     margin: 0 auto;
     position: relative;
 }
 .logoWrap{
-    _background-color: tomato;
+    background-color: tomato;
     position: absolute;
     width: 200px;
-    margin-top: 20px;
+    margin-top:0.9%;
     left: 15%;
 }
 
 .logoWrap img{
     float: left;
+   
 }
 
 .gnb{
-    _background-color: wheat;
-    width: 500px;
+    background-color: wheat;
+    width: 400px;
     float: right;
-    right: 15%;
+    position: absolute;
+    left: 70%;
 }
 
 .gnb ul{
@@ -48,10 +50,10 @@ body{
 .gnb a{
     display: block;
     text-align: center;
-    font-size: 18px;
+    font-size: 23px;
     color: #7a7a7a;
     line-height: 80px;
-    padding: 0 30px;
+    padding: 0 20px;
 }
 
 /*visual*/
