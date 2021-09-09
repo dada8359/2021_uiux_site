@@ -55,7 +55,10 @@ body{
     line-height: 80px;
     padding: 0 20px;
 }
-
+.gnb a:hover{
+  font-weight: bolder;
+  font-size: 25px;
+}
 /*visual*/
 .bx-wrapper {
     -moz-box-shadow: none;
@@ -173,7 +176,7 @@ body{
   position: relative;
   top:30px;
 }
-
+/*wow*/
 .maintitle01{
   width: 900px;
   height:200px;
@@ -184,6 +187,20 @@ body{
   font-size:60px;
   font-weight: bold;
   color:#1E1E1E;
+  animation-duration: 2s;
+  animation-timing-function: forwards;
+  animation-name: main;
+  position: absolute;
+}
+
+@keyframes main {
+  from {
+    left: 0%;
+    
+  }
+  to{
+    left: 13%;
+  }
 }
 
 .maintitle01:after{
@@ -206,8 +223,21 @@ body{
   color:#1E1E1E;
   text-align: right;
   display: block;
+  animation-duration: 2s;
+  animation-timing-function: forwards;
+  animation-delay :0.5s;
+  animation-name: main2;
+  position: absolute;
 }
-
+@keyframes main2 {
+  from {
+    right: 0%;
+    
+  }
+  to{
+    right: 14%;
+  }
+}
 /*contentBox*/
 .contentBox{
   width: 1500px;
@@ -367,6 +397,7 @@ body{
   color:#616161;
 }
 
+
 .titleS{
   font-size: 25px;
   color:#464646;
@@ -434,7 +465,7 @@ body{
 .familysite{
   width: 300px;
   _background-color: cornflowerblue;
-  margin-left: 1400px;
+  margin-left: 1300px;
   top: 60px;
   position: absolute;
 }
