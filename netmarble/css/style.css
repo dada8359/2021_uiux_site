@@ -226,7 +226,11 @@ body{
 .contentBox li:last-child{
    margin-right: 0;
 }
-
+.contentBox li:hover img{
+  transform:translateY(-30px);
+  box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+  transition:0.3s;
+}
 .contentTxt{
   _background-color: cadetblue;
   position: absolute;
