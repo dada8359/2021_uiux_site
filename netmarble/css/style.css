@@ -12,14 +12,14 @@ body{
     z-index: 1;
 } 
 .topWrap{
-    background-color: teal;
+    _background-color: teal;
     width: 1920px;
     height: 83px;
     margin: 0 auto;
     position: relative;
 }
 .logoWrap{
-    background-color: tomato;
+    _background-color: tomato;
     position: absolute;
     width: 200px;
     margin-top:0.9%;
@@ -32,7 +32,7 @@ body{
 }
 
 .gnb{
-    background-color: wheat;
+    _background-color: wheat;
     width: 400px;
     float: right;
     position: absolute;
@@ -396,7 +396,7 @@ body{
 .footerBox>.logo{
   _background-color: aqua;
   width: 300px;
-  height: 50px;
+  height: 70px;
   margin-left:200px;
 }
 .footerBox>.logo img{
@@ -428,7 +428,7 @@ body{
   
 
 .familysite{
-  width: 200px;
+  width: 300px;
   _background-color: cornflowerblue;
   margin-left: 1400px;
   top: 60px;
@@ -437,10 +437,11 @@ body{
 
 .btn-fam{
   display: block;
-  width: 200px;
+  width: 300px;
   height: 32px;
   color: black;
   background: #666666;
   font-size: 13px;
   border-radius: 10px;
+  padding: 0 30px;
 }
