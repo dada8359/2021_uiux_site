@@ -166,7 +166,7 @@ body{
 .mainBox{
   width: 1920px;
   height: 1500px;
-  background-color: grey;
+  _background-color: grey;
   margin: 0 auto;
   position: relative;
   top:30px;
@@ -301,7 +301,7 @@ body{
 .galWrap{
   width: 1920px;
   height: 500px;
-  background-color: blue;
+  _background-color: blue;
   margin: 0 auto;
   position: relative;
   padding: 0 0 0 120px;
