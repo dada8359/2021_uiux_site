@@ -285,3 +285,41 @@ body{
 .slider02area li{
   float: left;
 }
+
+/*<!-- container -->*/
+
+.container{
+  width: 2000px;
+  height: 800px;
+  margin: 0 auto;
+  background-color: aqua;
+  position: relative;
+  margin-top: 100px;
+ }
+
+.galWrap{
+  width: 1920px;
+  height: 500px;
+  background-color: blue;
+  margin: 0 auto;
+  position: relative;
+  padding: 0 0 0 120px;
+}
+.container img{
+     width: 500px;
+     transition:0.3s;
+     _transform-origin:right bottom;
+ }  
+.gallList li{
+  float: left;
+  margin-right: 100px; 
+  margin-top: 80px;
+  /* margin: 0 auto; */
+}
+.gallList li:last-child{
+  margin-right: 0;
+ }
+
+.gallList li:hover img{
+     transform:translateY(-15px);
+     box-shadow: 0 5px 10px rgba(0,0,0,0.3);}
