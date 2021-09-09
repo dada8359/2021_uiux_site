@@ -290,6 +290,7 @@ body{
 
 .container{
   width: 100%;
+  padding: 30px 0 0 0;
   height: 800px;
   margin: 0 auto;
   background-color: rgb(243, 243, 243);
@@ -322,22 +323,25 @@ body{
  }  
 .gallList li{
   float: left;
-  margin-right:200px; 
+  margin-right:100px; 
   margin-top: 80px;
   /* margin: 0 auto; */
 }
 .gallList li:first-child{
-  margin-left: 30px;
+  margin-left: 150px;
 }
  
 .gallList li:hover.txtBox3{
      transform:translateY(-15px);
      box-shadow: 0 5px 10px rgba(0,0,0,0.3);}
+
+.CTBOX{ width: 2500px; margin: 0 auto; _background-color: cadetblue;}
 .containTxt{
   font-size: 60px;
   font-weight: bold;
   _background-color: rgb(122, 78, 122);
-  padding-left: 300px;
+  padding-left: 530px;
+  line-height: 100px;
   color:#1E1E1E;
 }
 
@@ -353,7 +357,7 @@ body{
   font-size: 20px;
   font-weight:bold;
   _background-color: rgb(122, 78, 122);
-  padding-left: 1450px;
+  padding-left: 1650px;
   color:#616161;
 }
 
@@ -370,3 +374,4 @@ body{
   margin-top: 40px;
   color:#5c5c5c;
 }
+
