@@ -309,6 +309,7 @@ body{
   width: 2000px;
   background-color: violet;
   margin: 0 auto;
+
 }
 .container .txtBox3{
      width: 400px;
@@ -332,6 +333,22 @@ body{
 .containTxt{
   font-size: 60px;
   font-weight: bold;
-  background-color: violet;
+  background-color: rgb(122, 78, 122);
   padding-left: 300px;
+  color:#1E1E1E;
+}
+
+.containTxt:after{
+  content: "";
+  display: block;
+  width: 100px;
+  height: 7px;
+  background-color: gold;
+}
+
+.toparea{
+  width: 500px;
+  background-color: brown;
+  top: -100px;
+  
 }
