@@ -298,28 +298,40 @@ body{
  }
 
 .galWrap{
-  width: 1920px;
+  width: 2520px;
   height: 500px;
   background-color: blue;
   margin: 0 auto;
   position: relative;
   padding: 0 0 0 120px;
 }
-.container img{
-     width: 500px;
+.TBOX{
+  width: 2000px;
+  background-color: violet;
+  margin: 0 auto;
+}
+.container .txtBox3{
+     width: 400px;
      transition:0.3s;
+     background-color: white;
+     border-radius: 10px;
+     padding: 50px;
      _transform-origin:right bottom;
  }  
 .gallList li{
   float: left;
-  margin-right: 100px; 
+  margin-right:100px; 
   margin-top: 80px;
   /* margin: 0 auto; */
 }
-.gallList li:last-child{
-  margin-right: 0;
- }
 
-.gallList li:hover img{
+ 
+.gallList li:hover.txtBox3{
      transform:translateY(-15px);
      box-shadow: 0 5px 10px rgba(0,0,0,0.3);}
+.containTxt{
+  font-size: 60px;
+  font-weight: bold;
+  background-color: violet;
+  padding-left: 300px;
+}
