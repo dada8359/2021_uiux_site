@@ -298,15 +298,15 @@ body{
  }
 
 .galWrap{
-  width: 2520px;
+  width: 1920px;
   height: 500px;
-  _background-color: blue;
+  background-color: blue;
   margin: 0 auto;
   position: relative;
   padding: 0 0 0 120px;
 }
 .TBOX{
-  width: 2000px;
+  width: 1920px;
   background-color: violet;
   margin: 0 auto;
 
@@ -322,11 +322,13 @@ body{
  }  
 .gallList li{
   float: left;
-  margin-right:100px; 
+  margin-right:200px; 
   margin-top: 80px;
   /* margin: 0 auto; */
 }
-
+.gallList li:first-child{
+  margin-left: 30px;
+}
  
 .gallList li:hover.txtBox3{
      transform:translateY(-15px);
