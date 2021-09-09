@@ -291,7 +291,7 @@ body{
 .container{
   width: 100%;
   padding: 30px 0 0 0;
-  height: 800px;
+  height: 900px;
   margin: 0 auto;
   background-color: rgb(243, 243, 243);
   position: relative;
@@ -375,3 +375,12 @@ body{
   color:#5c5c5c;
 }
 
+#footer{
+  width: 100%;
+  background-color:#171717 ;
+  margin: 0 auto;
+}
+
+.footerBox{
+  background-color: antiquewhite;
+}
