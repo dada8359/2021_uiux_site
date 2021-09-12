@@ -334,7 +334,7 @@ body{
 }
 
 .Bigcontent{
-    background-color: crimson;
+    _background-color: crimson;
     width: 980px;
     height: 600px;
     position: relative;
@@ -343,13 +343,13 @@ body{
 
 }
 .tour01 {
-    background-color: gray;
+    _background-color: gray;
     top:330px; 
     position: absolute;}
 .tour01 .left,
 .right{
     float: left;
-    margin-right: 15px;
+    margin-right: 10px;
     position: relative;
     
 }
@@ -370,7 +370,7 @@ body{
 
 .tour01 .left .japanTxt:hover{
     position: absolute;
-    background-color: rgba(17, 15, 15, .8);
+    background-color:  rgba(70, 59, 87, 0.8);
     transition: .3s; 
     height:240px;
     line-height:250px;
@@ -394,7 +394,7 @@ body{
     position: absolute;
     width: 233px;
     height:50px;
-    background-color:#5E80AE;
+    background-color:#4D4F8A;
     top:190px;
     line-height:50px;
     
@@ -402,7 +402,7 @@ body{
 
 .tour01 .right .franceTxt:hover{
     position: absolute;
-    background-color: rgba(17, 15, 15, .8);
+    background-color: rgba(70, 59, 87, 0.8);
     transition: .3s; 
     height:240px;
     line-height:250px;
@@ -480,10 +480,172 @@ body{
      font-weight:600;
      color:#0b1725;
      margin-top: 20px;
-     
+
  } 
  
+ /*contentBox03*/
+ .contentBox03{
+    position: relative;
+    margin: 0 auto;
+    _background-color: black;
+    position: absolute;
+    top: 580px;
+
+ }
+
+ .hT{
+     position: absolute;
+     color: white;
+     bottom:90px;
+     left: 20px;
+     font-size:16px;
+     opacity: 0.9;
+   
+    }
+
+ .contentBox03 >ul>li{
+     float: left;
+     width: calc((100% - 30px) / 4 );
+     margin-right: 10px;
+ } 
  
+ .contentBox03 >ul>li:nth-child(4){
+     margin-right:0;
+ }
+ /*content04*/
+ .contentBox04{
+    position: absolute;
+    _background-color:cadetblue;
+    top:530px;
+    margin: 0 auto;
+   
+ }
  
+ .contentBox04 >ul>li{
+    float: left;
+    width: calc((100% - 30px) / 4 );
+    margin-right: 4px;
+} 
  
+
+.contentBox04 >ul>li:nth-child(4){
+    margin-right:0;
+}
+
+ .contentBox04{
+    position: relative;
+    _background-color:blue;
+    
+    margin: 0 auto;
+ }
+ 
+ .contentBox04 >ul>li{
+     float: left;
+     width: calc((100% - 30px) / 4 );
+     height: 240px;
+     position: relative;
+     overflow: hidden;
+ } 
+
+
+ .contentBox04 li .txt{
+    position: absolute;
+    top:30%; z-index: 4;
+    left:10px;
+    transition: 0.3s;
+    padding: 0 20px;
+    
+}
+.contentBox04 li .txt .bold01{
+    font-weight: bolder;
+    color:rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+.contentBox04 li .txt p{
+    display: block;
+    text-align: left;
+       font-weight: normal;
+    color:white;
+    line-height: 30px;
+   
+    
+}
+
+
+
+
+
+
+
+
+
+
+.contentBox04 li:hover .txt02{
+    top:20%;
+}
+
+
+.contentBox04 li:hover .txt{
+    top:10%;
+}
+
+ .contentBox04 .bg{
+    background-color: #00000026;
+    opacity: 0.9;
+    width: 100%; height: 100%;
+    position: absolute;
+    left: 0; top:100%;
+    transition: 0.3s;
+    
+ }
+ .contentBox04 li:hover .bg{
+      top:0;
+ }
+ 
+
+
+ .contentBox04 .bg2{
+    background-color:#00000026;;
+    opacity: 0.9;
+    width: 100%; height : 100%;
+    position: absolute;
+    left:100%; top:0;
+    transition: 0.3s;
+ }
+ .contentBox04 li:hover .bg2{
+   left: 0;
+}
+/*오른쪽에서 왼쪽으로*/
+
+.contentBox04 .bg3{
+    background-color: #00000026;
+    opacity:0.9;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    right:100%; top:0;
+    transition:0.3s;
+}
+
+.contentBox04 li:hover .bg3{
+    right:0;
+
+}
+
+.contentBox04 .bg4{
+    background-color: #00000026;
+    opacity: 0.9;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left:0; bottom:100%;
+    transition: 0.3s;
+}
+
+.contentBox04 li:hover .bg4{
+    bottom:0;
+}
+
+
  
