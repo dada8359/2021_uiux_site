@@ -287,9 +287,16 @@ body{
   background: #FFD44A;
   padding:100px 130px 0 50px;
   position: relative;
-  top:570px;
+  top:620px;
+
   margin-left:250px;
   color:#1E1E1E;
+}
+
+.banner:hover{
+  transition:0.3s;
+   transform:translateY(-30px);
+   box-shadow: 0 5px 10px rgba(0,0,0,0.3);
 }
 .banner p{
   font-size:40px;
@@ -341,6 +348,7 @@ body{
   margin: 0 auto;
   position: relative;
   padding: 0 0 0 120px;
+  bottom: -50px;
 }
 .TBOX{
   width: 1920px;
@@ -371,14 +379,33 @@ body{
      transform:translateY(-15px);
      box-shadow: 0 5px 10px rgba(0,0,0,0.3);}
 
-.CTBOX{ width: 2500px; margin: 0 auto; _background-color: cadetblue;}
+.container{
+  width:100%;
+  margin: 0 auto;
+  position: relative;
+  background-color:#F7F8F9;
+  bottom: -140px;
+}
+.CTBOX{ 
+  width: 1500px;
+  height: 100px;
+  margin: 0 auto;
+  _background-color: cadetblue;
+  position: relative;
+}
+
+/* .CTBOX02{ 
+  width: 1000px;
+  background-color: rgb(73, 98, 99);
+position:absolute;
+} */
 .containTxt{
   font-size: 60px;
   font-weight: bold;
   _background-color: rgb(122, 78, 122);
-  padding-left: 530px;
-  line-height: 100px;
   color:#1E1E1E;
+  margin-top: 40px;
+  padding-left: 40px;
 }
 
 .containTxt:after{
@@ -392,9 +419,10 @@ body{
 .containTxt02{
   font-size: 20px;
   font-weight:bold;
-  _background-color: rgb(122, 78, 122);
-  padding-left: 1650px;
+  _background-color: rgb(144, 136, 144);
   color:#616161;
+  margin-left: 1200px;
+  margin-top:10px;
 }
 
 
@@ -419,6 +447,7 @@ body{
   margin: 0 auto;
   height: 400px;
   padding: 40px 0 0 0;
+  
 }
 
 .footerBox{
@@ -426,7 +455,7 @@ body{
   _background-color: antiquewhite;
   margin: 0 auto;
   position: relative;
-  
+  bottom: -150px;
 }
 .footerBox>.logo{
   _background-color: aqua;
@@ -466,7 +495,7 @@ body{
   width: 300px;
   _background-color: cornflowerblue;
   margin-left: 1300px;
-  top: 60px;
+  top: 20px;
   position: absolute;
 }
 
