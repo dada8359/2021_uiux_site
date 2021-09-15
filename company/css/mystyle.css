@@ -1,0 +1,309 @@
+@charset "utf-8";
+/*공통영역*/
+html,body{height: 100%;} /*100으로 설정해도 문제없어*/
+body{
+    font-family: 'Noto Sans KR', sans-serif;
+}
+#header_top .logo{
+    _background: chocolate;
+    height: 50px;
+    padding:0 10px;
+}
+
+.bx-wrapper {
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: 0 none;
+    margin-bottom: 0;
+    }
+
+.sliderWrap .sliderTxt{
+        position: absolute;
+        left: 50%;
+        top: 40%;
+        transform: translate(-50%,-50%);/*가운데로 옮기기*/
+        width: 1000px;text-align: center;
+        _background-color: violet;    
+    }
+.sliderWrap .sliderTxt p{
+    font-size: 1.5em;
+    line-height: 50px;
+    font-weight: 500;
+    color:white
+}    
+.sliderWrap .sliderTxt h3{
+    font-size: 7.5em;  
+    font-weight:900;
+    font-style:italic;
+    color: white;
+    
+}
+
+.sliderWrap .bx-wrapper .bx-pager.bx-default-pager a{
+    background: #101c2a;
+}
+.sliderWrap .bx-wrapper .bx-pager.bx-default-pager a.active{
+    background: #050e18;width: 35px;height: 10px;
+}
+
+.sliderWrap .bx-wrapper .bx-pager.bx-default-pager a:hover{
+    background: rgb(148, 148, 148);
+}
+
+
+.content>ul>li{
+    float: left; 
+    width: 25%; 
+    background-color:#0070C3;
+    height: 311px;
+}
+.content>ul>li:nth-child(2n){
+    background: skyblue;
+}
+
+.content>ul>li:nth-child(1) .txt1{}
+
+
+
+
+.content>ul>li:nth-child(2){
+    width: 75%; 
+    height:622px; 
+    background-color:#d1c959;
+}
+.content>ul>li:nth-child(3){
+    background-color: #004B9E; 
+    position: relative; 
+    bottom: 310px;
+}
+.content>ul>li:nth-child(4){
+    background-color: rgb(191, 230, 230);
+     position: relative;
+     height: 551px; 
+     right:310px;
+    }
+.content>ul>li:nth-child(5){
+    background: tomato;
+    width: 450.4px; 
+    height: 553px;
+    position: relative;
+    right:310px;
+}
+.content>ul>li:nth-child(6){
+    position: relative;
+    left:61.4%;
+    bottom:553px;
+    width: 479px;
+    height: 276px;
+    }
+.content>ul>li:nth-child(7){
+    position: relative;
+    left:22.7%;
+    bottom:276px;
+    width: 480px;
+    height: 276px;
+}
+ 
+
+
+/******pc영역*******/
+@media screen and ( min-width:700px ){
+    #main_header{
+        height: 1930px;
+        background: gray;
+        position: relative;
+    }
+    
+    #header_top{
+        width: 1240px;
+        _background: green;
+        position: fixed; /*스크린의 뷰포트(viewport)를 기준으로 한 위치에 배치, 스크롤되어도 움직이지 않는 고정된 자리를 갖음*/
+        left: 50%;
+        transform: translateX(-50%); /*left:50%,translateX:-50% 가운데 정렬*/
+        top:20px;
+        display: flex;/*개구리소환! 레이아웃배치기능*/
+        justify-content: space-between;/*flex의 속성,양끝에 붙는다*/
+        align-items: center;
+        z-index: 1; /*해당개체가 다른개체에게 먹히지않게 첫번째로!*/
+    } 
+
+    #header_top .gnb{
+        _background: mediumseagreen;
+    }
+    #header_top .gnb li{
+        float: left;
+    }
+    #header_top .gnb li a{
+        display: block; 
+        text-align: center;
+        padding: 0 30px;
+        line-height: 45px;  
+        font-size: 18px;
+        color: white;    
+    }
+    .toggle{display: none;}/*pc에는 토글 필요읎어*/
+    
+    /*slider안에 있는 이미지 크기를 설정하자*/
+    .sliderWrap .li_1st,
+    .sliderWrap .li_2st{
+        height: 1000px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+   
+    /*sldier li에 이미지를 삽입하자*/
+    .sliderWrap .li_1st{
+        background-image: url(../images/business1\ 1.png);
+    }
+    .sliderWrap .li_2st{
+        background-image: url(../images/business1\ 1-1.png);
+    }
+    
+    .bx-wrapper .bx-pager{
+       top:600px;
+    }
+ 
+    .content{
+        width: 1241px;
+        height: 551px;
+        background-color: rgb(83, 83, 83);
+        position: absolute; 
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 690px;
+    } 
+
+} /* pc end */
+
+/******mobile영역*******/
+
+@media screen and ( max-width:699px ){
+    #main_header{background: rgb(122, 63, 63);}
+
+    #header_top{
+        background: rgb(0, 0, 0,0.2);
+        padding: 0 16px;
+        z-index:99999;/*ttoggle을 앞으로 보내자*/
+        position: fixed;
+        width:100%;
+        display: flex;  
+        justify-content: space-between;
+        align-items:center;
+    }
+    #header_top .gnb{
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        _background: turquoise;
+        left: 0;
+        top:-100%;
+        display: flex;
+        justify-content: center;/*flex의 가운데 속성*/
+    }
+    #header_top .gnb.view{
+        top: 0;
+    }
+    #header_top .gnb{
+        background-color:rgba(0, 0, 0, 0.9);
+    }
+    #header_top .gnb a{
+        line-height: 40px;
+        width: 200px;
+        display: block;
+        font-size: 1em;
+        margin-top: 55px;
+        text-align: center;
+        font-size: 25px;
+        font: weight 300px;
+        color: white;
+    }
+
+    #header_top .gnb a:hover{
+        color:
+    }
+    #header_top .gnb li{
+        margin-bottom:15px;
+    }
+    .toggle{
+        display: block;
+    }
+
+    .toggle{
+        width: 40px;
+        height: 40px;
+        _background: rgb(160, 102, 102);
+        position: relative;
+    }
+    .toggle div{ /*토글바 3개짜리 만드는거야*/
+        position: absolute;
+        width: 25px;
+        height: 3px;
+        background: white;
+        left: 50%;/*왼쪽에서 50%만큼*/
+        top:50%;/*위에서 50%만큼*/
+        transform: translate(-50%,-50%);/* x축-50%,y축-50% */
+        border-radius:2px;
+        transition:0.3s;/*애니메이션느낌*/
+        cursor:pointer;
+    }
+    .toggle .bar1{top:10px;}
+    .toggle .bar3{top:30px}
+    .toggle.active .bar1{
+        top:50%;
+        transform:translate(-50%,-50%)
+        rotate(45deg)
+    }
+    .toggle.active .bar2{
+        opacity:0
+    }
+    
+    .toggle.active .bar3{
+        top:50%;
+        transform:translate(-50%,-50%)
+        rotate(-45deg)
+    }
+    
+    .sliderWrap .li_1st,.sliderWrap .li_2st{
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .sliderWrap .li_1st{
+        background-image: url(../images/business1\ 1.png);
+    }
+    .sliderWrap .li_2st{
+        background-image:url(../images/business1\ 1-1.png);
+    }
+
+    .sliderWrap .sliderTxt{
+        width: 500px;
+        top:50%;
+    }
+
+    .sliderWrap .sliderTxt h3{
+        font-size: 3.5em;
+    }
+    .bx-wrapper .bx-pager{
+       top: 530px;
+    }
+} /* mobile end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
