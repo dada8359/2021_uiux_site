@@ -553,7 +553,7 @@ body{
         position: absolute;
         left: 252px;
         top: -1px;
-        width: 285px;
+        width: 351px;
         height: 304px;
     }
    
@@ -570,7 +570,7 @@ body{
         position: absolute;
         left: 252px;
         top: 302px;
-        width: 285px;
+        width: 351px;
         height: 304px;
     }
 
@@ -590,7 +590,7 @@ body{
     position: absolute;
     top: 605px;
     height: 246px;
-    width: 539px;
+    width: 605px;
     margin: 0 auto;
     left: -1px;
     }
@@ -615,7 +615,7 @@ body{
         position: absolute;
         top: 1130px;
         height: 246px;
-        width: 539px;
+        width: 605px;
         margin: 0 auto;
         left: -1px;
     }
@@ -775,7 +775,7 @@ body{
         background: #2D2D2D;
         position: relative;
         bottom: 553px;
-        width: 539px;
+        width: 605px;
         height: 286px;
     }
     .content>ul>li:nth-child(6) .txt6{
