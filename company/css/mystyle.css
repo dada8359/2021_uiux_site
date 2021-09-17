@@ -504,7 +504,7 @@ body{
         transform:translate(-50%,-50%)
         rotate(-45deg)
     }
-     .sliderWrap .slider{width: 100%;} /*테스트*/
+    .sliderWrap .slider{width: 100%;} /*테스트*/
     .sliderWrap .li_1st,.sliderWrap .li_2st{
         height: 100vh;
         background-repeat: no-repeat;
@@ -517,8 +517,8 @@ body{
         font-family: Arial;
         font-weight: bold;
         color: #666;
-        padding-top: 450px;
-    }
+        padding-top: 420px;
+    } /*점박이 위치 설정*/
     .sliderWrap .li_1st{
         background-image: url(../images/business1\ 1.png);
         background-size: cover;
