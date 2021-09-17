@@ -40,7 +40,7 @@ body{
     
 }
 
-.sliderWrap .bx-wrapper .bx-pager.bx-default-pager a{
+/* .sliderWrap .bx-wrapper .bx-pager.bx-default-pager a{
     background: #101c2a;
 }
 .sliderWrap .bx-wrapper .bx-pager.bx-default-pager a.active{
@@ -49,7 +49,7 @@ body{
 
 .sliderWrap .bx-wrapper .bx-pager.bx-default-pager a:hover{
     background: rgb(148, 148, 148);
-}
+} */
 
 
 .content>ul>li{
@@ -167,7 +167,17 @@ body{
     .bx-wrapper .bx-pager{
        top:600px;
     }
- 
+    .sliderWrap .bx-wrapper .bx-pager.bx-default-pager a{
+        background: #101c2a;
+    }
+    .sliderWrap .bx-wrapper .bx-pager.bx-default-pager a.active{
+        background: #050e18;width: 35px;height: 10px;
+    }
+    
+    .sliderWrap .bx-wrapper .bx-pager.bx-default-pager a:hover{
+        background: rgb(148, 148, 148);
+    }
+    
     .content{
         width: 1241px;
         height: 551px;
@@ -512,12 +522,7 @@ body{
         background-size: cover;
     }
     .bx-wrapper .bx-pager {
-        text-align: center;
-        font-size: .85em;
-        font-family: Arial;
-        font-weight: bold;
-        color: #666;
-        /* padding-top: 20px; */
+        display: none;
     }
      /*점박이*/
     .sliderWrap .li_1st{
