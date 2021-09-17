@@ -420,7 +420,7 @@ body{
 @media screen and ( max-width:699px ){
     #main_header{
         background: rgb(122, 63, 63);
-         width: 539px;}
+         }
 
     #header_top{
         background: rgb(0, 0, 0,0.2);
@@ -537,7 +537,7 @@ body{
         
         position: relative;
         background-color: greenyellow;
-        width: 100%;
+        /* width: 100%; */
     }
    
     /* .content>ul>li:nth-child(1){
