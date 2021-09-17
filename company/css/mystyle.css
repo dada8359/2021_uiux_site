@@ -511,7 +511,14 @@ body{
         background-position: center;
         background-size: cover;
     }
-
+    .bx-wrapper .bx-pager {
+        text-align: center;
+        font-size: .85em;
+        font-family: Arial;
+        font-weight: bold;
+        color: #666;
+        padding-top: 150px;
+    }
     .sliderWrap .li_1st{
         background-image: url(../images/business1\ 1.png);
         background-size: cover;
@@ -541,7 +548,7 @@ body{
         background-color: greenyellow;
         width: 100%; 
     }
-   
+     
     /* .content>ul>li:nth-child(1){
         position: absolute;
         left: 338px;
