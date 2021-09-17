@@ -511,14 +511,9 @@ body{
         background-position: center;
         background-size: cover;
     }
-    .bx-wrapper .bx-pager {
-        text-align: center;
-        font-size: .85em;
-        font-family: Arial;
-        font-weight: bold;
-        color: #666;
-        padding-top: 420px;
-    } /*점박이 위치 설정*/
+    .bx-wrapper .bx-pager{
+        top:600px;
+     } /*점박이*/
     .sliderWrap .li_1st{
         background-image: url(../images/business1\ 1.png);
         background-size: cover;
@@ -538,9 +533,7 @@ body{
     .sliderWrap .sliderTxt h3{
         font-size: 3.5em;
     }
-    .bx-wrapper .bx-pager{
-       top: 500px;
-    }
+  
 
     .content{
         
