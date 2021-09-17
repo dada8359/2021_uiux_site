@@ -512,7 +512,7 @@ body{
         background-size: cover;
     }
     .bx-wrapper .bx-pager{
-        top:600px;
+        display: none;
      } /*점박이*/
     .sliderWrap .li_1st{
         background-image: url(../images/business1\ 1.png);
