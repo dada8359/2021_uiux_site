@@ -511,9 +511,15 @@ body{
         background-position: center;
         background-size: cover;
     }
-    .bx-wrapper .bx-pager{
-        display: none;
-     } /*점박이*/
+    .bx-wrapper .bx-pager {
+        text-align: center;
+        font-size: .85em;
+        font-family: Arial;
+        font-weight: bold;
+        color: #666;
+        /* padding-top: 20px; */
+    }
+     /*점박이*/
     .sliderWrap .li_1st{
         background-image: url(../images/business1\ 1.png);
         background-size: cover;
