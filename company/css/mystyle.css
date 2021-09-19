@@ -52,6 +52,15 @@ body{
 } */
 
 
+
+.content>ul{
+    display: flex;
+    flex-wrap:wrap;
+}
+
+
+
+/* 
 .content>ul>li{
     float: left; 
     width: 25%; 
@@ -107,7 +116,7 @@ body{
     width: 480px;
     height: 276px;
 }
- 
+  */
 
 
 /******pc영역*******/
