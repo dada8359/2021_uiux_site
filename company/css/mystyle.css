@@ -57,9 +57,21 @@ body{
     display: flex;
     flex-wrap:wrap;
 }
+.content>ul>li{width: 25%;height: 310px;background-color: green;
+}
 
-
-
+.content>ul>li:nth-child(2n){
+    background-color: salmon;
+}
+.content>ul>li:nth-child(1){
+    display: flex; justify-content: center;align-items: center;
+}
+.content>ul>li:nth-child(2){width: 75%; height: 620px;} 
+.content>ul>li:nth-child(3){width: 25%; transform: translateY(-100%); background-color: hotpink;}
+.content>ul>li:nth-child(4){display: flex;justify-content: center;align-items: center; height: 551px; background-color: rgb(63, 25, 25); transform: translateX(-100%);}
+.content>ul>li:nth-child(5){width: 450px; height: 553px; transform: translateX(-69%);  bottom:553px;}
+.content>ul>li:nth-child(6){}
+.content>ul>li:nth-child(7){}
 /* 
 .content>ul>li{
     float: left; 
@@ -123,7 +135,7 @@ body{
 @media screen and ( min-width:700px ){
     #main_header{
         height: 1930px;
-        _background: gray;
+        background: gray;
         position: relative;
     }
     
@@ -186,8 +198,14 @@ body{
     .sliderWrap .bx-wrapper .bx-pager.bx-default-pager a:hover{
         background: rgb(148, 148, 148);
     }
-    
     .content{
+        width: 1240px;position: absolute;left: 50%;
+        transform:translateX(-50%);bottom: 0;
+       
+    }
+
+    
+    /* .content{
         width: 1241px;
         height: 551px;
         _background-color: rgb(83, 83, 83);
@@ -263,7 +281,7 @@ body{
         transform:translateY(-30px);
         box-shadow: 0 5px 10px rgba(0,0,0,0.2);
         transition:0.3s;
-    }
+    } */
     /* .content>ul>li:nth-child(2) .play{
         position: absolute;
         width: 100px;
@@ -284,7 +302,7 @@ body{
         transition:0.3s;
     } */
     /**/
-    .content>ul>li:nth-child(3) .txt3{
+    /* .content>ul>li:nth-child(3) .txt3{
         position: absolute;
         _background-color:pink;
         font-size:18px;
@@ -431,7 +449,7 @@ body{
         position: absolute;
         left: 320px;
         top: 130px;
-    }
+    } */
 } /* pc end */
 
 /******mobile영역*******/
@@ -555,12 +573,12 @@ body{
     }
   
 
-    .content{
+    /* .content{
         
         position: relative;
         background-color: greenyellow;
         width: 100%; 
-    }
+    } */
      
     /* .content>ul>li:nth-child(1){
         position: absolute;
@@ -569,15 +587,15 @@ body{
         width: 304px;
         height: 304px;
     } */
-    .content>ul>li:nth-child(1) {
+    /* .content>ul>li:nth-child(1) {
         position: absolute;
         left: 252px;
         top: -1px;
         width: 351px;
         height: 304px;
     }
-   
-    .content>ul>li:nth-child(2){display: none;}
+    */
+    /* .content>ul>li:nth-child(2){display: none;} */
     /* .content>ul>li:nth-child(3){
         position: absolute;
         left: 338px;
@@ -586,7 +604,7 @@ body{
         height: 303.9px;
    
     } */
-    .content>ul>li:nth-child(3) {
+    /* .content>ul>li:nth-child(3) {
         position: absolute;
         left: 252px;
         top: 302px;
@@ -708,8 +726,7 @@ body{
         transform:translateY(-30px);
         box-shadow: 0 5px 10px rgba(0,0,0,0.2);
         transition:0.3s;
-    }
-    /**/
+    } 
     .content>ul>li:nth-child(3) .txt3{
         position: absolute;
         _background-color:pink;
