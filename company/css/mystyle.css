@@ -70,8 +70,8 @@ body{
 .content>ul>li:nth-child(3){width: 25%; transform: translateY(-100%); background-color: hotpink;}
 .content>ul>li:nth-child(4){display: flex;justify-content: center;align-items: center; height: 551px; background-color: rgb(63, 25, 25); transform: translateX(-100%);}
 .content>ul>li:nth-child(5){width: 450px; height: 553px; transform: translateX(-69%);  bottom:553px;}
-.content>ul>li:nth-child(6){ float: right;}
-/* .content>ul>li:nth-child(7){width: 466px; } */
+.content>ul>li:nth-child(6){width: 480px;  height: 350px;transform: translate(158%,-178%); background-color: indigo;}
+.content>ul>li:nth-child(7){width: 480px; height: 350px;transform: translate(58%,-95%); background-color: rgb(167, 167, 167);}
 /* 
 .content>ul>li{
     float: left; 
