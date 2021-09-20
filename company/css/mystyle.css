@@ -626,6 +626,10 @@ body{
         padding-left: 300px;
         transform: translateY(-75px);
     }
+    .container .section{
+        width: 100%;
+        padding: 0 20px;
+    }
 } /* mobile end */
 
 
