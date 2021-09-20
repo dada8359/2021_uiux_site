@@ -58,8 +58,6 @@ body{
 }
 .content>ul>li:nth-child(1){
     display: flex;
-    justify-content: center;
-    align-items: center;
     background:#0070C3;
 }
 .content>ul>li:nth-child(2){
@@ -174,10 +172,23 @@ body{
         transform:translateX(-50%);bottom: -234px;
        
     }
-
-    
+         
+    .content>ul>li:nth-child(1) .txt1{
+       
+    } 
 
 } /* pc end */
+
+
+
+
+
+
+
+
+
+
+
 
 /******mobile영역*******/
 
