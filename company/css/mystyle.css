@@ -491,6 +491,22 @@ body{
    .content>ul>li:nth-child(1) .txt1_2{
        padding-top: 10px;
    }
+   
+   
+   .content>ul>li:nth-child(3){
+    padding: 0 40px;
+    color: white;
+ }
+ .content>ul>li:nth-child(3) .txt3{
+     display: none;
+ }
+ .content>ul>li:nth-child(3) .txt3_1{
+     font-size: 30px;
+     padding-top: 170px;
+ }
+.content>ul>li:nth-child(3) .txt3_2{
+    padding-top: 10px;
+}
 
 
 } /* mobile end */
