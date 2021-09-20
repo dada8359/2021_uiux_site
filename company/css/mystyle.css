@@ -195,18 +195,21 @@ body{
         font-weight:lighter;
       }
     .content>ul>li:nth-child(2) .txt02{
-        background-color: thistle;
+        _background-color: thistle;
         padding:50px;
      } 
      .content>ul>li:nth-child(2) .txt2{
          font-size: 30px;
          color: white;
      }
-      
+     .content>ul>li:nth-child(2) .txt2_2{
+         color: white;
+         margin-top: 20px;
+     }
      .content>ul>li:nth-child(2) img{
-        background-color: rgb(63, 26, 63);
-        padding-left: 400px;
-        margin-top:200px;
+        _background-color: rgb(63, 26, 63);
+        padding-left: 380px;
+        margin-top:50px;
         left: 700px;
         cursor: pointer;
      } 
