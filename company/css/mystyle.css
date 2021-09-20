@@ -104,64 +104,12 @@ body{
     transform:translate(158.3%,-185%);
     background:#2D2D2D;
 }
-.content>ul>li:nth-child(7){width: 480px; height: 280px;transform: translate(58%,-100%); background-color: rgb(167, 167, 167);}
-/* 
-.content>ul>li{
-    float: left; 
-    width: 25%; 
-    background-color:#0070C3;
-    height: 311px;
-}
-.content>ul>li:nth-child(2n){
-    background: skyblue;
-}
-
-.content>ul>li:nth-child(1) .txt1{}
-
-
-
-
-.content>ul>li:nth-child(2){
-    width: 75%; 
-    height:622px; 
-    background-color:#d1c959;
-}
-.content>ul>li:nth-child(3){
-    background-color: #004B9E; 
-    position: relative; 
-    bottom: 310px;
-}
-.content>ul>li:nth-child(4){
-    background-color: rgb(191, 230, 230);
-     position: relative;
-     height: 551px; 
-     right:310px;
-     background-image: url(../images/content04.png);
-    }
-.content>ul>li:nth-child(5){
-    background: #F5F5F5;
-    width: 450.4px; 
-    height: 553px;
-    position: relative;
-    right:310px;
-}
-.content>ul>li:nth-child(6){
-    background:#2D2D2D;
-    position: relative;
-    left:61.4%;
-    bottom:553px;
-    width: 479px;
-    height: 276px;
-    }
 .content>ul>li:nth-child(7){
-    background-color:#171717;
-    position: relative;
-    left:22.7%;
-    bottom:276px;
-    width: 480px;
-    height: 276px;
-}
-  */
+    width: 480px; 
+    height: 280px;
+    transform: translate(58.3%,-100%); 
+    background:#171717;}
+
 
 
 /******pc영역*******/
