@@ -195,6 +195,33 @@ body{
         font-weight:lighter;
        
     }
+
+
+
+
+    .content>ul>li:nth-child(3) .txt03{
+        _background-color: thistle;
+        padding: 40px;
+     } 
+ 
+     .content>ul>li:nth-child(3) .txt3{
+         font-weight: bold;
+         color: white;
+     }
+     .content>ul>li:nth-child(3) .txt3_1{
+         font-size: 24px;
+         padding-top: 100px;
+         line-height: 50px;
+         color: white;
+         font-weight: normal;
+     }
+     .content>ul>li:nth-child(3) .txt3_2{
+         font-size: 14px;
+         color: white;
+         font-weight:lighter;
+         line-height: 20px;
+        
+     }
 } /* pc end */
 
 
