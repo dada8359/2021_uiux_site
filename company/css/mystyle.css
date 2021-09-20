@@ -542,7 +542,6 @@ body{
         transform: translateY(-30px);
     }
 
-    
     .content>ul>li:nth-child(6) .txt06{
         padding:0 90px;
     }
@@ -559,6 +558,25 @@ body{
     }
 
     .content>ul>li:nth-child(6) .conB6{
+        padding-left: 350px;
+        transform: translateY(-75px);
+    }
+    
+    .content>ul>li:nth-child(7) .txt07{
+        padding:0 90px;
+    }
+    .content>ul>li:nth-child(7) .txt7{
+        color:white;
+        font-size: 34px;
+        font-weight: normal;
+        padding-top: 60px;
+    }
+    .content>ul>li:nth-child(7) .txt7_1{
+        padding-top:20px;
+        color: white;
+        font-weight: lighter;
+    }
+    .content>ul>li:nth-child(7) .conB7{
         padding-left: 350px;
         transform: translateY(-75px);
     }
