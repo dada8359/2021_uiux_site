@@ -541,6 +541,27 @@ body{
         padding-left: 350px;
         transform: translateY(-30px);
     }
+
+    
+    .content>ul>li:nth-child(6) .txt06{
+        padding:0 90px;
+    }
+    .content>ul>li:nth-child(6) .txt6{
+        color:white;
+        font-size: 34px;
+        font-weight: normal;
+        padding-top: 40px;
+    }
+    .content>ul>li:nth-child(6) .txt6_1{
+        padding-top:20px;
+        color: white;
+        font-weight: lighter;
+    }
+
+    .content>ul>li:nth-child(6) .conB6{
+        padding-left: 350px;
+        transform: translateY(-75px);
+    }
 } /* mobile end */
 
 
