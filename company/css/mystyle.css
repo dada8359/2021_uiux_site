@@ -519,7 +519,7 @@ body{
         display: none;
     }
     .content>ul>li:nth-child(1) .txt1_1{
-        font-size: 30px;
+        font-size: 25px;
         padding-top: 170px;
     }
    .content>ul>li:nth-child(1) .txt1_2{
@@ -534,7 +534,7 @@ body{
      display: none;
     }
     .content>ul>li:nth-child(3) .txt3_1{
-     font-size: 30px;
+     font-size: 25px;
      padding-top: 150px;
     }
     .content>ul>li:nth-child(3) .txt3_2{
