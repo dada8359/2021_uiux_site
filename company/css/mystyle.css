@@ -183,7 +183,7 @@ body{
         color: white;
     }
     .content>ul>li:nth-child(1) .txt1_1{
-        font-size: 24px;
+        font-size: 30px;
         padding-top: 120px;
         line-height: 50px;
         color: white;
@@ -193,9 +193,23 @@ body{
         font-size: 14px;
         color: white;
         font-weight:lighter;
-       
-    }
-
+      }
+    .content>ul>li:nth-child(2) .txt02{
+        background-color: thistle;
+        padding:50px;
+     } 
+     .content>ul>li:nth-child(2) .txt2{
+         font-size: 30px;
+         color: white;
+     }
+      
+     .content>ul>li:nth-child(2) img{
+        background-color: rgb(63, 26, 63);
+        padding-left: 400px;
+        margin-top:200px;
+        left: 700px;
+        cursor: pointer;
+     } 
     .content>ul>li:nth-child(3) .txt03{
         _background-color: thistle;
         padding: 40px;
@@ -206,7 +220,7 @@ body{
          color: white;
      }
      .content>ul>li:nth-child(3) .txt3_1{
-         font-size: 24px;
+         font-size: 30px;
          padding-top: 100px;
          line-height: 50px;
          color: white;
@@ -216,7 +230,8 @@ body{
          font-size: 14px;
          color: white;
          font-weight:lighter;
-         line-height: 20px;
+         padding-top: 10px;
+         line-height: 25px;
         
      }
 
