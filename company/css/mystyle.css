@@ -106,9 +106,27 @@ body{
 .container .section{
     width: 1240px;
     margin: 0 auto;
-   background-color: wheat;
+   _background-color: wheat;
 }
-.container .vision li{float: left; padding: 0 80px; margin: 0 auto;}  
+.container .section>p{
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 30px;
+    color: white;
+}
+
+.container .vision li{
+    float: left;
+    padding: 0 80px; 
+    margin: 0 auto;
+}  
+
+.container .vision li .card_body{
+    padding-top: 20px;
+    text-align: center;
+    color:white;
+    font-size: 16px;
+}
 
 
 /******pc영역*******/
