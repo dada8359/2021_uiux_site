@@ -174,8 +174,13 @@ body{
     }
          
     .content>ul>li:nth-child(1) .txt1{
-       
+       font-size: 18px;
+       position: relative;
+       left: 30px;
+       top:30px;
+    
     } 
+
 
 } /* pc end */
 
