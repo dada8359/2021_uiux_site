@@ -492,23 +492,30 @@ body{
        padding-top: 10px;
    }
    
-   
    .content>ul>li:nth-child(3){
     padding: 0 40px;
     color: white;
- }
- .content>ul>li:nth-child(3) .txt3{
+    }
+    .content>ul>li:nth-child(3) .txt3{
      display: none;
- }
- .content>ul>li:nth-child(3) .txt3_1{
+    }
+    .content>ul>li:nth-child(3) .txt3_1{
      font-size: 30px;
      padding-top: 150px;
- }
-.content>ul>li:nth-child(3) .txt3_2{
+    }
+    .content>ul>li:nth-child(3) .txt3_2{
     padding-top: 10px;
-}
+    }
 
-
+    .content>ul>li:nth-child(4){
+        padding:0 50px;
+    }
+    .content>ul>li:nth-child(4) .txt4{
+        font-size: 35px;
+        padding-top: 250px;
+        color: white;
+        font-weight: lighter;
+    }
 } /* mobile end */
 
 
