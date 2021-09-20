@@ -173,15 +173,28 @@ body{
        
     }
          
-    .content>ul>li:nth-child(1) .txt1{
-       font-size: 18px;
-       position: relative;
-       left: 30px;
-       top:30px;
-    
+    .content>ul>li:nth-child(1) .txt01{
+       _background-color: thistle;
+       padding: 40px;
     } 
 
-
+    .content>ul>li:nth-child(1) .txt1{
+        font-weight: bold;
+        color: white;
+    }
+    .content>ul>li:nth-child(1) .txt1_1{
+        font-size: 24px;
+        padding-top: 120px;
+        line-height: 50px;
+        color: white;
+        font-weight: normal;
+    }
+    .content>ul>li:nth-child(1) .txt1_2{
+        font-size: 14px;
+        color: white;
+        font-weight:lighter;
+       
+    }
 } /* pc end */
 
 
