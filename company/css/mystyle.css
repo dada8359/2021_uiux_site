@@ -126,6 +126,9 @@ body{
     text-align: center;
     margin: 0 auto;
 }  
+.container .vision li .card{
+    padding-top: 100px;
+}
 .container .vision li .card_body{
     padding-top: 150px;
     text-align: center;
