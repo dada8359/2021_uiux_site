@@ -476,6 +476,23 @@ body{
    .content>ul>li:nth-child(6){transform:translateY(-135%); width: 605px; height: 230px;}
    .content>ul>li:nth-child(7){transform:translateY(-135%); width: 605px; height: 230px;}
    
+
+   .content>ul>li:nth-child(1){
+       padding: 0 40px;
+       color: white;
+    }
+    .content>ul>li:nth-child(1) .txt1{
+        display: none;
+    }
+    .content>ul>li:nth-child(1) .txt1_1{
+        font-size: 30px;
+        padding-top: 170px;
+    }
+   .content>ul>li:nth-child(1) .txt1_2{
+       padding-top: 10px;
+   }
+
+
 } /* mobile end */
 
 
