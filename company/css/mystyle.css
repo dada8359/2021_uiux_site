@@ -91,8 +91,19 @@ body{
     background-size: cover;
     transform: translateX(-99%);
 }
-.content>ul>li:nth-child(5){width: 450px; height: 553px; transform: translateX(-69%);  bottom:553px;}
-.content>ul>li:nth-child(6){width: 480px;  height: 300px;transform: translate(158%,-184%); background-color: indigo;}
+.content>ul>li:nth-child(5){
+    width: 450px; 
+    height: 553px; 
+    transform: translateX(-69%);  
+    bottom:553px;
+    background: #F5F5F5;
+}
+.content>ul>li:nth-child(6){
+    width: 480px;
+    height: 300px;
+    transform:translate(158.3%,-185%);
+    background:#2D2D2D;
+}
 .content>ul>li:nth-child(7){width: 480px; height: 280px;transform: translate(58%,-100%); background-color: rgb(167, 167, 167);}
 /* 
 .content>ul>li{
