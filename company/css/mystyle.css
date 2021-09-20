@@ -98,6 +98,18 @@ body{
     transform: translate(58.4%,-100%); 
     background:#171717;}
 
+.container{
+    background: url(../images/conbg.png)no-repeat center fixed;
+    padding: 60px 0;
+    background-size: cover;
+    }
+.container .section{
+    width: 1240px;
+    margin: 0 auto;
+   
+}
+.container .vision li{float: left;width: calc( ( 100% - 60px ) / 4 );margin-right: 20px;}
+.container .vision li:last-child{margin-right:0;}
 
 
 /******pc영역*******/
