@@ -455,9 +455,7 @@ body{
 /******mobile영역*******/
 
 @media screen and ( max-width:699px ){
-    #main_header{
-        background: rgb(122, 63, 63);
-         }
+    #main_header{background: rgb(122, 63, 63);}
     
     #header_top{
         background: rgb(0, 0, 0,0.2);
@@ -571,17 +569,17 @@ body{
     .sliderWrap .sliderTxt h3{
         font-size: 3.5em;
     }
-    .content{
-        
+    .content{     
         background-color: greenyellow;
-        width: 100%; }
+        width: 100%;
+        height:1400px; }
    .content>ul>li:nth-child(1){width: 50%; transform: translateX(100%);} 
-    .content>ul>li:nth-child(2){display: none;}
-  .content>ul>li:nth-child(3){width: 50%; transform:translateY(100%);} 
-    .content>ul>li:nth-child(4){ transform:translateY(-51%); height: 610px;width: 312px; }  
-    .content>ul>li:nth-child(5){}
-    .content>ul>li:nth-child(6){display: none;}
-    .content>ul>li:nth-child(7){display: none;}
+   .content>ul>li:nth-child(2){display: none;}
+   .content>ul>li:nth-child(3){width: 50%; transform:translateY(100%);} 
+   .content>ul>li:nth-child(4){ transform:translateY(-50%); height: 620px;width: 312px; }  
+   .content>ul>li:nth-child(5){transform:translateY(-135%); width: 605px; height: 230px;}
+   .content>ul>li:nth-child(6){transform:translateY(-135%); width: 605px; height: 230px;}
+   .content>ul>li:nth-child(7){transform:translateY(-135%); width: 605px; height: 230px;}
     /* .content{
         
         position: relative;
