@@ -106,7 +106,7 @@ body{
 .container .section{
     width: 1240px;
     margin: 0 auto;
-   _background-color: wheat;
+    background-color: wheat;
 }
 .container .section>p{
     text-align: center;
@@ -115,26 +115,25 @@ body{
     color: white;
     margin: 0 auto;
 }
-
+.container .section>p:after{
+    content:"";
+    display: block;
+    width:250px;
+    height: 1px;
+    background: #fff;
+    margin: 20px auto;
+}
 .container .vision li{
     float: left;
-    padding: 0 75px; 
-    margin: 0 auto;
-}  
-.container .vision li .card>img{
-    float: left;
-    text-align: center;
-    margin: 0 auto;
-}  
-.container .vision li .card{
-    padding-top: 100px;
+    width: calc( ( 100% - 60px ) / 4 );
+    margin-right: 20px;
 }
-.container .vision li .card_body{
-    padding-top: 150px;
-    text-align: center;
-    color:white;
-    font-size: 18px;
+.container .vision li:last-child{
+    margin-right:0;
 }
+
+.container .vision li img{margin: 0 auto;margin-bottom: 30px;}
+.container .vision li .card_body{padding: 5px;text-align: center;color:#000}
 
 
 /******pc영역*******/
