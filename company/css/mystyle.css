@@ -270,6 +270,28 @@ body{
          transform: translateY(-40px);
          padding-left: 220px;
      }
+
+     .content>ul>li:nth-child(6) .txt06{
+        _background-color: thistle;
+        padding: 0 50px;
+     } 
+     .content>ul>li:nth-child(6) .txt6{
+         padding-top: 90px;
+         font-size: 30px;
+         color: white;
+     }
+     .content>ul>li:nth-child(6) .txt6_1{
+         line-height: 20px;
+         font-size: 16px;
+         padding-top: 20px;
+         line-height: 25px;
+         color: white;
+     }
+     .content>ul>li:nth-child(6) .conB6
+     {
+         padding-left: 300px;
+         transform: translateY(-70px);
+     }
 } /* pc end */
 
 
