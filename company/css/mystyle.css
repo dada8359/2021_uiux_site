@@ -106,10 +106,9 @@ body{
 .container .section{
     width: 1240px;
     margin: 0 auto;
-   
+   background-color: wheat;
 }
-.container .vision li{float: left;width: calc( ( 100% - 60px ) / 4 );margin-right: 20px;}
-.container .vision li:last-child{margin-right:0;}
+.container .vision li{float: left; padding: 0 80px; margin: 0 auto;}  
 
 
 /******pc영역*******/
