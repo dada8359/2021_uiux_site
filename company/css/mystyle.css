@@ -222,7 +222,7 @@ body{
 
      .content>ul>li:nth-child(4) .txt04{
         _background-color: thistle;
-        padding: 40px;
+        padding: 0 40px;
      } 
  
      .content>ul>li:nth-child(4) .txt4{
@@ -239,7 +239,37 @@ body{
          color: white;
          font-weight: bold;
      }
+
+     .content>ul>li:nth-child(5) .txt05{
+        _background-color: thistle;
+        padding: 0 60px;
+     } 
+ 
+     .content>ul>li:nth-child(5) .txt5{
+         font-weight:normal;
+         color: white;
+         font-size: 34px;
+         line-height:50px;
+         padding-top: 140px;
+         color:#444444;
+     }
+     .content>ul>li:nth-child(5) .txt5_1{
+       padding-top: 50px;      
+       color:#444444;
+       font-size: 18px;
+        
+     }
    
+     .content>ul>li:nth-child(5) .txt5_2{
+        padding-top: 120px;
+        line-height: 50px;
+        color: #444444;
+        font-weight: bold;
+     }
+     .content>ul>li:nth-child(5) .arbar{
+         transform: translateY(-40px);
+         padding-left: 220px;
+     }
 } /* pc end */
 
 
