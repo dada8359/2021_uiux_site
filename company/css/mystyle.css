@@ -386,7 +386,7 @@ body{
     .slide1stWrap{
         width: 540px;
         margin: 0 auto;
-        transform: translateY(100pxs);
+        transform: translateY(100px);
     }
 } /* pc end */
 
