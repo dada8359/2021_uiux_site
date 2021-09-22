@@ -379,7 +379,7 @@ body{
         margin:0 auto;
         background-color: aqua;
     }
-
+    /*container02 영역이올시다*/
     .container02{
         position: relative;
         bottom: -50px;
