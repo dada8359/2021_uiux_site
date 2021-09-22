@@ -148,7 +148,7 @@ body{
 @media screen and ( min-width:700px ){
     #main_header{
         height: 1930px;
-        background: gray;
+        _background: gray;
         position: relative;
     }
     
@@ -438,7 +438,7 @@ body{
     .slid1T{
         position: absolute;
         left: 30px;
-        bottom: 50px;
+        bottom: 100px;
         font-size: 20px;
         font-weight: bold;
         color: #0070C3;
@@ -502,7 +502,7 @@ body{
 /******mobile영역*******/
 
 @media screen and ( max-width:699px ){
-    #main_header{background: rgb(122, 63, 63);}
+    #main_header{_background: rgb(122, 63, 63);}
     
     #header_top{
         background: rgb(0, 0, 0,0.2);
