@@ -785,9 +785,9 @@ body{
     }
     .container02Txt ul{
         position: absolute;
-        bottom: -160px;
+        bottom: -150px;
         left: 70px;
-        _background-color: aquamarine;
+        background-color: aquamarine;
     }
     .container02Txt ul li{
         float: left;
