@@ -375,6 +375,19 @@ body{
         transform: translateY(-70px);
      }
      
+
+    .container02{
+
+        height: 600px;
+        background: skyblue;
+    
+    }
+
+    .slide1stWrap{
+        width: 540px;
+        margin: 0 auto;
+        transform: translateY(100px);
+    }
 } /* pc end */
 
 

@@ -40,8 +40,7 @@
             margin-bottom: 0;
         }
 
-        .container02{height: 400px;background: skyblue;}
-
+     
         
      </style>
       <script>
@@ -49,18 +48,22 @@
                 iframe:true,
                 innerWidth:700,
                 innerHeight:394
-            })
-
-            $(document).ready(function(){
-            $('.slide').bxSlider({
-                //mode:"fade",
-                pager:false,
-                controls:false,
-                auto:true
             });
 
-        });
+            $(document).ready(function(){
+            $('.slide1st').bxSlider({
+                //mode:"fade",
+                pager:false,
+                //controls:false,
+                auto:true
+            });          
 
+        }); 
+
+
+
+        
+         
         
     </script>
 </head>
@@ -273,12 +276,14 @@
     </div>
 
     <div class="container02">
-        <div class="sliderWrap">
-            <ul class="slide">
-                <li><img src="images/pc01.jpg" alt="img1"></li>
-                <li><img src="images/pc02.jpg" alt="img2"></li>
-                <li><img src="images/pc03.jpg" alt="img3"></li>
-            </ul>
+        <div class="slide1stWrap">
+            <div class="slide1st">
+                <div><img src="images/pic_1.jpg" alt=""></div>
+                <div><img src="images/pic_2.jpg" alt=""></div>
+                <div><img src="images/pic_3.jpg" alt=""></div>
+                <div><img src="images/pic_4.jpg" alt=""></div>
+                <div><img src="images/pic_5.jpg" alt=""></div>
+            </div>
         </div>
     </div>
 
