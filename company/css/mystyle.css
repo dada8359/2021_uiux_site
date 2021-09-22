@@ -377,7 +377,8 @@ body{
      
 
     .container02{
-
+        position: relative;
+        bottom: -50px;
         height: 600px;
         background: skyblue;
     
