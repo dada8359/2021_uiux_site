@@ -417,6 +417,16 @@ body{
         width: 1200px;
         margin: 0 auto;
         transform: translateY(190px);
+        
+    }
+    .slide1stWrap .li_1st{
+        background-image: url(../images/slider02-A.png);
+        height: 500px;
+        background-size: cover;
+        background-position: center;
+    }
+    .slide1stWrap .li_2st{
+        background-image: url(../images/business1\ 1-1.png);
     }
     .slide1stWrap .slide1st .bxPager{
         position: absolute;
@@ -690,7 +700,7 @@ body{
     .container .vision li:nth-child(2n){
         margin-right: 0;
     }
-
+  
 } /* mobile end */
 
 
