@@ -374,7 +374,7 @@ body{
         padding-left: 300px;
         transform: translateY(-70px);
      }
-    
+    /*!!!*/
     .slider1Txt{
         margin:0 auto;
         background-color: aqua;
@@ -664,9 +664,12 @@ body{
         font-size: 15px;
        padding-top: 10px;
     }
-
+    .content>ul>li:nth-child(4){
+        width: 250px;
+    }
     .content>ul>li:nth-child(4){
         padding:0 30px;
+        
     }
     .content>ul>li:nth-child(4) .txt4{
         font-size: 30px;
@@ -749,7 +752,117 @@ body{
     .container .vision li:nth-child(2n){
         margin-right: 0;
     }
+     /*!!!*/
+     .slider1Txt{
+        margin:0 auto;
+        background-color: aqua;
+    }
+    /*container02 영역이올시다*/
+    .container02{
+        position: relative;
+        bottom: -50px;
+        height: 750px;
+        background:#EEEEEE;
+        margin: 0 auto;
+    
+    }
+    .container02Txt{
+        position: relative;
+        background-color: aquamarine;  
+        margin: 0 auto;    
+        
+        
+    }   
+    .container02Txt>p{
+        position:absolute;
+        background-color: rgb(192, 192, 192);
+        margin: 0 auto;
+        font-size: 35px;
+        font-weight:bold;
+        color: #444444;
+        bottom: -110px;
+    }
+    .container02Txt ul{
+        position: absolute;
+        bottom: -160px;
+        left: 100px;
+    }
+    .container02Txt ul li{
+        float: left;
+        padding: 0 20px;
+        font-size: 18px;
+    }
+    .slide1stWrap{
+        width: 500px;
+        height: 800px;
+        margin: 0 auto;
+        transform: translateY(190px);
+        
+    }
+    .slide1stWrap .li_1st{
+        background-image: url(../images/slider02-A.png);
+        height: 500px;
+        background-size: cover;
+        background-position:right;
+    }  
+    .slide1st{
+        position: relative;
+    }
+    /*slider 글씨*/
+    .slide1stTxt{
+        width: 600px;
+        height: 200px;
+        background-color: white;
+        position: absolute;
+        bottom: 0;
+    }
+    .slid1T{
+        position: absolute;
+        left: 30px;
+        font-size: 18px;
+        font-weight: bold;
+        color: #0070C3;
+    }
+    .slid1T>p{
+        color: #444444;
+        font-size: 16px;
+    }
   
+    .slid1T>span{
+        font-weight: normal;
+        font-size: 16px;
+        color: #444444;
+    }
+
+    .slide1stWrap .li_2st{
+        background-image: url(../images/slider02-B.png);
+        height: 500px;
+        background-size: cover;
+        background-position:left;
+    }
+    .slide2stTxt{
+        width: 500px;
+        height: 500px;
+        background-color: white;
+        position: absolute;
+        right: -100px;
+    }
+    .slide1stWrap .li_3st{
+        background-image: url(../images/slider02-C.png);
+        height: 500px;
+        background-size: cover;
+        background-position:left;
+    }
+
+    .slide3stTxt{
+        width: 500px;
+        height: 500px;
+        background-color: white;
+        position: absolute;
+        right: -100px;
+    }
+  
+    
 } /* mobile end */
 
 
