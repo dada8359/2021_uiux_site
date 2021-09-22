@@ -428,6 +428,9 @@ body{
     .slide1st{
         position: relative;
     }
+
+  
+   
     /*slider 글씨*/
     .slide1stTxt{
         width: 500px;
@@ -787,7 +790,7 @@ body{
         position: absolute;
         bottom: -150px;
         left: 70px;
-        background-color: aquamarine;
+        _background-color: aquamarine;
     }
     .container02Txt ul li{
         float: left;
@@ -796,7 +799,7 @@ body{
     }
     .slide1stWrap{
         width: 350px;
-        height: 800px;
+        height: 1500px;
         margin: 0 auto;
         transform: translateY(190px);
         
@@ -824,16 +827,22 @@ body{
         font-size: 18px;
         font-weight: bold;
         color: #0070C3;
+        margin-top: 20px;
+        
     }
     .slid1T>p{
         color: #444444;
         font-size: 16px;
+        margin-bottom: -20px;
+       
     }
   
     .slid1T>span{
         font-weight: normal;
         font-size: 16px;
         color: #444444;
+        margin-bottom: -20px;
+       
     }
 
     .slide1stWrap .li_2st{
