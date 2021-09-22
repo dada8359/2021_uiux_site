@@ -387,7 +387,27 @@ body{
         background:#EEEEEE;
     
     }
-       
+    .container02Txt{
+        position: relative;
+        background-color: aquamarine;  
+        margin: 0 auto;    
+        width: 1500px; 
+    }   
+    .container02Txt>p{
+        position:absolute;
+        background-color: rgb(192, 192, 192);
+        left: 100px;
+        font-size: 35px;
+        font-weight:bold;
+        color: #444444;
+    }
+    .container02Txt ul{
+        position: absolute;
+        bottom: -100px;
+    }
+    .container02Txt ul li{
+        float: left;
+    }
     .slide1stWrap{
         width: 840px;
         margin: 0 auto;
