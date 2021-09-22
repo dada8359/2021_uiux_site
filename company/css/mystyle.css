@@ -396,8 +396,8 @@ body{
     }   
     .container02Txt>p{
         position:absolute;
-        background-color: rgb(192, 192, 192);
-        left: 110px;
+        _background-color: rgb(192, 192, 192);
+        left: 120px;
         font-size: 35px;
         font-weight:bold;
         color: #444444;
@@ -428,6 +428,7 @@ body{
     .slide1st{
         position: relative;
     }
+    /*slider 글씨*/
     .slide1stTxt{
         width: 500px;
         height: 500px;
@@ -438,21 +439,21 @@ body{
     .slid1T{
         position: absolute;
         left: 30px;
-        bottom: 100px;
+        bottom: 90px;
         font-size: 20px;
         font-weight: bold;
         color: #0070C3;
     }
     .slid1T>p{
-        margin-bottom: 20px;
+        margin-bottom: 10px;
         color: #444444;
-        font-size: 40px;
+        font-size: 30px;
     }
   
     .slid1T>span{
         margin-bottom: 20px;
         font-weight: normal;
-        font-size: 25px;
+        font-size: 20px;
         color: #444444;
     }
 
