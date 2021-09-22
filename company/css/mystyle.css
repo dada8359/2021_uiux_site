@@ -423,22 +423,62 @@ body{
         background-image: url(../images/slider02-A.png);
         height: 500px;
         background-size: cover;
-        background-position: center;
+        background-position:right;
+    }  
+    .slide1st{
+        position: relative;
     }
+    .slide1stTxt{
+        width: 500px;
+        height: 500px;
+        background-color: white;
+        position: absolute;
+        right: -100px;
+    }
+    .slid1T{
+        position: absolute;
+        left: 30px;
+        bottom: 250px;
+        font-size: 20px;
+        font-weight: bold;
+        color: #0070C3;
+    }
+    .slid1T>p{
+        margin-bottom: 20px;
+        color: #444444;
+        font-size: 40px;
+    }
+   
+
+
     .slide1stWrap .li_2st{
-        background-image: url(../images/business1\ 1-1.png);
+        background-image: url(../images/slider02-B.png);
         height: 500px;
         background-size: cover;
-        background-position: center;
+        background-position:left;
     }
-    .slide1stWrap .slide1st .bxPager{
-        position: absolute;
-        top: 0;
-        width: 300px;
+    .slide2stTxt{
+        width: 500px;
         height: 500px;
-        right: 0;
-        background-color: rgb(122, 63, 63);
+        background-color: white;
+        position: absolute;
+        right: -100px;
     }
+    .slide1stWrap .li_3st{
+        background-image: url(../images/slider02-C.png);
+        height: 500px;
+        background-size: cover;
+        background-position:left;
+    }
+
+    .slide3stTxt{
+        width: 500px;
+        height: 500px;
+        background-color: white;
+        position: absolute;
+        right: -100px;
+    }
+  
     
    
 } /* pc end */
