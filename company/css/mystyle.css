@@ -380,14 +380,14 @@ body{
         position: relative;
         bottom: -50px;
         height: 600px;
-        background: skyblue;
+        background:#EEEEEE;
     
     }
 
     .slide1stWrap{
-        width: 540px;
+        width: 840px;
         margin: 0 auto;
-        transform: translateY(100px);
+        transform: translateY(150px);
     }
 } /* pc end */
 
