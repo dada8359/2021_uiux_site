@@ -438,7 +438,7 @@ body{
     .slid1T{
         position: absolute;
         left: 30px;
-        bottom: 250px;
+        bottom: 50px;
         font-size: 20px;
         font-weight: bold;
         color: #0070C3;
@@ -448,8 +448,13 @@ body{
         color: #444444;
         font-size: 40px;
     }
-   
-
+  
+    .slid1T>span{
+        margin-bottom: 20px;
+        font-weight: normal;
+        font-size: 25px;
+        color: #444444;
+    }
 
     .slide1stWrap .li_2st{
         background-image: url(../images/slider02-B.png);
