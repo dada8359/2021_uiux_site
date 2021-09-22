@@ -427,6 +427,9 @@ body{
     }
     .slide1stWrap .li_2st{
         background-image: url(../images/business1\ 1-1.png);
+        height: 500px;
+        background-size: cover;
+        background-position: center;
     }
     .slide1stWrap .slide1st .bxPager{
         position: absolute;
