@@ -374,7 +374,11 @@ body{
         padding-left: 300px;
         transform: translateY(-70px);
      }
-     
+    
+    .slider1Txt{
+        margin:0 auto;
+        background-color: aqua;
+    }
 
     .container02{
         position: relative;
@@ -383,12 +387,14 @@ body{
         background:#EEEEEE;
     
     }
-
+       
     .slide1stWrap{
         width: 840px;
         margin: 0 auto;
         transform: translateY(150px);
     }
+
+   
 } /* pc end */
 
 
