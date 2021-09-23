@@ -493,10 +493,10 @@ body{
         position: relative;
         bottom: -100px;
         height: 250px;
-        background:#2c1d1d;
+        background:#F1F3F6;
     }
     .footer01{
-      background-color: chartreuse;
+      _background-color: chartreuse;
       width: 1200px;
       margin: 0 auto;
       position:relative;
