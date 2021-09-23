@@ -188,6 +188,10 @@ body{
     #header_top .gnb{
         _background: mediumseagreen;
     }
+    #header_top :hover{
+        
+        
+    }
     #header_top .gnb li{
         float: left;
     }
