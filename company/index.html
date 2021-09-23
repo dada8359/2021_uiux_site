@@ -40,16 +40,15 @@
             border: 0 none;
             margin-bottom: 0;
         }
-
+        .nextBtn,.prevBtn{
+            position: absolute;top:50%;margin-top: -50px;cursor:pointer
+        }
+        .nextBtn{right: -90px;}
+        .prevBtn{left: -90px;}
      
         
      </style>
-      <script>
-            // $(".youtube").colorbox({
-            //     iframe:true,
-            //     innerWidth:700,
-            //     innerHeight:394
-            // });
+      <script>      
 
             $(document).ready(function(){
             $('.slide1st').bxSlider({
@@ -60,10 +59,10 @@
             });   
             
             $('.nextBtn').click(function(){
-                myslide.goToNextSlide(); // bxslider public method option 
+                myslide.goToNextSlide(); 
             });
             $('.prevBtn').click(function(){
-                myslide.goToPrevSlide(); // bxslider public method option 
+                myslide.goToPrevSlide();
             });s
 
         }); 
