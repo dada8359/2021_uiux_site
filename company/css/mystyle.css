@@ -108,22 +108,41 @@ body{
     width: 1240px;
     margin: 0 auto;
     _background-color: wheat;
+    margin-bottom: 30px;
 }
+
 .container .section>p{
     text-align: center;
-    font-size: 50px;
-    margin-bottom: 30px;
+    font-size: 34px;
+    margin-bottom: -50px;
+    color: white;
+    margin: 35px auto;
+    _background-color: cornflowerblue;
+}
+.container .section>p .span0A{
+    text-align: center;
+    font-size: 34px;
     color: white;
     margin: 0 auto;
+    _background-color: cornflowerblue;
 }
-.container .section>p:after{
+.container .section>p>span{
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    margin: 0 auto;
+    _background-color: cornflowerblue;
+}
+.container .section>p .span0A:after{
     content:"";
     display: block;
-    width:250px;
-    height: 1px;
+    width:100px;
+    height: 2px;
     background: #fff;
-    margin: 20px auto;
+    margin: 5px auto;
 }
+
+
 .container .vision li{
     float: left;
     width: calc( ( 100% - 60px ) / 4 );
@@ -140,7 +159,7 @@ body{
 .container .vision li .card_body{
     padding: 5px;
     text-align: center;
-    font-size: 18px;
+    font-size: 16px;
     color:white;
 }
 
