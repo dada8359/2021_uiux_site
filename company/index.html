@@ -55,9 +55,16 @@
             $('.slide1st').bxSlider({
                 //mode:"fade",
                 pager:false,
-                //controls:false,
+                controls:false,
                 auto:true
-            });          
+            });   
+            
+            $('.nextBtn').click(function(){
+                myslide.goToNextSlide(); // bxslider public method option 
+            });
+            $('.prevBtn').click(function(){
+                myslide.goToPrevSlide(); // bxslider public method option 
+            });s
 
         }); 
     </script>
@@ -362,6 +369,12 @@
                     </div>
                 </li>
             </ul>
+            <div class="nextBtn">
+                <img src="images/btn_right.png" alt="">
+            </div>
+            <div class="prevBtn">
+                <img src="images/btn_left.png" alt="">
+            </div>
         </div>
 
     </div>
