@@ -185,14 +185,11 @@ body{
         align-items: center;
         z-index: 1; /*해당개체가 다른개체에게 먹히지않게 첫번째로!*/
     } 
-
+ 
     #header_top .gnb{
         _background: mediumseagreen;
     }
-    #header_top :hover{
-        
-        
-    }
+   
     #header_top .gnb li{
         float: left;
     }
@@ -204,6 +201,7 @@ body{
         font-size: 18px;
         color: white;    
     }
+    
     .toggle{display: none;}/*pc에는 토글 필요읎어*/
     
     /*slider안에 있는 이미지 크기를 설정하자*/
