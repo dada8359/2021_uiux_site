@@ -66,6 +66,7 @@ body{
     background-image: url(../images/movie\ pic.png);
     background-size: cover;
 } 
+ 
 .content>ul>li:nth-child(3){
     width: 25%;
     transform: translateY(-100%); 
@@ -833,7 +834,7 @@ body{
     }
     .slide1stWrap{
         width: 350px;
-        height: 1500px;
+        /* height: 1500px; */
         margin: 0 auto;
         transform: translateY(190px);
         
