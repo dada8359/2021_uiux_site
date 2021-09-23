@@ -248,15 +248,17 @@ body{
     }
     .content>ul>li:nth-child(1) .txt1_1{
         font-size: 30px;
-        padding-top: 120px;
-        line-height: 50px;
-        color: white;
-        font-weight: normal;
+         padding-top: 100px;
+         line-height: 50px;
+         color: white;
+         font-weight: normal;
     }
     .content>ul>li:nth-child(1) .txt1_2{
         font-size: 14px;
         color: white;
         font-weight:lighter;
+        padding-top: 10px;
+         line-height: 20px;
       }
     .content>ul>li:nth-child(2) .txt02{
         _background-color: thistle;
@@ -298,7 +300,7 @@ body{
          color: white;
          font-weight:lighter;
          padding-top: 10px;
-         line-height: 25px;
+         line-height: 20px;
         
      }
 
