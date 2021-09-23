@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/myreset.css">
     <link rel="stylesheet" href="css/mystyle.css">
     <link rel="stylesheet" href="css/jquery.bxslider.css">
+    <link rel="stylesheet" href="css/colorbox.css">
      <!--제이쿼리-->
     <script src="js/jquery-3.1.1.min.js"></script>
     <script src="js/jquery.bxslider.js"></script>
@@ -44,11 +45,11 @@
         
      </style>
       <script>
-            $(".youtube").colorbox({
-                iframe:true,
-                innerWidth:700,
-                innerHeight:394
-            });
+            // $(".youtube").colorbox({
+            //     iframe:true,
+            //     innerWidth:700,
+            //     innerHeight:394
+            // });
 
             $(document).ready(function(){
             $('.slide1st').bxSlider({
@@ -59,11 +60,21 @@
             });          
 
         }); 
+    </script>
 
+    <script>
+        $(document).ready(function(){
+            $(".modal").colorbox({
+                rel:".modal"
+            });
 
+            $(".youtube").colorbox({
+                iframe:true,
+                innerWidth:700,
+                innerHeight:794
+            })
+        });
 
-        
-         
         
     </script>
 </head>
