@@ -208,7 +208,7 @@ body{
     .gnb>ul>li:hover .submenu{
         top:40px;
     }
-    .gnb>li>a:after, .lnb>li>a:after {
+    .gnb>li>a:after{
         content: '';
         display:block; 
         border-bottom: solid 3px #553A31; 
