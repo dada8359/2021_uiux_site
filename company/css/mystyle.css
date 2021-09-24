@@ -216,8 +216,8 @@ body{
     #header_top:hover{
         position: fixed; 
         z-index: 1000;
-        width: 1700px;
-        background: #FFC905; 
+        width: 1710px;
+        background: #00000034; 
         transition: 1s;
         height: 80px;
         top: 0;
