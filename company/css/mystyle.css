@@ -208,14 +208,7 @@ body{
     .gnb>ul>li:hover .submenu{
         top:40px;
     }
-    .gnb>li>a:after{
-        content: '';
-        display:block; 
-        border-bottom: solid 3px #553A31; 
-        transform: scaleX(0); 
-        transition: 0.2s ease-in-out;
-    }
-    .gnb>li>a:hover:after, .lnb>li>a:hover:after {transform: scaleX(1);}
+    
     .submenu{position: absolute;top:-500%;width: 100%;background: rgb(168, 166, 166);transition:0.3s}
     .submenu a{text-align: center;display: block;line-height: 30px;font-size: 14px;}
     .submenu a:hover{background: pink;}
