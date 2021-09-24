@@ -203,28 +203,45 @@ body{
         z-index: 1;
      }
     .gnb>ul>li:hover{
-        background: rgb(42, 42, 42 ,0.8);
+        background:#00000077;
     } 
     .gnb>ul>li:hover .submenu{
         top:40px;
     }
+    .gnb .bar{
+        width: 2;height: 5px;background: orange;
+        position: absolute;bottom: 0;right: 0;
+        /* animation-name:bar; */
+        animation-duration: 0.3s;
+        animation-fill-mode:forwards;
+    }
+    @keyframes bar{
+        to{width: 100%;}
+    }
+
     
-    .submenu{position: absolute;top:-500%;width: 100%;background: rgb(168, 166, 166);transition:0.3s}
-    .submenu a{text-align: center;display: block;line-height: 30px;font-size: 14px;}
-    .submenu a:hover{background: pink;}
+ 
+
    
+    .submenu{position: absolute;top:-500%;width: 100%;background:rgba(0, 0, 0, 0.157);transition:0.3s}
+    .submenu a{text-align: center;display: block;line-height: 30px;font-size: 14px;}
+    .submenu a:hover{ background: rgba(0, 0, 0, 0.253);}
+     
     #header_top .gnb{
         _background: mediumseagreen;
     }
+    
     #header_top:hover{
         position: fixed; 
         z-index: 1000;
         width: 1710px;
-        background: #00000034; 
+        background: #08080875; 
         transition: 1s;
         height: 80px;
         top: 0;
+    
     }
+  
 
     #header_top.ani {
         animation: headTopAni 1s forwards;
@@ -247,7 +264,7 @@ body{
         font-size: 18px;
         color: white;    
     }
-    
+ 
    
     
       
