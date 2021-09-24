@@ -175,7 +175,8 @@ body{
 
     #header_top{
         width: 1240px;
-        _background: green;
+        margin: 0 auto;
+        _background: rgb(70, 70, 70,0.5);
         position: fixed; /*스크린의 뷰포트(viewport)를 기준으로 한 위치에 배치, 스크롤되어도 움직이지 않는 고정된 자리를 갖음*/
         left: 50%;
         transform: translateX(-50%); /*left:50%,translateX:-50% 가운데 정렬*/
@@ -185,14 +186,56 @@ body{
         align-items: center;
         z-index: 1; /*해당개체가 다른개체에게 먹히지않게 첫번째로!*/
     } 
- 
+   
+    .gnb>ul>li{
+
+        float: left;
+        width: calc(100% / 5); 
+        _background: skyblue;
+        transition:0.3s;
+        position: relative;
+    }
+    .gnb>ul>li>a{
+        display: block;
+        line-height: 40px;
+        text-align: center;
+        position: relative;
+        z-index: 1;
+     }
+    .gnb>ul>li:hover{background: rgb(42, 42, 42 ,0.8);} 
+    .gnb>ul>li:hover .submenu{top:40px;}
+    .gnb>li>a:after, .lnb>li>a:after {content: ''; display:block; border-bottom: solid 3px #553A31; transform: scaleX(0); transition: 0.2s ease-in-out;}
+    .gnb>li>a:hover:after, .lnb>li>a:hover:after {transform: scaleX(1);}
+    .submenu{position: absolute;top:-500%;width: 100%;background: rgb(168, 166, 166);transition:0.3s}
+    .submenu a{text-align: center;display: block;line-height: 30px;font-size: 14px;}
+    .submenu a:hover{background: pink;}
+   
     #header_top .gnb{
         _background: mediumseagreen;
     }
-   
-    #header_top .gnb li{
-        float: left;
+    #header_top:hover{
+        position: fixed; 
+        z-index: 1000;
+        width: 1700px;
+        background: #FFC905; 
+        transition: 1s;
+        height: 80px;
+        top: 0;
     }
+
+    #header_top.ani {
+        animation: headTopAni 1s forwards;
+    }
+    @keyframes headTopAni {
+        0% {top: -120px; opacity: 0}
+        100% {top: 0; opacity: 1}
+        }
+  
+   #header_top .gnb li{
+        float: left;
+        width: 160px;
+        margin: 0 auto;
+     }
     #header_top .gnb li a{
         display: block; 
         text-align: center;
@@ -201,6 +244,10 @@ body{
         font-size: 18px;
         color: white;    
     }
+    
+   
+    
+      
     
     .toggle{display: none;}/*pc에는 토글 필요읎어*/
     
@@ -566,7 +613,7 @@ body{
 
 @media screen and ( max-width:699px ){
     #main_header{_background: rgb(122, 63, 63);}
-    
+    .submenu{display: none;}
     #header_top{
         background: rgb(0, 0, 0,0.2);
         padding: 0 16px;
