@@ -35,14 +35,14 @@
 <body>
       <div class="header">
           <div class="layer p0" data-speed="4"></div>
-          <div class="layer p1" data-speed="4"></div>
-          <div class="layer p2" data-speed="4"></div>
-          <div class="layer p3" data-speed="4"></div>
-          <div class="layer p4" data-speed="4"></div>
-          <div class="layer p5" data-speed="4"></div>
-          <div class="layer p6" data-speed="4"></div>
-          <div class="layer p7" data-speed="4"></div>
-          <div class="layer p8" data-speed="4"></div>
+          <div class="layer p1" data-speed="5"></div>
+          <div class="layer p2" data-speed="6"></div>
+          <div class="layer p3" data-speed="7"></div>
+          <div class="layer p4" data-speed="8"></div>
+          <div class="layer p5" data-speed="10"></div>
+          <div class="layer p6" data-speed="20"></div>
+          <div class="layer p7" data-speed="30"></div>
+          <div class="layer p8" data-speed="50"></div>
       </div>
 
       <div class="container">
@@ -51,6 +51,20 @@
 
       <script>
           Let layer = document.querySelectorAll(".layer");
+          
+          window.addEventListener("scroll",function(){
+            Let scroll = window.pageYOfferset;
+            // console.log(scroll)
+            
+            layer.forEach(function(item,index){
+                // data-speed / scroll / style.transform
+
+                 Let speed = item.dataset.speed;
+
+                item.style.transform = `translate3d(0,${scroll/speed*4}px,0)`
+            })
+
+          })
       </script>
 </body>
 </html>

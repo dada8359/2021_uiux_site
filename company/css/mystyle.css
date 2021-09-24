@@ -203,29 +203,18 @@ body{
         z-index: 1;
      }
     .gnb>ul>li:hover{
-        background:#00000077;
+        background:#0000009b;
+        transition: 0.5s;
     } 
     .gnb>ul>li:hover .submenu{
         top:40px;
     }
-    .gnb .bar{
-        width: 2;height: 5px;background: orange;
-        position: absolute;bottom: 0;right: 0;
-        /* animation-name:bar; */
-        animation-duration: 0.3s;
-        animation-fill-mode:forwards;
-    }
-    @keyframes bar{
-        to{width: 100%;}
-    }
-
     
  
 
-   
-    .submenu{position: absolute;top:-500%;width: 100%;background:rgba(0, 0, 0, 0.157);transition:0.3s}
+    .submenu{position: absolute;top:-500%;width: 100%;background:rgba(0, 0, 0, 0.534);transition:0.3s}
     .submenu a{text-align: center;display: block;line-height: 30px;font-size: 14px;}
-    .submenu a:hover{ background: rgba(0, 0, 0, 0.253);}
+    .submenu a:hover{ background:#050e18;}
      
     #header_top .gnb{
         _background: mediumseagreen;
@@ -235,7 +224,7 @@ body{
         position: fixed; 
         z-index: 1000;
         width: 1710px;
-        background: #08080875; 
+        background: #030613; 
         transition: 1s;
         height: 80px;
         top: 0;
