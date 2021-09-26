@@ -777,7 +777,7 @@ body{
         
 
     }
-    /*오류*/
+    /*프로그램오류임*/
     #header_top .gnb li a{
         float:none;
         line-height: 40px;
