@@ -174,7 +174,7 @@ body{
     
 
     #header_top{
-        width: 1240px;
+        width: 1440px;
         margin: 0 auto;
         background: rgb(70, 70, 70,0.5);
         position: fixed; /*스크린의 뷰포트(viewport)를 기준으로 한 위치에 배치, 스크롤되어도 움직이지 않는 고정된 자리를 갖음*/
@@ -208,7 +208,7 @@ body{
         position: fixed;
         z-index: 1000;
         width: 100%;
-        _background: #1d1e20; 
+        background: #1d1e20; 
         transition: 1s;
         height: 120px; 
         top: 0;
@@ -219,31 +219,31 @@ body{
         height: 320px; 
     }
     
-    /*헤더메뉴탭이올시다*/
+    /*헤더메뉴탭 ver02이올시다*/
     .gnb {
         width: 900px; 
         float: left; 
         margin-top: 35px; 
         margin-left: 80px;
-        _background-color: #05182c;
+        background-color: #1d4730;
         transition: 1s;
     }
     .menuline{
         display: none;
     }
-    .gnb>li {
+    .gnb li {
         float: left; 
         width: calc(780px / 6); 
         text-align: center; 
-        position: relative;
+        /* position: relative; */
         left: 100px;
      
     }
     
-    .gnb>li>a {
+    .gnb li a {
         display:inline-block;
         line-height: 45px; 
-        text-align: center; 
+        text-align: left; 
         color: #fff; 
         font-size: 16px;
     }
@@ -265,6 +265,7 @@ body{
     
     .gnb:hover .submenu{
        display: block;
+       
     }
     .gnb>li>a{
         font-size: 18px;
@@ -281,7 +282,7 @@ body{
         font-size: 16px;
         font-weight:lighter;
      } 
-    .submenu{display: none;} 
+    /* .submenu{display: none;}  */
     
     
 
@@ -742,7 +743,7 @@ body{
 
 @media screen and ( max-width:699px ){
     #main_header{_background: rgb(122, 63, 63);}
-    .submenu{display: none;}
+   
     #header_top{
         background: rgb(0, 0, 0,0.2);
         padding: 0 16px;
@@ -754,7 +755,7 @@ body{
         justify-content: space-between;
         align-items:center;
     }
-    #header_top .gnb{
+    /* #header_top .gnb{
         position: fixed;
         width: 100%;
         height: 100%;
@@ -762,14 +763,23 @@ body{
         left: 0;
         top:-100%;
         display: flex;
-        justify-content: center;/*flex의 가운데 속성*/
-    }
+        justify-content: center;
+    } */
     #header_top .gnb.view{
         top: 0;
     }
     #header_top .gnb{
-        background-color:rgba(0, 0, 0, 0.9);
+
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        background: skyblue;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        bottom:-100%
     }
+    #header_top>.gnb>li{width: 20%;}
     #header_top>.gnb>li a{
         line-height: 15px;
         width: 200px;
@@ -780,14 +790,19 @@ body{
         font-size: 25px;
         font: weight 300px;
         color: white;
-        background: #004B9E;
+        background: #004B9E; 
+         /* display: block;background: orange;line-height: 40px;
+        text-align: center;margin-bottom: 10px; */
     }
+    .submenu{display: none;}
+    .menuline{display: none;}
+   
     #header_top .logo {
-        _background: chocolate;
+        background: chocolate;
         height: 40px;
         padding: 0 10px;
     }
-  
+    
     #header_top .gnb li{
         margin-bottom:25px;
     }
@@ -798,7 +813,7 @@ body{
     .toggle{
         width: 40px;
         height: 40px;
-        _background: rgb(160, 102, 102);
+        background: rgb(160, 102, 102);
         position: relative;
     }
     .toggle div{ /*토글바 3개짜리 만드는거야*/
@@ -829,8 +844,7 @@ body{
         transform:translate(-50%,-50%)
         rotate(-45deg)
     }
-    .menuline{display: none;}
-    .submenu{display: none;}
+
     .sliderWrap .slider{width: 100%;} /*테스트*/
     .sliderWrap .li_1st,.sliderWrap .li_2st{
         height: 100vh;
