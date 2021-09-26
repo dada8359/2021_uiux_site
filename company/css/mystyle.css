@@ -777,16 +777,15 @@ body{
         
 
     }
-    /*프로그램오류임*/
     #header_top .gnb li a{
         float:none;
         line-height: 40px;
         _background: orange;
         width: 200px;
         display: block;
-        font-size: 10px;
+        font-size: 20px;
         padding: 10px; 
-
+        text-align: center;
         color: white;
     }
     .submenu{display: none;}
