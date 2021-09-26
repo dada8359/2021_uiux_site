@@ -205,9 +205,9 @@ body{
 
   .visonmain_txt{
       position: relative;
-      _background-color: blue;
+      background-color: blue;
       text-align: left;
-      left: 20px;
+      left: -50px;
       margin-top: 70px;
       padding-left: 0px;
       font-size: 17px;
@@ -221,11 +221,7 @@ body{
   }
   .visonmain_txt>img{
       position: absolute;
-      width: 900px;
-      height: 600px;
-      left: 30px;
-      bottom: 0px;
-      
+      left: -40px;
   }
   .main_to{
       _background-color: olivedrab;

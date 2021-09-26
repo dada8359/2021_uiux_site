@@ -203,9 +203,9 @@ body{
     color: rgb(3, 40, 109); 
 }
 
-  .visonmain_txt{
+  .yearmain_txt{
      
-     background-color: blue;
+     background-color: rgb(247, 0, 255);
      width: 800px;
      height: 800px;
      margin: 0 auto;
@@ -230,7 +230,7 @@ body{
 #footer{
     margin: 0 auto;
     position: relative;
-    bottom: -600px;
+    bottom: -1600px;
     height: 250px;
     background:#F1F3F6;
 }
