@@ -203,17 +203,12 @@ body{
     color: rgb(3, 40, 109); 
 }
 
-  .main_txt{
-      position: relative;
-      _background-color: blue;
-      text-align: left;
-      left: 20px;
-      margin-top: 70px;
-      padding-left: 0px;
-      font-size: 17px;
-      font-weight: normal;
-      line-height: 30px;
-      color: #444;
+  .visonmain_txt{
+     
+     background-color: blue;
+     width: 800px;
+     height: 800px;
+     margin: 0 auto;
   }
   .main_txt>img{
       position: absolute;
@@ -233,6 +228,7 @@ body{
 
  
 #footer{
+    margin: 0 auto;
     position: relative;
     bottom: -600px;
     height: 250px;

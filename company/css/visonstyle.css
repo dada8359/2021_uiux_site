@@ -203,7 +203,7 @@ body{
     color: rgb(3, 40, 109); 
 }
 
-  .main_txt{
+  .visonmain_txt{
       position: relative;
       _background-color: blue;
       text-align: left;
@@ -214,12 +214,17 @@ body{
       font-weight: normal;
       line-height: 30px;
       color: #444;
+      width: 1000px;
+      height: 500px;
+     margin: 0 auto;
+     text-indent: -99999;
   }
-  .main_txt>img{
+  .visonmain_txt>img{
       position: absolute;
-      width: 400px;
+      width: 900px;
       height: 600px;
-      left: 750px;
+      left: 30px;
+      bottom: 0px;
       
   }
   .main_to{
@@ -231,8 +236,10 @@ body{
       color: rgb(3, 40, 109); 
   }
 
- 
+/* ----------footer이올시다------------ */
+
 #footer{
+    
     position: relative;
     bottom: -600px;
     height: 250px;
@@ -278,6 +285,3 @@ font-size: 16px;
     border-color: #8D8D8D;
     border-radius:1px;
 }
-/* pc End */
-
-
