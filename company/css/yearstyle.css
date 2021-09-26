@@ -204,18 +204,19 @@ body{
 }
 
   .yearmain_txt{
-     
+     position:relative;
      background-color: rgb(247, 0, 255);
      width: 800px;
      height: 800px;
      margin: 0 auto;
+     bottom: -100px;
   }
   .main_txt>img{
       position: absolute;
       width: 400px;
       height: 600px;
       left: 750px;
-      
+     
   }
   .main_to{
       _background-color: olivedrab;
