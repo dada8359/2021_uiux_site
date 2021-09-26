@@ -176,7 +176,7 @@ body{
     #header_top{
         width: 1440px;
         margin: 0 auto;
-        background: rgb(70, 70, 70,0.5);
+        _background: rgb(70, 70, 70,0.5);
         position: fixed; /*스크린의 뷰포트(viewport)를 기준으로 한 위치에 배치, 스크롤되어도 움직이지 않는 고정된 자리를 갖음*/
         left: 50%;
         transform: translateX(-50%); /*left:50%,translateX:-50% 가운데 정렬*/
@@ -204,20 +204,20 @@ body{
         float: left; 
         margin-top: 40px;
     }
-    .header_top {
+    #header_top {
         position: fixed;
         z-index: 1000;
-        width: 100%;
-        background: #1d1e20; 
+        width: 1240px;
+        _background: #1d1e20; 
         transition: 1s;
         height: 120px; 
         top: 0;
     }
     
-    .header_top:hover{
+     #header_top:hover{
         background: #05182c; 
         height: 320px; 
-    }
+    } 
     
     /*헤더메뉴탭 ver02이올시다*/
     .gnb {
@@ -225,7 +225,7 @@ body{
         float: left; 
         margin-top: 35px; 
         margin-left: 80px;
-        background-color: #1d4730;
+        _background-color: #1d4730;
         transition: 1s;
     }
     .menuline{
@@ -282,12 +282,12 @@ body{
         font-size: 16px;
         font-weight:lighter;
      } 
-    /* .submenu{display: none;}  */
+     .submenu{display: none;}  
     
     
 
 
-
+    /*headermenu ver01*/
     /* .gnb>ul>li{
 
         float: left;
@@ -771,26 +771,27 @@ body{
     #header_top .gnb{
 
         position: fixed;
+        left: 0;
         width: 100%;
         height: 100%;
-        background: skyblue;
+        background: rgba(0, 0, 0, 0.698);
         display: flex;
         justify-content: center;
         align-items: center;
         bottom:-100%
     }
-    #header_top>.gnb>li{width: 20%;}
-    #header_top>.gnb>li a{
+    #header_top .gnb li{width: 20%;}
+    #header_top .gnb li a{
         line-height: 15px;
         width: 200px;
         display: block;
         font-size: 1em;
-        margin-top: 105px;
+        margin-top: 60px;
         text-align: center;
-        font-size: 25px;
+        font-size: 20px;
         font: weight 300px;
         color: white;
-        background: #004B9E; 
+        _background: #004B9E; 
          /* display: block;background: orange;line-height: 40px;
         text-align: center;margin-bottom: 10px; */
     }
