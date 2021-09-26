@@ -207,21 +207,21 @@ body{
       position: relative;
       background-color: blue;
       text-align: left;
-      left: -50px;
+      left: -170px;
       margin-top: 70px;
       padding-left: 0px;
       font-size: 17px;
       font-weight: normal;
       line-height: 30px;
       color: #444;
-      width: 1000px;
+      width: 600px;
       height: 500px;
      margin: 0 auto;
      text-indent: -99999;
   }
   .visonmain_txt>img{
       position: absolute;
-      left: -40px;
+      left: -140px;
   }
   .main_to{
       _background-color: olivedrab;
@@ -237,7 +237,7 @@ body{
 #footer{
     
     position: relative;
-    bottom: -600px;
+    bottom: -960px;
     height: 250px;
     background:#F1F3F6;
 }
