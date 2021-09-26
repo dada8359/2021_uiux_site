@@ -793,7 +793,6 @@ body{
     .menuline{display: none;}
    
     #header_top .logo {
-        _background: chocolate;
         height: 40px;
         padding: 0 10px;
     }
@@ -808,7 +807,6 @@ body{
     .toggle{
         width: 40px;
         height: 40px;
-        _background: rgb(160, 102, 102);
         position: relative;
     }
     .toggle div{ /*토글바 3개짜리 만드는거야*/
