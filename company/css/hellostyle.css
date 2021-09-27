@@ -386,7 +386,7 @@ body{
     .header_top .gnb li a{
         float:none;
         line-height: 40px;
-        background: orange;
+        _background: orange;
         width: 200px;
         display: block;
         font-size: 20px;
@@ -418,7 +418,7 @@ body{
         position: absolute;
         width: 35px;
         height: 3px;
-        background: rgb(161, 67, 67);
+        background: rgb(255, 255, 255);
         left: 50%;/*왼쪽에서 50%만큼*/
         top:50%;/*위에서 50%만큼*/
         transform: translate(-50%,-50%);/* x축-50%,y축-50% */
