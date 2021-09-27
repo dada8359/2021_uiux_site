@@ -500,7 +500,7 @@ body{
         color: rgb(3, 40, 109); 
     }
 
-    .visonmain_txt{
+    .yearmain_txt{
         position: relative;
         _background-color: blue;
         text-align: left;
@@ -512,9 +512,9 @@ body{
         line-height: 30px;
         color: #444;
     }
-    .visonmain_txt>img{
+    .yearmain_txt>img{
         width: 400px;
-        height: 300px;
+        height: 500px;
         margin-bottom: 200px;
         
     }
@@ -587,7 +587,7 @@ body{
     /*footer*/
     #footer{
         position: relative;
-        bottom: -400px;
+        bottom: -600px;
         height: 250px;
         background:#F1F3F6;
         width: 100%;
