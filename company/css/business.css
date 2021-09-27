@@ -153,14 +153,42 @@ display: block;
     
 }
 .tab li.on{background: skyblue;}
+/* .box{width: 100%; height: 100%; background-color: crimson;}
+.box div{
+    display: none;
+    width: 200px;
+    padding:20px;
+}
+.box div:first-child{display: block;} */
 
-.box div{display: none;width: 200px;padding:20px}
-.box div:first-child{display: block;}
-
-/*tabContents*/
+/*Contents*/
 .contents  {
     height: 100%;
     position: relative;
     top:450px;  
     background-color: aqua;
 }
+.box{
+    /* width: 100%; 
+    height: 100%; 
+    background-color: crimson; */
+}
+.box div{
+    display: none;
+    width: 200px;
+    padding:20px;
+}
+.box div:first-child{
+    display: block;
+}
+
+
+/* .box .location {
+    display: flex;
+}
+.location>a {
+    font-size: 14px;
+}
+.location>a.on {
+    color: #0633af;
+} */
