@@ -5,22 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>사업소개</title>
-    <style>
-        *{margin: 0;padding: 0;}
-        li{list-style: none;}
-        .tab{display: flex;}
-        .tab li{
-            width: 100px;text-align: center;
-            padding:10px 0
-        }
-        .tab li.on{background: skyblue;}
+    <link rel="stylesheet" href="css/myreset.css">
+    <link rel="stylesheet" href="css/business.css">
 
-        .box div{display: none;width: 200px;padding:20px}
-        .box div:first-child{display: block;}
-
-    </style>
+     <!--제이쿼리-->
+     <script src="js/jquery-3.1.1.min.js"></script>
+     <script src="js/jquery.bxslider.js"></script>
+     <script src="js/myscript.js"></script>
+ 
+ 
 </head>
+
+   
+
 <body>
+
     <header id="header hello">
         <div class="header_top">
           <div class="wrap">
@@ -93,19 +92,55 @@
               </li>
             
             </ul>
-          </div>
-    <ul class="tab">
-        <li class="on" data-num="0">사업실적</li>
-        <li data-num="1">토목분야</li>
-        <li data-num="2">건축분야</li>
-        <li data-num="3">주택분야</li>
+          </div><!-- wrap -->
+
+          <div class="toggle">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </div>       
+        </div><!-- header_top -->
+
+          <div class="banner hello">
+            <div class="bannerWrap"><!--이미지삽입-->
+                 <div class="bannerTitle">
+                   <p class="Btitle">회사소개<br>
+                     <span class="Btitle02">회사에서 이뤄낸 기술변화가 세상을 바꿉니다</span>
+                   </p>
+                 </div> 
+              </div>
+              <div class="BannerMenu">
+                <ul class="tab">
+                    <li class="on" data-num="0">tab1</li>
+                    <li data-num="1">tab2</li>
+                    <li data-num="2">tab3</li>
+                    <li data-num="3">tab4</li>
+                </ul>
+              </div> 
+          
+            </div>
+       
+      </header>
+      <div class="box">
+        <div>빰.</div>
+        <div>빠빰</div>
+        <div>3Numquam perferendis assumenda, qui autem totam aperiam quasi sequi voluptatum?</div>
+        <div>4Quasi perferendis vero nobis deserunt fugit debitis eaque praesentium rerum?</div>
+    </div>
+
+
+   <!-- <ul class="tab">
+        <li class="on" data-num="0">tab1</li>
+        <li data-num="1">tab2</li>
+        <li data-num="2">tab3</li>
+        <li data-num="3">tab4</li>
     </ul>
     <div class="box">
-        <div>사업실적넣기</div>
-        <div>토목분야넣기</div>
-        <div>건축분야넣기</div>
-        <div>주택분야넣기</div>
-    </div>
+        <div>빰.</div>
+        <div>빠빰</div>
+        <div>3Numquam perferendis assumenda, qui autem totam aperiam quasi sequi voluptatum?</div>
+        <div>4Quasi perferendis vero nobis deserunt fugit debitis eaque praesentium rerum?</div>
+    </div> -->
 
     <script>
         const tabList = document.querySelectorAll(".tab li");
@@ -130,7 +165,16 @@
             }
 
         }
-    
-    </script>
+
+
+        
+    </script> -->
+
+
+
+
+
+
+  
 </body>
 </html>
