@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>사업소개</title>
+    <style>
+        *{margin: 0;padding: 0;}
+        li{list-style: none;}
+        .tab{display: flex;}
+        .tab li{
+            width: 100px;text-align: center;
+            padding:10px 0
+        }
+        .tab li.on{background: skyblue;}
+
+        .box div{display: none;width: 200px;padding:20px}
+        .box div:first-child{display: block;}
+
+    </style>
+</head>
+<body>
+    <header id="header hello">
+        <div class="header_top">
+          <div class="wrap">
+            <h1 class="logo">
+                <a href="index.html">
+                    <img src="images/whiteLogo 1.png" alt="">
+                </a>
+            </h1>
+           
+            <ul class="gnb clearfix">
+              <li>
+                  <a href="#">
+                      회사소개
+                      <span class="menuline">line</span>
+                    </a>
+                <ul class="submenu">
+                  <li><a href="./hello.html">인사말</a></li>
+                  <li><a href="./vison.html">비전</a></li>
+                  <li><a href="./year.html">회사연혁</a></li>
+                  <li><a href="./orgai.html">조직도</a></li>
+                </ul>
+              </li>
+             
+              <li>
+                  <a href="#">
+                    사업소개
+                  <span class="menuline">line</span>
+                  </a>
+                <ul class="submenu">
+                    <li><a href="#">사업실적</a></li>
+                    <li><a href="#">토목분야</a></li>
+                    <li><a href="#">건축분야</a></li>
+                    <li><a href="#">주택분야</a></li>
+                </ul>
+              </li>
+             
+              <li>
+                  <a href="#">
+                      디지털홍보관
+                     <span class="menuline">line</span>
+                  </a>
+                <ul class="submenu">
+                    <li><a href="#">홍보관</a></li>
+                    <li><a href="#">CI/BI</a></li>
+                    <li><a href="#">기업문화</a></li>
+                </ul>
+              </li>
+             
+              <li>
+                  <a href="#">
+                      채용정보
+                      <span class="menuline">line</span>
+                  </a>
+                <ul class="submenu">
+                    <li><a href="#">인재채용</a></li>
+                    <li><a href="#">인사정보</a></li>                       
+                </ul>
+              </li>
+
+              <li>
+                  <a href="#">
+                    고객센터
+                  <span class="menuline">line</span>
+                </a>
+                <ul class="submenu">
+                    <li><a href="#">고객센터안내</a></li>
+                    <li><a href="#">자주묻는질문</a></li>
+                    <li><a href="#">고객상담실</a></li>
+                </ul>
+              </li>
+            
+            </ul>
+          </div>
+    <ul class="tab">
+        <li class="on" data-num="0">사업실적</li>
+        <li data-num="1">토목분야</li>
+        <li data-num="2">건축분야</li>
+        <li data-num="3">주택분야</li>
+    </ul>
+    <div class="box">
+        <div>사업실적넣기</div>
+        <div>토목분야넣기</div>
+        <div>건축분야넣기</div>
+        <div>주택분야넣기</div>
+    </div>
+
+    <script>
+        const tabList = document.querySelectorAll(".tab li");
+        const boxCon = document.querySelectorAll(".box div");
+
+        
+        for(let j=0;j<tabList.length;j++){
+
+            tabList[j].onclick = function(){
+               
+                for(let i=0;i<tabList.length;i++){
+                    tabList[i].classList.remove("on"); // addClass() removeClass("on")
+                }
+
+                for(let i=0;i<tabList.length;i++){
+                    boxCon[i].style.display = "none";
+                }
+                //this.classList.add("on");
+                tabList[j].classList.add("on");
+                boxCon[j].style.display = "block"
+
+            }
+
+        }
+    
+    </script>
+</body>
+</html>
