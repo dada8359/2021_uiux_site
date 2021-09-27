@@ -424,12 +424,17 @@ body{
    
     
     .BannerMenu{
-        display: block;
-       
-        margin:  0 auto;
+        width: 480px;
+        border-bottom: 4px solid #004895;
+        margin: auto;
+        position: absolute;
+        top: 399px;
+        left: 50%;
+        transform: translate(-50%,-98%);
+    }
        }
     .BannerMenu ul {
-      width: 400px;
+      width: 410px;
       position: absolute;
       left: 412px;
       bottom: 0px;
