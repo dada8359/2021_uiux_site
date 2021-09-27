@@ -19,7 +19,7 @@ body{
         height: 900px;
         margin-bottom: 800px;
     }
-    #header{
+    .header{
         position: relative;
     }
     .logo img {
@@ -444,18 +444,7 @@ body{
     }
 
     
-
-    .BannerMenu {
-        width: 500px;
-        border-bottom: 4px solid #383b3f;
-        margin: auto;
-        position: absolute;
-        top: 399px;
-        left: 50%;
-        transform: translate(-50%,-98%); 
-      
-       
-    }
+   
     .bannerTitle{   
         width: 200px;
         background-color: rgb(4, 37, 26);
@@ -485,22 +474,30 @@ body{
     }
    
     
-     
+    .BannerMenu{
+        display: block;
+       
+        margin:  0 auto;
+       }
     .BannerMenu ul {
-        display: flex;
+      width: 400px;
+      position: absolute;
+      left: 430px;
+      bottom: 0px;
+
     }
     .BannerMenu li {
         flex: 1;
     }
     .BannerMenu li a {
         display: block;
-        line-height: 50px; 
+        line-height: 10px; 
         text-align: center; 
         color: #444; 
         /* background: #F3F3F3; */
     }
     .BannerMenu li.active a {
-        /* background:#0B3460; */
+         background:#0B3460; 
         color: #fff;
         }
     .BannerMenu li a:hover {
