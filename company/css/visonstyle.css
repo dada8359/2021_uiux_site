@@ -433,7 +433,7 @@ body{
         left: 50%;
         transform: translate(-50%,-98%);
     }
-       }
+       
     .BannerMenu ul {
       width: 410px;
       position: absolute;
@@ -508,7 +508,7 @@ body{
 
     .visonmain_txt{
         position: relative;
-        background-color: blue;
+        _background-color: blue;
         text-align: left;
         left: 50px;
         margin-top: 70px;
