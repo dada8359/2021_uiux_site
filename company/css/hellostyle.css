@@ -378,21 +378,22 @@ body{
         bottom:-100%
     }
     .header_top .gnb li{
-        width: 20% ; 
-        background-color:violet;
-        
-
+         width: 100% ; 
+        _background-color:violet;
+         float: left;     
+   
     }
-    .header_top .gnb li a{
-        float:none;
+    .header_top .gnb li a {
+         float: none;
         line-height: 40px;
-        _background: orange;
+        background: orange;
         width: 200px;
         display: block;
-        font-size: 20px;
-        padding: 10px; 
+        font-size: 10px;
+        padding: 10px;
         text-align: center;
-        color: white;
+        color: white; 
+        
     }
     .submenu{display: none;}
     .menuline{display: none;}
