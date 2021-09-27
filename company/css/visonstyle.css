@@ -495,12 +495,12 @@ body{
         justify-content: center;
         margin-top: 50px;
         text-align: center; 
-        font-size: 20px; 
+        font-size: 18px; 
         font-weight: normal;
         color: rgb(3, 40, 109); 
     }
 
-    .main_txt{
+    .visonmain_txt{
         position: relative;
         _background-color: blue;
         text-align: left;
@@ -512,8 +512,10 @@ body{
         line-height: 30px;
         color: #444;
     }
-    .main_txt>img{
-      display: none;
+    .visonmain_txt>img{
+        width: 400px;
+        height: 300px;
+        margin-bottom: 200px;
         
     }
     .main_to{
