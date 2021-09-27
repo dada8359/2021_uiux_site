@@ -124,13 +124,13 @@ display: block;
     width: 100%;
     margin:  0 auto;
     background-color: green;
-    background-image: url(../images/hello2.png);
+    background-image: url(../images/biss.png);
     background-size: cover;
     background-position: center;
     height: 400px;
 }
 .BannerMenu {
-     width: 1240px;
+    width: 1240px;
     border-bottom: 4px solid #004895; 
     margin: auto;
     position: absolute; 
@@ -140,11 +140,17 @@ display: block;
     background-color: aqua;
 }
 /*tab*/
-li{list-style: none;}
-.tab{display: flex;}
+
+.tab{display: flex; background-color: blueviolet; 
+/* transform: translateX(15%); */
+ width: 1240px;
+}
 .tab li{
-    width: 100px;text-align: center;
+    width: 310px;text-align: center;
     padding:10px 0
+}  
+.tab li a{
+    
 }
 .tab li.on{background: skyblue;}
 
