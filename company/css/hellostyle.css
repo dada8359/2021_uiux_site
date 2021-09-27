@@ -565,10 +565,7 @@ body{
         color: #444;
     }
     .main_txt>img{
-        position: absolute;
-        width: 400px;
-        height: 600px;
-        left: 750px;
+      display: none;
         
     }
     .main_to{
