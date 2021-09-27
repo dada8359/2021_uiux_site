@@ -661,11 +661,11 @@ body{
  
 
     #footer p{
-    position: absolute;
-    bottom: -150px;
-    font-size: 14px;
-    left: 20px;
-    background-color: brown;
+        position: absolute;
+        bottom: -150px;
+        font-size: 14px;
+        left: 20px;
+        _background-color: brown;
     }
     .famSite select {
        display: none;
