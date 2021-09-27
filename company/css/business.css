@@ -163,7 +163,8 @@ display: block;
 
 /*Contents*/
 .contents  {
-    height: 100%;
+    width: 1000px;
+    margin: 0 auto;
     position: relative;
     top:450px;  
     background-color: aqua;
@@ -182,7 +183,9 @@ display: block;
     display: block;
 }
 .box .bs01 img{
-    position: absolute;
+
+   margin-left: 40px;
+
 }
 
 /* .box .location {
