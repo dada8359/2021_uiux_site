@@ -456,7 +456,8 @@ body{
         font-size: 20px;
         color: rgb(34, 10, 10);
         position: absolute;
-        left: 120px;
+        left: 100px;
+        _background-color: blueviolet;
         text-align: center;
     }
     .bannerTitle .Btitle02{
@@ -482,7 +483,7 @@ body{
     .BannerMenu ul {
       width: 400px;
       position: absolute;
-      left: 430px;
+      left: 412px;
       bottom: 0px;
 
     }
@@ -509,7 +510,7 @@ body{
         height: 100%;
         position: relative;
         top:450px;  
-        _background-color: aqua;
+        background-color: aqua;
     }
     .location {
         display: flex;
