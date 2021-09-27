@@ -181,7 +181,9 @@ display: block;
 .box div:first-child{
     display: block;
 }
-
+.box .bs01 img{
+    position: absolute;
+}
 
 /* .box .location {
     display: flex;
