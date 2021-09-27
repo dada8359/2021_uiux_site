@@ -502,9 +502,9 @@ body{
 
     .visonmain_txt{
         position: relative;
-        _background-color: blue;
+        background-color: blue;
         text-align: left;
-        left: 20px;
+        left: 50px;
         margin-top: 70px;
         padding-left: 0px;
         font-size: 14px;
@@ -552,7 +552,7 @@ body{
         height: 400px;
     }
     .BannerMenu {
-        width: 1240px; 
+        width: 500px; 
         border-bottom: 4px solid #004895; 
         margin: auto;
         position: absolute; 
@@ -573,6 +573,8 @@ body{
         text-align: center; 
         color: #444; 
         background: #F3F3F3;
+        left: -370px;
+        position:relative;
     }
     .BannerMenu li.active a {
         background:#0B3460;
