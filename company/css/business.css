@@ -134,6 +134,17 @@ body{
         background-position: center;
         height: 400px;
     }
+
+    .bannerWrap_promo{
+        position: absolute;
+        width: 100%;
+        margin:  0 auto;
+        background-color: green;
+        background-image: url(../images/biss.png);
+        background-size: cover;
+        background-position: center;
+        height: 400px;
+    }
     .BannerMenu {
         width: 1240px;
         border-bottom: 4px solid #004895; 
