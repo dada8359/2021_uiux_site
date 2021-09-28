@@ -146,7 +146,7 @@ body{
         height: 400px;
     }
     .BannerMenu {
-        width: 1240px;
+        width: 1000px;
         border-bottom: 4px solid #004895; 
         margin: auto;
         position: absolute; 
@@ -161,10 +161,12 @@ body{
         display: flex; 
         background-color:#F2F2F2; 
         /* transform: translateX(15%); */
-        width: 1240px;
+        width: 1000px;
+        position: relative;
+        left: 0px;
     }
     .tab li{
-        width: 310px;
+        width: 355px;
         text-align: center;
         padding:10px 0;
         line-height: 30px;
