@@ -502,7 +502,7 @@ body{
         height: 100%;
         position: relative;
         top:450px;  
-        _background-color: aqua;
+        background-color: aqua;
     }
     .location {
         display: flex;
@@ -632,13 +632,19 @@ body{
 
     /*이미지조정*/
 
-    .box div>img{
+     .box div>img{
         position: relative;
-        left: 50px;
+        left: 150px;
         margin-top: 30px;
         width: 400px;
-    }
+    } 
 
+    .box div>img {
+        position: relative;
+        left: 70px;
+        margin-top: 30px;
+    }
+    
     /*footer*/
     #footer{
         position: relative;
