@@ -176,7 +176,7 @@ display: block;
     background-color: rgb(20, 130, 220); */
 }
 .box div{
-    /* display: none; */
+     display: none;
     width: 200px;
     padding:20px;
 }
