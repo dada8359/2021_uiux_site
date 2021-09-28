@@ -1,6 +1,9 @@
 @charset "UTF-8";
 /*sub business*/
 /*pc_ver*/
+body{
+    font-family: 'Noto Sans KR', sans-serif;
+}
 @media screen and ( min-width:700px ){
     body{
         font-family: 'Noto Sans KR', sans-serif;
@@ -344,7 +347,7 @@
     }
     .submenu{display: none;}
     .menuline{display: none;}
-   
+    
     .header_top .logo {
         height: 40px;
         padding: 0 10px;
@@ -429,8 +432,8 @@
         margin: auto;
         position: absolute;
         top: 399px;
-        left: 50%;
-        transform: translate(-50%,-98%);
+        /* left: 50%;
+        transform: translate(-50%,-98%); */
     }
        
     .BannerMenu ul {
@@ -438,7 +441,9 @@
       position: absolute;
       left: 412px;
       bottom: 0px;
-
+      display: flex;
+      left: 40px;
+    
     }
     .BannerMenu li {
         flex: 1;
@@ -458,7 +463,26 @@
         background: #0B3460;
         color: #fff;}
 
-    /*content hello sub*/
+    /*tab*/
+
+    .tab{
+        display: flex; 
+        background-color:#F2F2F2; 
+        /* transform: translateX(15%); */
+        width: 1240px;
+    }
+    .tab li{
+        width: 310px;
+        text-align: center;
+        padding:10px 0
+    }  
+
+    .tab li.on{
+        background: #0B3460;
+        color: white;
+    }
+
+    /*content mo*/
     .contents  {
         height: 100%;
         position: relative;
@@ -551,7 +575,7 @@
         width: 100%;
         margin:  0 auto;
         background-color: green;
-        background-image: url(../images/hello2.png);
+        background-image: url(../images/biss.png);
         background-size: cover;
         background-position: center;
         height: 400px;
@@ -588,11 +612,22 @@
     .BannerMenu li a:hover {
         background: #0B3460;
         color: #fff;}
+    
+
+
+    /*이미지조정*/
+
+    .box div>img{
+        position: relative;
+        left: 50px;
+        margin-top: 30px;
+        width: 400px;
+    }
 
     /*footer*/
     #footer{
         position: relative;
-        bottom: -400px;
+        bottom: -600px;
         height: 250px;
         background:#F1F3F6;
         width: 100%;
