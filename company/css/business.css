@@ -166,6 +166,7 @@ display: block;
     width: 1000px;
     margin: 0 auto;
     position: relative;
+    left: -130px;
     top:450px;  
     _background-color: aqua;
 } 
@@ -173,28 +174,29 @@ display: block;
      width: 100%; 
     height: 100%; 
     position: relative;
-    background-color: rgb(20, 130, 220); */
+    _background-color: rgb(20, 130, 220); */
 }
 .box div{
      display: none;
-    width: 200px;
+    width: 1000px;
     padding:20px;
-    background-color: burlywood;
+    _background-color: burlywood;
+    
 }
 .box div:first-child{
     display: block;
 }
-.box>.bs01>img{
+/* .box>.bs01>img{
 
    margin-left: 40px;
 
-}
+} */
 
-.box>div>.location {
+.location {
     display: flex;
     width: 600px;
     background-color: aquamarine;
-}
+} */
 
 
 #footer{
