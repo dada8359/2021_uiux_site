@@ -162,39 +162,37 @@ display: block;
 .box div:first-child{display: block;} */
 
 /*Contents*/
-.contents  {
+ .contents  {
     width: 1000px;
     margin: 0 auto;
     position: relative;
     top:450px;  
     _background-color: aqua;
-}
+} 
 .box{
      width: 100%; 
     height: 100%; 
     position: relative;
-    background-color: crimson; */
+    background-color: rgb(20, 130, 220); */
 }
 .box div{
-    display: none;
+    /* display: none; */
     width: 200px;
     padding:20px;
 }
 .box div:first-child{
     display: block;
 }
-.box .bs01 img{
+.box>.bs01>img{
 
    margin-left: 40px;
 
 }
 
-
-.box .bs02 img{
-
-    margin-left: 60px;
- 
- }
+.box>.bs01>.location {
+    display: flex;
+    width: 600px;
+}
 
 #footer{
     position: relative;
