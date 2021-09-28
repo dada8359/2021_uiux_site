@@ -166,9 +166,9 @@ display: block;
     width: 1200px;
     margin: 0 auto;
     position: relative;
-    left: -130px;
+    left: -10px;
     top:450px;  
-    background-color: rgb(69, 105, 105);
+    _background-color: rgb(69, 105, 105);
 } 
 .box{
      width: 100%; 
@@ -180,17 +180,22 @@ display: block;
      display: none;
     width: 1000px;
     padding:20px;
+   
     _background-color: burlywood;
     
 }
 .box div:first-child{
     display: block;
 }
-
+.box div>img{
+    position: relative;
+    left: 150px;
+    margin-top: 30px;
+}
 .location {
     display: flex;
     width: 600px;
-    background-color: aquamarine;
+    _background-color: aquamarine;
 } 
 
 .conSubTit {
@@ -202,7 +207,7 @@ display: block;
 .conSubTit:after{
     content: "";
     display: block;
-    width: 50px;
+    width: 70px;
     height: 4px;
     background-color: rgb(3, 40, 109);
     padding-left: 48px;
@@ -213,15 +218,20 @@ display: block;
     display: flex;
     justify-content: center;
     margin-top: 50px;
+    _background-color: chartreuse;
+    position: relative;
+    left: 100px;
 }
 .main {
     display: flex;
     justify-content: center;
-    margin-top: 50px;
+    margin-top: 20px;
     text-align: center; 
     font-size: 30px; 
     font-weight: normal;
     color: rgb(3, 40, 109); 
+    position: relative;
+    left: 40px;
 }
 
 /* footer */
@@ -229,6 +239,7 @@ display: block;
     position: relative;
     bottom: -600px;
     height: 250px;
+    width: 100%;
     background:#F1F3F6;
 }
 .footer01{
