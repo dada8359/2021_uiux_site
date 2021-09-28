@@ -137,11 +137,11 @@ display: block;
     top: 399px; 
     left: 50%; 
     transform: translate(-50%,-98%);
-    background-color: aqua;
+    _background-color: aqua;
 }
 /*tab*/
 
-.tab{display: flex; background-color: blueviolet; 
+.tab{display: flex; background-color:#F2F2F2; 
 /* transform: translateX(15%); */
  width: 1240px;
 }
@@ -149,10 +149,10 @@ display: block;
     width: 310px;text-align: center;
     padding:10px 0
 }  
-.tab li a{
+.tab li>a{
     
 }
-.tab li.on{background: skyblue;}
+.tab li.on{background: #0B3460; color: white;}
 /* .box{width: 100%; height: 100%; background-color: crimson;}
 .box div{
     display: none;
