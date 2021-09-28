@@ -179,6 +179,7 @@ display: block;
      display: none;
     width: 200px;
     padding:20px;
+    background-color: burlywood;
 }
 .box div:first-child{
     display: block;
@@ -189,10 +190,12 @@ display: block;
 
 }
 
-.box>.bs01>.location {
+.box>div>.location {
     display: flex;
     width: 600px;
+    background-color: aquamarine;
 }
+
 
 #footer{
     position: relative;
