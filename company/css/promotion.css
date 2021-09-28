@@ -586,9 +586,11 @@ body{
         margin-top: 160px;
         text-align: center;
     }
-    .bannerTitle .Btitle{
+   
+    .bannerTitle .Btitle {
         font-size: 30px;
         color: white;
+        left: 140px;
     }
     .bannerTitle .Btitle02{
         font-size: 15px;
