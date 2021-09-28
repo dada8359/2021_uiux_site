@@ -210,9 +210,16 @@ body{
         left: 65px;
         margin-top: 30px;
     }
-    .ci{
+    .job02{
         position: relative;
-        left: 125px;
+        left: -325px;
+        margin-top: 40px;
+       
+    }
+    .job04{
+        position: relative;
+        left: 100px;
+        margin-top: 40px;
        
     }
     .location {
