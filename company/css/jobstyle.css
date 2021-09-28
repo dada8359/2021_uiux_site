@@ -444,12 +444,12 @@ body{
     .bannerTitle .Btitle02{
         font-size: 15px;
     }
-    .bannerWrap_Pro{
+    .bannerWrap{
         position: absolute;
         width:500px;
         margin:  0 auto;
         background-color: green;
-         background-image: url(../images/prmo.png); 
+        background-image: url(../images/job.png);
         background-size: cover;
         background-position: center;
         height: 400px;
@@ -655,11 +655,11 @@ body{
         margin-top: 30px;
         width: 400px;
     }
-    .ci>img{
-        position: relative;
-        left: 50px;
-        margin-top: 30px;
+    .job02{
         width: 400px;
+    }
+    .job2>img{
+        display: none;
        
     }
     /*footer*/
