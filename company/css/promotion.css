@@ -429,12 +429,12 @@ body{
     .bannerTitle .Btitle02{
         font-size: 15px;
     }
-    .bannerWrap{
+    .bannerWrap_Pro{
         position: absolute;
         width:500px;
         margin:  0 auto;
         background-color: green;
-         background-image: url(../images/hello2.png); 
+         background-image: url(../images/prmo.png); 
         background-size: cover;
         background-position: center;
         height: 400px;
