@@ -207,15 +207,23 @@ body{
     }
     .box div>img{
         position: relative;
-        left: 150px;
+        left: 65px;
         margin-top: 30px;
+    }
+    .ci{
+        position: relative;
+        left: 125px;
+       
     }
     .location {
         display: flex;
         width: 600px;
         _background-color: aquamarine;
+       
     } 
-
+    .location>a.on {
+        color: #0633af;
+    }
     .conSubTit {
         color: rgb(3, 40, 109);
         font-size: 30px;
@@ -632,19 +640,13 @@ body{
 
     /*이미지조정*/
 
-     .box div>img{
+    .box div>img{
         position: relative;
-        left: 150px;
+        left: 50px;
         margin-top: 30px;
         width: 400px;
-    } 
-
-    .box div>img {
-        position: relative;
-        left: 70px;
-        margin-top: 30px;
     }
-    
+   
     /*footer*/
     #footer{
         position: relative;
