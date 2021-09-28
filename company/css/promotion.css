@@ -510,7 +510,7 @@ body{
         height: 100%;
         position: relative;
         top:450px;  
-        background-color: aqua;
+        _background-color: aqua;
     }
     .location {
         display: flex;
@@ -648,7 +648,13 @@ body{
         margin-top: 30px;
         width: 400px;
     }
-   
+    .ci>img{
+        position: relative;
+        left: 50px;
+        margin-top: 30px;
+        width: 400px;
+       
+    }
     /*footer*/
     #footer{
         position: relative;
