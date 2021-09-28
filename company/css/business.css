@@ -135,12 +135,12 @@ body{
         height: 400px;
     }
 
-    .bannerWrap_promo{
+    .bannerWrap_Pro{
         position: absolute;
         width: 100%;
         margin:  0 auto;
         background-color: green;
-        background-image: url(../images/biss.png);
+        background-image: url(../images/promo.png);
         background-size: cover;
         background-position: center;
         height: 400px;
