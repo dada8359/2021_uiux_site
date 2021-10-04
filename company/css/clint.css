@@ -588,7 +588,7 @@ body{
     .bannerTitle .Btitle {
         font-size: 30px;
         color: white;
-        left: 140px;
+        left: 120px;
     }
     .bannerTitle .Btitle02{
         font-size: 15px;
@@ -642,7 +642,7 @@ body{
 
     .box div>img{
         position: relative;
-        left: 20px;
+        left: 50px;
         margin-top: 30px;
         width: 400px;
     }
@@ -655,7 +655,7 @@ body{
     }
     .sang1>img{
         position: relative;
-        left: 30px;
+        left: 50px;
         margin-top: 30px;
         width: 400px;
        
