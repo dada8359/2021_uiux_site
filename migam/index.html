@@ -6,9 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>미감다과</title>
     <script src="js/jquery.bxslider.js"></script>
+    <script src="js/jquery-3.1.1.min.js"></script>
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
+   
+    <script>      
 
+        $(document).ready(function(){
+        $('.slide1st').bxSlider({
+            //mode:"fade",
+            pager:false,
+            controls:false,
+            auto:true
+        });   
+        
+        $('.nextBtn').click(function(){
+            myslide.goToNextSlide(); 
+        });
+        $('.prevBtn').click(function(){
+            myslide.goToPrevSlide();
+        });
+
+    }); 
+</script>
     
 </head>
 <body>
@@ -30,11 +50,11 @@
         <div class="sliderWrap">
             <ul class="slider">
                 <li class="li_1st">
-                  이미지삽입1
+                  
                 </li>
 
                 <li class="li_2st">
-                    이미지삽입2
+                    
                 </li>
             </ul>
         </div>
