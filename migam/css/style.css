@@ -1,0 +1,31 @@
+@charset "utf-8";
+html,body{height: 100%;}
+
+#header{
+    height: 1500px;
+    background-color: aqua;
+    position: relative;
+    margin-bottom: 60px;
+}
+
+.header_top{
+    width: 1240px;
+    height: 100px;
+    background-color: brown;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    top:20px;
+}
+
+.header_top .gnb{
+    background: skyblue;
+}
+
+.header_top .gnb li{
+   float: left;
+   position: relative;
+   left: 600px;
+   bottom: 50px;
+ 
+}
