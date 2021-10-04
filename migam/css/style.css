@@ -43,13 +43,20 @@ body{
     float: left;
     
 }
+
 .gnb li>a{
-    display: block;
+    display:inline-block;
     line-height: 50px;
     text-align: center;
     padding:0 10px;
     font-size: 18px;
+    
 }
+.gnb li>a:hover{
+    color:rgb(21, 93, 84);
+    font-weight: bold;
+}
+
 .sliderWrap {
     position: relative;
 }
@@ -159,10 +166,7 @@ body{
     line-height: 40px;
     font-weight: bold;
 }
-/* .contentBox3 img{
-    width: 200px;
-    height: 200px;
-} */
+
 .contentBox3>ul{
     margin-top: 100px;
 }
@@ -171,6 +175,19 @@ body{
     padding: 0 20px;
     
 }
+
+/* .contentBox3 .titleP01{
+    font-weight: bold;
+    font-size: 24px;
+}
+.contentBox3>ul>li>p{
+    text-align: center;
+    line-height: 30px;
+    font-weight: normal;
+    font-size: 18px;
+    bottom: 50px;
+} */
+
 
 
 /* footer  */
