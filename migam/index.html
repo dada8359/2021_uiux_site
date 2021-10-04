@@ -9,26 +9,13 @@
     <script src="js/jquery-3.1.1.min.js"></script>
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/jquery.bxslider.css">
    
     <script>      
-
         $(document).ready(function(){
-        $('.slide1st').bxSlider({
-            //mode:"fade",
-            pager:false,
-            controls:false,
-            auto:true
-        });   
-        
-        $('.nextBtn').click(function(){
-            myslide.goToNextSlide(); 
-        });
-        $('.prevBtn').click(function(){
-            myslide.goToPrevSlide();
-        });
-
-    }); 
-</script>
+                $(".slider").bxSlider()
+            });
+    </script>
     
 </head>
 <body>

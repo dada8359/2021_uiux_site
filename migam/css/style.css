@@ -11,7 +11,7 @@ html,body{height: 100%;}
 .header_top{
     width: 1240px;
     height: 100px;
-    background-color: brown;
+    _background-color: brown;
     position: fixed;
     left: 50%;
     transform: translateX(-50%);
@@ -19,7 +19,7 @@ html,body{height: 100%;}
     z-index: 1;
 }
 .gnb{
-    background-color: gray;
+    _background-color: gray;
     position: relative;
     top:-70px;
     width: 405px;
