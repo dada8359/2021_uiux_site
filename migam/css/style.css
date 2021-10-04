@@ -16,16 +16,38 @@ html,body{height: 100%;}
     left: 50%;
     transform: translateX(-50%);
     top:20px;
+    z-index: 1;
 }
-
-.header_top .gnb{
-    background: skyblue;
+.gnb{
+    background-color: gray;
+    position: relative;
+    top:-70px;
+    width: 405px;
+    right: -830px;
 }
-
-.header_top .gnb li{
-   float: left;
-   position: relative;
-   left: 600px;
-   bottom: 50px;
- 
+.gnb li{
+    float: left;
+    
+}
+.gnb li>a{
+    display: block;
+    line-height: 50px;
+    text-align: center;
+    padding:0 20px;
+    font-size: 14px;
+}
+.sliderWrap {
+    position: relative;
+}
+.sliderWrap .li_1st,.sliderWrap .li_2st{
+    height: 1000px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.sliderWrap .li_1st{
+    background-image: url(../images/slider01.png);
+}
+.sliderWrap .li_2st{
+    background-image: url(../images/slider02.png);
 }
