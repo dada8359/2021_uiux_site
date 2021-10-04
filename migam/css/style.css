@@ -1,5 +1,6 @@
 @charset "utf-8";
-html,body{height: 100%;}
+html,body{height: 100%;
+margin: 0 auto;}
 
 #header{
     height: 1000px;
@@ -50,4 +51,31 @@ html,body{height: 100%;}
 }
 .sliderWrap .li_2st{
     background-image: url(../images/slider02.png);
+}
+
+.content{
+    height: 1000px;
+    background-color: greenyellow;
+    margin: 0  auto;
+    /* width: 1950px; */
+    position: relative;
+    bottom: 50px;
+}
+
+.contentBox1{
+    background:#FBF9F9;
+    text-align:center;
+    height: 300px;
+    position: relative;
+}
+.cbt{
+    font-size: 24px;
+    font-weight: bold;
+    padding-bottom: 20px;
+   padding-top: 100px;
+}
+.cbt01{
+    font-weight: normal;
+    font-size: 16px; 
+    line-height: 30px;
 }

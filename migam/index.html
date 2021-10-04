@@ -13,12 +13,32 @@
    
     <script>
         $(document).ready(function(){
-            $(".slider").bxSlider()
+            $(".slider").bxSlider({
+
+                pager:false,
+                controls:false,
+                auto:true
+            });
+            
         });
     </script>
+
+    <style>
+         .bx-wrapper {
+            -moz-box-shadow:0 none;
+            -webkit-box-shadow:0 none;
+            box-shadow:0 none;
+            border: 0 none;
+            margin-bottom: 0;
+        }
+        
+    </style>
     
 </head>
 <body>
+  
+    
+ 
     <header id="header">
         <div class="header_top">
              <h1 class="logo">
@@ -34,7 +54,7 @@
           </nav>  
         </div>
 
-         <div class="sliderWrap">
+         <div class="sliderWrap"> <!--슬라이더 부분-->
             <ul class="slider">
                 <li class="li_1st">
                   
@@ -46,5 +66,14 @@
             </ul>
         </div> 
     </header>
+
+    <div class="content">
+        <div class="contentBox1">
+            <p class="cbt">'생산자에게는 생활을,소비자에게는 생명을’</p>
+            <span class="cbt01">한살림 핵심가치를바탕으로<br>
+                경제성과효율성을 따르기보다는 욕심내지않고<br>
+              할걸음 한걸음씩 성장해 왔습니다.</span>
+        </div>
+    </div>    
 </body>
 </html>
