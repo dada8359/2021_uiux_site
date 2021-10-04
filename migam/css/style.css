@@ -12,26 +12,32 @@ body{
 }
 
 .header_top{
-    width: 1500px;
+    width: 2000px;
     height: 100px;
     _background-color: brown;
     position: fixed;
     left: 50%;
     transform: translateX(-50%);
     z-index: 1;
-}
-.header_top:hover{
-    background-color: white;
-    width:1500px;
     margin: 0 auto;
-    transform: 0.3s;
 }
+
+.header_top>.logo>img {
+    display: block;
+    padding-left: 200px;
+}
+ .header_top:hover{
+    background-color: white;
+ 
+    transition: 0.5s; 
+  
+} 
 .gnb{
     _background-color: gray;
     position: relative;
     top:-70px;
     width: 405px;
-    right: -1080px;
+    right: -1400px;
 }
 .gnb li{
     float: left;
