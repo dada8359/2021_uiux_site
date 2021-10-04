@@ -175,7 +175,12 @@ body{
     padding: 0 20px;
     
 }
-
+.contentBox3>p>span:after{
+    display: block;
+    content: "";
+    border-bottom: 3px solid #4E4E4E;
+    line-height: 30px;
+}
 /* .contentBox3 .titleP01{
     font-weight: bold;
     font-size: 24px;
