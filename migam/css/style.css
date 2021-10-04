@@ -36,7 +36,7 @@ body{
     _background-color: gray;
     position: relative;
     top:-70px;
-    width: 405px;
+    width: 700px;
     right: -1400px;
 }
 .gnb li{
@@ -126,6 +126,9 @@ body{
     height: 50px;
     border: 1px solid #ffff
     ;
+}
+.view:hover{
+    background-color: rgba(0, 0, 0, 0.377);
 }
 .view>a{
    line-height: 50px;
