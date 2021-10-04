@@ -12,7 +12,7 @@ body{
 }
 
 .header_top{
-    width: 1240px;
+    width: 1500px;
     height: 100px;
     _background-color: brown;
     position: fixed;
@@ -26,7 +26,7 @@ body{
     position: relative;
     top:-70px;
     width: 405px;
-    right: -730px;
+    right: -1080px;
 }
 .gnb li{
     float: left;
@@ -56,8 +56,8 @@ body{
 }
 
 .content{
-    height: 2000px;
-    background-color: greenyellow;
+    height: 2900px;
+    _background-color: greenyellow;
     margin: 0  auto;
     width: 100%; 
     position: relative;
@@ -83,8 +83,9 @@ body{
 }
 .contentBox2{
     position: relative;
-    height: 700px;
+    height: 900px;
     width: 100%;
+    margin: 0 auto;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -120,4 +121,36 @@ body{
    margin-left: 50px;
    _background-color: hotpink;
   
+}
+
+.contentBox3{
+    width: 1500px;
+    height: 1000px;
+    _background-color: aqua;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.contentBox3>p{
+    text-align: center;
+    font-size: 24px;
+    line-height: 40px;
+    color: #4E4E4E;
+}
+.contentBox3>p>span{
+    text-align: center;
+    font-size: 28px;
+    line-height: 40px;
+    font-weight: bold;
+}
+/* .contentBox3 img{
+    width: 200px;
+    height: 200px;
+} */
+.contentBox3>ul{
+    margin-top: 100px;
+}
+.contentBox3>ul>li{
+    float: left;
+    padding: 0 20px;
+    
 }
