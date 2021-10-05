@@ -211,8 +211,8 @@ body{
         background: #1d1e20; 
         transition: 1s;
         height: 120px; 
-        /* top: 0; */
-        top: 50px;
+        top: 0; 
+        /* top: 50px; */
     }
     
      /* #header_top:hover{
@@ -256,7 +256,7 @@ body{
         margin-bottom: -400px;
     } 
    
-    .gnb>ul>li:hover .submenu{top:140px;}
+    .gnb>ul>li:hover .submenu{top:100px;}
     .submenu a{
         text-align: center;
         display: block;
