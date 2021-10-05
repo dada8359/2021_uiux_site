@@ -215,18 +215,20 @@ body{
         /* top: 50px; */
     }
     
-     /* #header_top:hover{
-         background: #cecece;  
-        height: 320px; 
+      #header_top:hover{
+         background:#003168; 
+          width: 1600px; 
+         margin: 0 auto;
+          height: 90px;
     } 
-      */
+      
   
     .gnb {
-        /* width: 900px;  */
+         width: 1000px;  
         float: left; 
         /* margin-top: 35px;  */
         margin-left: 80px;
-        _background-color: #1d4730;
+        background-color: #1d4730;
         transition: 1s;
 
     }
@@ -236,28 +238,32 @@ body{
         width: calc(780px / 6); 
         text-align: center; 
         /* position: relative;  */
-        left: 100px;
+        right: -500px;
      
     }
     
-    .gnb li a {
+    .gnb li .ma {
         display:inline-block;
         line-height: 45px; 
         text-align: center; 
         color: #fff; 
         font-size: 16px;
     }
+    /* .gnb li a:hover {
+       color: black;
+    } */
     .submenu{
         position: absolute;
         top:-200%;
         width: 140px;
-        _background: red;
+        background: rgb(255, 255, 255);
         transition:0.6s;
         margin-bottom: -400px;
         text-align: center;
+       
     } 
    
-    .gnb>ul>li:hover .submenu{top:84px;}
+    .gnb>ul>li:hover .submenu{top:85px;}
     .submenu a{
         /* text-align: center; */
         display: block;
@@ -265,16 +271,25 @@ body{
         font-size: 16px;
        
     }
+    .submenu a:hover{
+        /* text-align: center; */
+        color: rgb(8, 43, 107);
+    }
     /*라인*/
-    /* .gnb>li>a:after,.submenu>li>a:after{
+     /* .gnb>li>a:after, */
+     .submenu>li>a:after{
         content: '';
         display:block; 
         border-bottom: solid 1px #d5f3ff; 
         transform: scaleX(0);
         transition: 0.2s ease-in-out;
-    } */
+    } 
     
-    
+    .submenu>li>a:hover{
+       
+        transform: scaleX(1);
+     
+    } 
 
     .toggle{display: none;}/*pc에는 토글 필요읎어*/
     
