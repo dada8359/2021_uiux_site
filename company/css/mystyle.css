@@ -208,14 +208,14 @@ body{
         position: fixed;
         z-index: 1000;
         width: 1240px;
-        _background: #1d1e20; 
+        background: #1d1e20; 
         transition: 1s;
         height: 120px; 
         top: 0;
     }
     
      #header_top:hover{
-        background: #05182c; 
+        /* background: #cecece;  */
         height: 320px; 
     } 
     
@@ -225,7 +225,7 @@ body{
         float: left; 
         margin-top: 35px; 
         margin-left: 80px;
-        _background-color: #1d4730;
+        background-color: #1d4730;
         transition: 1s;
     }
     .menuline{
