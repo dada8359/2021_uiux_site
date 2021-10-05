@@ -250,18 +250,20 @@ body{
     .submenu{
         position: absolute;
         top:-200%;
-        width: 150px;
+        width: 140px;
         background: red;
-        transition:0.3s;
+        transition:0.6s;
         margin-bottom: -400px;
+        text-align: center;
     } 
    
-    .gnb>ul>li:hover .submenu{top:100px;}
+    .gnb>ul>li:hover .submenu{top:84px;}
     .submenu a{
-        text-align: center;
+        /* text-align: center; */
         display: block;
         line-height: 40px;
         font-size: 16px;
+        padding-left: 10px;
     }
     /*라인*/
     /* .gnb>li>a:after,.submenu>li>a:after{
