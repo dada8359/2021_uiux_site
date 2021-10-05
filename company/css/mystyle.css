@@ -226,7 +226,7 @@ body{
         float: left; 
         /* margin-top: 35px;  */
         margin-left: 80px;
-        background-color: #1d4730;
+        _background-color: #1d4730;
         transition: 1s;
 
     }
@@ -243,7 +243,7 @@ body{
     .gnb li a {
         display:inline-block;
         line-height: 45px; 
-        text-align: left; 
+        text-align: center; 
         color: #fff; 
         font-size: 16px;
     }
@@ -251,7 +251,7 @@ body{
         position: absolute;
         top:-200%;
         width: 140px;
-        background: red;
+        _background: red;
         transition:0.6s;
         margin-bottom: -400px;
         text-align: center;
@@ -263,7 +263,7 @@ body{
         display: block;
         line-height: 40px;
         font-size: 16px;
-        padding-left: 10px;
+       
     }
     /*라인*/
     /* .gnb>li>a:after,.submenu>li>a:after{
