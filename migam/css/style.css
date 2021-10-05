@@ -42,12 +42,20 @@ body{
 .gnb>ul>li{
     float: left;
     width: calc(100% / 3);
-    background: skyblue;
+    _background: skyblue;
     transition:0.3s;
     position: relative;
 }
-        .gnb>ul>li>a{display: block;line-height: 40px;text-align: center;position: relative;z-index: 1;background: red;}
-        .gnb>ul>li:hover{background: red;}
+
+.gnb>ul>li>a{
+    display: block;
+    line-height: 40px;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    _background: rgb(233, 233, 233);
+}
+.gnb>ul>li:hover{background:white;}
 /* .gnb{
     _background-color: gray;
     position: relative;
@@ -74,8 +82,19 @@ body{
 } */
 .gnb>ul>li:hover .submenu{top:40px;}
         
-.submenu{position: absolute;top:-2100%;width: 100%;background: red;transition:0.3s}
-.submenu a{text-align: center;display: block;line-height: 30px;font-size: 14px;}
+.submenu{
+    position: absolute;
+    top:-2100%;
+    width: 100%;
+    background:white;
+    transition:0.3s
+}
+.submenu a{
+    text-align: center;
+    display: block;
+    line-height: 30px;
+    font-size: 14px;
+}
 .submenu a:hover{background: pink;}
 
 /*headerMenu*/
