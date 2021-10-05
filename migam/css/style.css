@@ -188,14 +188,18 @@ body{
 .contentBox3 li .overlay{
     width: 449px;
     height: 588px;
-    background:rgba(0,0,255,0.8);
+    background:rgba(0, 0, 0, 0.692);
     position: absolute;
     color: white;
     display: flex;
     justify-content:center;
     align-items:center;
     transition:0.3s;
+    line-height: 30px;
     opacity:0
+}
+.overTxt{
+    font-size: 18px;
 }
 .contentBox3 li:hover .overlay{
     opacity:1
