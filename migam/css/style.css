@@ -184,6 +184,15 @@ body{
     border-bottom: 3px solid #4E4E4E;
     line-height: 30px;
 }
+
+.contentBox3 li .overlay{
+    width: 100%;height: 100%;
+    background: rgba(255,0,0,0.3);
+    display: flex;justify-content:center;align-items:center;
+    position: absolute;
+    top:100%;left: 0;transition:0.3s
+}
+
 /* .contentBox3 .titleP01{
     font-weight: bold;
     font-size: 24px;
