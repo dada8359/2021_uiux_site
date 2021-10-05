@@ -176,7 +176,7 @@ body{
     #header_top{
         width: 1440px;
         margin: 0 auto;
-        _background: rgb(70, 70, 70,0.5);
+        background: rgb(70, 70, 70,0.5);
         position: fixed; /*스크린의 뷰포트(viewport)를 기준으로 한 위치에 배치, 스크롤되어도 움직이지 않는 고정된 자리를 갖음*/
         left: 50%;
         transform: translateX(-50%); /*left:50%,translateX:-50% 가운데 정렬*/
@@ -211,15 +211,16 @@ body{
         background: #1d1e20; 
         transition: 1s;
         height: 120px; 
-        top: 0;
+        /* top: 0; */
+        top: 50px;
     }
     
-     #header_top:hover{
-        /* background: #cecece;  */
+     /* #header_top:hover{
+         background: #cecece;  
         height: 320px; 
     } 
-    
-    /*헤더메뉴탭 ver02이올시다*/
+      */
+  
     .gnb {
         width: 900px; 
         float: left; 
@@ -227,10 +228,9 @@ body{
         margin-left: 80px;
         background-color: #1d4730;
         transition: 1s;
+
     }
-    .menuline{
-        display: none;
-    }
+   
     .gnb li {
         float: left; 
         width: calc(780px / 6); 
@@ -247,44 +247,31 @@ body{
         color: #fff; 
         font-size: 16px;
     }
-    
-    .gnb>li>a:after,.submenu>li>a:after{
+    .submenu{
+        position: absolute;
+        top:-200%;
+        width: 150px;
+        background: red;
+        transition:0.3s
+    }
+    .gnb>ul>li:hover .submenu{top:40px;}
+    .submenu a{
+        text-align: center;
+        display: block;
+        line-height: 40px;
+        font-size: 16px;
+    }
+    /*라인*/
+    /* .gnb>li>a:after,.submenu>li>a:after{
         content: '';
         display:block; 
         border-bottom: solid 1px #d5f3ff; 
         transform: scaleX(0);
         transition: 0.2s ease-in-out;
-    }
-    
-    .gnb>li>a:hover:after,
-    .submenu>li>a:hover:after
-    {
-        transform: scaleX(1);
-    }
+    } */
     
     
-    .gnb:hover .submenu{
-       display: block;
-       
-    }
-    .gnb>li>a{
-        font-size: 18px;
-    }
-    .gnb>li>a:hover{
-        color: seashell;
-    }
-    .submenu>li>a {
-        display:inline-block;
-        padding: 10px 0;
-        line-height: 30px; 
-        text-align: center; 
-        color: #fff;
-        font-size: 16px;
-        font-weight:lighter;
-     } 
-     .submenu{display: none;}  
-      
-    
+
     .toggle{display: none;}/*pc에는 토글 필요읎어*/
     
     /*slider안에 있는 이미지 크기를 설정하자*/
