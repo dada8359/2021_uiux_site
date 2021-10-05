@@ -38,13 +38,15 @@ body{
     position: relative;
     z-index: 1;   
     top: -60px;
+    right: -300px;
 }
 .gnb>ul>li{
     float: left;
     width: calc(100% / 3);
-    _background: skyblue;
+    background: skyblue;
     transition:0.3s;
     position: relative;
+   
 }
 
 .gnb>ul>li>a{
@@ -75,11 +77,14 @@ body{
     padding:0 10px;
     font-size: 18px;
     
-}
+}*/
 .gnb li>a:hover{
     color:rgb(21, 93, 84);
     font-weight: bold;
-} */
+} 
+.gnb li>a{
+    color:rgb(36, 36, 36);
+}
 .gnb>ul>li:hover .submenu{top:40px;}
         
 .submenu{
