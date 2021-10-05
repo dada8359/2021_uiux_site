@@ -252,9 +252,11 @@ body{
         top:-200%;
         width: 150px;
         background: red;
-        transition:0.3s
-    }
-    .gnb>ul>li:hover .submenu{top:40px;}
+        transition:0.3s;
+        margin-bottom: -400px;
+    } 
+   
+    .gnb>ul>li:hover .submenu{top:140px;}
     .submenu a{
         text-align: center;
         display: block;
