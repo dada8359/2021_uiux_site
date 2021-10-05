@@ -176,7 +176,7 @@ body{
     #header_top{
         width: 1440px;
         margin: 0 auto;
-        background: rgb(70, 70, 70,0.5);
+        _background: rgb(70, 70, 70,0.5);
         position: fixed; /*스크린의 뷰포트(viewport)를 기준으로 한 위치에 배치, 스크롤되어도 움직이지 않는 고정된 자리를 갖음*/
         left: 50%;
         transform: translateX(-50%); /*left:50%,translateX:-50% 가운데 정렬*/
