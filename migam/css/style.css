@@ -33,6 +33,22 @@ body{
   
 } 
 .gnb{
+    width: 1000px; 
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;   
+    top: -60px;
+}
+.gnb>ul>li{
+    float: left;
+    width: calc(100% / 3);
+    background: skyblue;
+    transition:0.3s;
+    position: relative;
+}
+        .gnb>ul>li>a{display: block;line-height: 40px;text-align: center;position: relative;z-index: 1;background: red;}
+        .gnb>ul>li:hover{background: red;}
+/* .gnb{
     _background-color: gray;
     position: relative;
     top:-70px;
@@ -55,8 +71,14 @@ body{
 .gnb li>a:hover{
     color:rgb(21, 93, 84);
     font-weight: bold;
-}
+} */
+.gnb>ul>li:hover .submenu{top:40px;}
+        
+.submenu{position: absolute;top:-2100%;width: 100%;background: red;transition:0.3s}
+.submenu a{text-align: center;display: block;line-height: 30px;font-size: 14px;}
+.submenu a:hover{background: pink;}
 
+/*headerMenu*/
 .sliderWrap {
     position: relative;
 }
