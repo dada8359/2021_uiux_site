@@ -257,6 +257,7 @@ body{
         position: absolute;
         top:-200%;
         width: 140px;
+        /* height: 170px; */
         background: rgb(255, 255, 255);
         transition:0.6s;
         margin-bottom: -400px;
@@ -280,21 +281,31 @@ body{
         font-weight: normal;
     }
     /*라인*/
-      /* .gnb>li>a:after, 
-      .submenu>li>a:after{
+    .gnb>li>a:after,.submenu>li>a:after{
         content: '';
         display:block; 
-        border-bottom: solid 1px #000f14; 
+        border-bottom: solid 1px #012358; 
+       
         transform: scaleX(0);
-        transition: 0.2s ease-in-out;
-    }  */
+        transition: 0.5s ease-in-out;
+    }
 
+    .gnb>li>a:hover:after,
+    .submenu>li>a:hover:after
+    {
+        transform: scaleX(1);
+    }
+    /* 라인끝이당 */
+   
+/* 
     .submenu>li>a:hover{
        
         transform: scaleX(1);
      
-    } 
-
+    }  */
+    .menuline{
+        display: none;
+    }
     .toggle{display: none;}/*pc에는 토글 필요읎어*/
     
     /*slider안에 있는 이미지 크기를 설정하자*/
