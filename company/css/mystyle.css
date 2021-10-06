@@ -280,15 +280,15 @@ body{
         font-weight: normal;
     }
     /*라인*/
-      .gnb>li>a:after, 
+      /* .gnb>li>a:after, 
       .submenu>li>a:after{
         content: '';
         display:block; 
         border-bottom: solid 1px #000f14; 
         transform: scaleX(0);
         transition: 0.2s ease-in-out;
-    } 
-     
+    }  */
+
     .submenu>li>a:hover{
        
         transform: scaleX(1);
