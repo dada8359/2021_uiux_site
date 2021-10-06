@@ -129,11 +129,43 @@ div.box1{
     line-height: 30px;
    
 }
+
+div.box1 h3{
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+    bottom: 20px;
+    position: relative;
+    line-height: 35px;
+    
+}
+div.box1 p{
+    font-size: 18px;
+    color: white;
+}
 div.box2{
     background: url(../images/bg4.png) no-repeat center fixed;
     background-size: cover;
+    line-height: 30px;
+}
+div.box2 h3{
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+    bottom: 20px;
+    position: relative;
+    line-height: 35px;
+    
+}
+div.box2 p{
+    font-size: 18px;
+    color: white;
 }
 div.box3{
     background: url(../images/bg3.png) no-repeat center fixed;
     background-size: cover;
 } 
+
+div.box3 {
+    text-align: center;
+}
