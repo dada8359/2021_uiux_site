@@ -32,6 +32,11 @@ body{
     transition: 0.5s; 
      */
 } 
+.logo img {
+    display: block;
+    left: 250px;
+    position: relative;
+}
 .gnb{
     width: 1000px; 
     margin: 0 auto;

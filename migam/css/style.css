@@ -21,7 +21,11 @@ body{
     z-index: 1;
     margin: 0 auto;
 }
-
+.logo img {
+    display: block;
+    left: 250px;
+    position: relative;
+}
 .header_top>.logo>img {
     display: block;
     padding-left: 200px;
