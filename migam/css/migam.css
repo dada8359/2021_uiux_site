@@ -13,9 +13,9 @@ body{
 
 .header_top{
     width: 2000px;
-    height: 100px;
+    /* height: 100px; */
     _background-color: brown;
-    position: fixed;
+    position: relative;
     left: 50%;
     transform: translateX(-50%);
     z-index: 1;
@@ -27,16 +27,16 @@ body{
     padding-left: 200px;
 }
  .header_top:hover{
-    background-color: white;
-    box-shadow:5px 5px 10px rgba(0, 0, 0, 0.116);
+    /* background-color: white; */
+    /* box-shadow:5px 5px 10px rgba(0, 0, 0, 0.116);
     transition: 0.5s; 
-  
+     */
 } 
 .gnb{
     width: 1000px; 
     margin: 0 auto;
     position: relative;
-    z-index: 1;   
+    /* z-index: 1;    */
     top: -60px;
     right: -300px;
 }
@@ -54,7 +54,7 @@ body{
     line-height: 40px;
     text-align: center;
     position: relative;
-    z-index: 1;
+    /* z-index: 1; */
     font-size: 18px;
     _background: rgb(233, 233, 233);
 }
@@ -102,14 +102,21 @@ body{
     font-size: 16px;
 }
 
-
-div.box1,div.box2,div.box3{
+.contentBox{
+  width: 100%;
+  height: 2000px;
+  /* background-color: blue; */
+  margin: 0 auto;
+  position: relative;
+  bottom: 30px;
+}
+ div.box1,div.box2,div.box3{
     height: 100vh;
     display: flex;justify-content: center;align-items: center;
 }
 div.box1{
     background-color: skyblue;
-    background-image: url(../images/pc01.jpg);
+    background-image: url(../images/bg1.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -117,10 +124,10 @@ div.box1{
    
 }
 div.box2{
-    background: url(../images/pc02.jpg) no-repeat center fixed;
+    background: url(../images/bg2.png) no-repeat center fixed;
     background-size: cover;
 }
 div.box3{
-    background: url(../images/pc03.jpg) no-repeat center fixed;
+    background: url(../images/bg3.png) no-repeat center fixed;
     background-size: cover;
-}
+} 
