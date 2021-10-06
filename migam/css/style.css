@@ -58,7 +58,7 @@ body{
     font-size: 18px;
     _background: rgb(233, 233, 233);
 }
-.gnb>ul>li:hover{background:white;}
+.gnb>ul>li:hover{_background:white;}
 /* .gnb{
     _background-color: gray;
     position: relative;
