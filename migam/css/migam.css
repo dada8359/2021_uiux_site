@@ -121,6 +121,7 @@ div.box1{
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
+    line-height: 30px;
    
 }
 div.box2{
