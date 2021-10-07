@@ -1,1 +1,113 @@
 @charset "utf-8";
+html,body{height: 100%;
+    margin: 0 auto;}
+    body{
+        font-family: 'Noto Sans KR', sans-serif;
+    }
+    /* #header{
+        height: 1000px;
+        background-color: aqua;
+        position: relative;
+        margin-bottom: 60px;
+    } */
+    
+    .header_top{
+         width: 1400px; 
+        /* height: 100px; */
+        _background-color: brown;
+        position: relative;
+        /* left: 50%;
+        transform: translateX(-50%); */
+        z-index: 1;
+        margin: 0 auto;
+    }
+    .logo{
+        width: 100px;
+        height: 100px;
+        _background-color: bisque;
+        /* position: absolute; */
+    }
+    
+     .header_top:hover{
+        /* background-color: white; */
+        /* box-shadow:5px 5px 10px rgba(0, 0, 0, 0.116);
+        transition: 0.5s; 
+         */
+    } 
+    .logo img {
+        display: block;
+        left: 0px;
+        position: relative;
+        bottom: -10px;
+    }
+    .gnb{
+        width: 1000px; 
+        margin: 0 auto;
+        position: relative;
+        /* z-index: 1;    */
+        top: -60px;
+        right: -300px;
+        _background-color: aquamarine;
+    }
+    .gnb>ul>li{
+        float: left;
+        width: calc(100% / 3);
+        _background: skyblue;
+        transition:0.3s;
+        position: relative;
+       
+    }
+    
+    .gnb>ul>li>a{
+        display: block;
+        line-height: 40px;
+        text-align: center;
+        position: relative;
+        /* z-index: 1; */
+        font-size: 18px;
+        _background: rgb(233, 233, 233);
+    }
+    .gnb>ul>li:hover{background:white;}
+    /* .gnb{
+        _background-color: gray;
+        position: relative;
+        top:-70px;
+        width: 700px;
+        right: -1400px;
+    }
+    .gnb li{
+        float: left;
+        
+    }
+    
+    .gnb li>a{
+        display:inline-block;
+        line-height: 50px;
+        text-align: center;
+        padding:0 10px;
+        font-size: 18px;
+        
+    }*/
+    .gnb li>a:hover{
+        color:rgb(21, 93, 84);
+        font-weight: bold;
+    } 
+    .gnb li>a{
+        color:rgb(36, 36, 36);
+    }
+    .gnb>ul>li:hover .submenu{top:40px;}
+            
+    .submenu{
+        position: absolute;
+        top:-2100%;
+        width: 100%;
+        background:white;
+        transition:0.6s
+    }
+    .submenu a{
+        text-align: center;
+        display: block;
+        line-height: 40px;
+        font-size: 16px;
+    }
+    
