@@ -109,7 +109,7 @@ body{
 
 .contentBox{
   width: 100%;
-  height: 2000px;
+  height: 2500px;
   /* background-color: blue; */
   margin: 0 auto;
   position: relative;
@@ -168,12 +168,26 @@ div.box3{
 
 div.box3 {
     text-align: center;
+    line-height: 40px;
 }
 
-
+div.box3 h3{
+    font-size: 24px;
+    color: rgb(44, 44, 44);
+    font-weight: bold;
+    bottom: 20px;
+    position: relative;
+    line-height: 35px;
+    
+}
+div.box3 p{
+    font-size: 18px;
+    color: rgb(44, 44, 44);
+    font-weight: normal;
+}
 #footer{
     position: relative;
-    bottom: -200px;
+    bottom: -50px;
     height: 250px;
     background:#F1F3F6;
 }
