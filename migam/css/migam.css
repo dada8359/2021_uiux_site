@@ -14,7 +14,7 @@ body{
 .header_top{
      width: 1400px; 
     /* height: 100px; */
-    background-color: brown;
+    _background-color: brown;
     position: relative;
     /* left: 50%;
     transform: translateX(-50%); */
@@ -24,7 +24,7 @@ body{
 .logo{
     width: 100px;
     height: 100px;
-    background-color: bisque;
+    _background-color: bisque;
     /* position: absolute; */
 }
 
@@ -38,6 +38,7 @@ body{
     display: block;
     left: 0px;
     position: relative;
+    bottom: -10px;
 }
 .gnb{
     width: 1000px; 
@@ -46,7 +47,7 @@ body{
     /* z-index: 1;    */
     top: -60px;
     right: -300px;
-    background-color: aquamarine;
+    _background-color: aquamarine;
 }
 .gnb>ul>li{
     float: left;
