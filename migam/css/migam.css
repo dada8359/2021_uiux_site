@@ -12,20 +12,22 @@ body{
 } */
 
 .header_top{
-    width: 2000px;
+     width: 1400px; 
     /* height: 100px; */
-    _background-color: brown;
+    background-color: brown;
     position: relative;
-    left: 50%;
-    transform: translateX(-50%);
+    /* left: 50%;
+    transform: translateX(-50%); */
     z-index: 1;
     margin: 0 auto;
 }
-
-.header_top>.logo>img {
-    display: block;
-    padding-left: 200px;
+.logo{
+    width: 100px;
+    height: 100px;
+    background-color: bisque;
+    /* position: absolute; */
 }
+
  .header_top:hover{
     /* background-color: white; */
     /* box-shadow:5px 5px 10px rgba(0, 0, 0, 0.116);
@@ -34,7 +36,7 @@ body{
 } 
 .logo img {
     display: block;
-    left: 250px;
+    left: 0px;
     position: relative;
 }
 .gnb{
@@ -44,6 +46,7 @@ body{
     /* z-index: 1;    */
     top: -60px;
     right: -300px;
+    background-color: aquamarine;
 }
 .gnb>ul>li{
     float: left;
