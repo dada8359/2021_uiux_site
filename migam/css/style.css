@@ -144,12 +144,14 @@ body{
     font-size: 24px;
     font-weight: bold;
     padding-bottom: 20px;
-   padding-top: 80px;
+    padding-top: 80px;
+    color: rgb(58, 58, 58);
 }
 .cbt01{
     font-weight: normal;
     font-size: 16px; 
     line-height: 30px;
+    color: rgb(58, 58, 58);
 }
 .contentBox2{
     position: relative;
