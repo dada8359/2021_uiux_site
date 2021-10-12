@@ -135,13 +135,60 @@ html,body{height: 100%;
    width: 1500px;
    /* height: 2000px; */
    margin: 0 auto;
-   background-color: chocolate; 
-   margin-top: 100px; 
+   _background-color: chocolate; 
+   margin-top: 150px; 
+   margin-left: 300px;
+   position: relative;
 }
 
 
 
 .Box1>p{
     text-align:left;
-  
+   font-size: 24px;
+}
+
+.Box1>.hello{
+    font-size: 36px;
+    font-weight: bold;
+    color:#BF6A61;
+}
+
+.Box1>.title{
+    font-size: 36px;
+    font-weight: bold;
+    color: #8F8F8F;
+    line-height: 40px;
+    margin-top: 40px;
+}
+
+.Box1>.Txt1{
+    font-size: 18px;
+    color: #8F8F8F;
+    margin-top: 50px;
+    line-height: 30px;
+}
+
+.Box2{
+    width: 1500px;
+    /* height: 2000px; */
+    margin: 0 auto;
+    _background-color: rgb(87, 38, 4); 
+    margin-top: 100px; 
+    margin-left: 300px;
+ }
+ 
+ .Box2>.title{
+    font-size: 36px;
+    font-weight: bold;
+    color: #8F8F8F;
+    line-height: 40px;
+    margin-top: 30px;
+}
+
+.Box2>.Txt1{
+    font-size: 18px;
+    color: #8F8F8F;
+    margin-top: 50px;
+    line-height: 30px;
 }
