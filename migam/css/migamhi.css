@@ -117,11 +117,10 @@ html,body{height: 100%;
 /* 컨텐츠 */
 .contents{
     width: 100%;
-    height: 1500px;
     margin: 0 auto;
     _background-color: blueviolet;
     position: relative;
-    height: 4000px;
+    height: 1500px;
 
 }
 .banner01{
@@ -191,4 +190,39 @@ html,body{height: 100%;
     color: #8F8F8F;
     margin-top: 50px;
     line-height: 30px;
+}
+
+#footer{
+    position: relative;
+    bottom: -150px;
+    height: 250px;
+    background:#F1F3F6;
+}
+.footer01{
+  _background-color: chartreuse;
+  width: 1200px;
+  margin: 0 auto;
+  position:relative;
+  bottom: -50px;
+  color:#8D8D8D;
+}
+.footer01 img{
+    float:left;
+}
+.footer01 li{
+  float:right;
+  padding: 0 20px;
+}
+
+
+.footer01 li a{
+ color:#8D8D8D;    
+font-size: 16px; 
+ 
+}
+
+#footer p{
+    position: absolute;
+  bottom: -100px;
+  font-size: 14px;
 }
