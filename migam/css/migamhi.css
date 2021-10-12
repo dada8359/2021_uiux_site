@@ -3,6 +3,8 @@ html,body{height: 100%;
     margin: 0 auto;}
     body{
         font-family: 'Noto Sans KR', sans-serif;
+        font-family: 'Noto Sans', sans-serif;
+
     }
     /* #header{
         height: 1000px;
@@ -114,9 +116,18 @@ html,body{height: 100%;
 
 /* 컨텐츠 */
 .contents{
-    width: 100%;
+    width: 1500px;
     height: 1500px;
     margin: 0 auto;
     background-color: blueviolet;
     position: relative;
+    height: 4000px;
+
+}
+
+.Box1{
+    position: absolute;
+    /* left: 40px; */
+    bottom:2990px;
+    
 }
